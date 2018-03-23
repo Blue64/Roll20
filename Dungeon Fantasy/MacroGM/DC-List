@@ -1,0 +1,6 @@
+# %{MacroGM|DC-List}
+# Token Action: √
+# Macro Bar: X
+/w gm &{template:default} {{name=@{selected|token_name}
+@{selected|class}
+DC List}} {{Strength DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|strength_mod})]])]]}} {{Dexterity DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|dexterity_mod})]])]]}} {{Constitution DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|constitution_mod})]])]]}} {{Intelligence DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|intelligence_mod})]])]]}} {{Wisdom DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|wisdom_mod})]])]]}} {{Charisma DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|charisma_mod})]])]]}}
