@@ -1,0 +1,6 @@
+# %{MacroGM|Web-Recharge}
+# Token Action: √
+# Macro Bar: X
+/w gm &{template:default} {{name=@{selected|token_name}
+Web Recharge Attempt}} {{Recharge=[[1d6cf<4cs>5]]}}
+%{MacroPC|Web-Stats}
