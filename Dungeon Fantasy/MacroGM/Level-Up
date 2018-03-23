@@ -1,0 +1,6 @@
+# %{MacroGM|Level-Up}
+# Token Action: √
+# Macro Bar: X
+!?{Level|in Barbarian,[[1d12]]|in Bard,[[1d8]]|in Cleric,[[1d8]]|in Druid,[[1d8]]|in Fighter,[[1d10]]|in Monk,[[1d8]]|in Paladin,[[1d10]]|in Ranger,[[1d10]]|in Rogue,[[1d8]]|in Sorcerer,[[1d6]]|in Warlock,[[1d8]]|in Wizard,[[1d6]]}
+/ooc /ooc &{template:default} {{name=@{selected|token_name}
+Leveled Up!}} {{Health Roll 1=[[?{Level}+([[(@{selected|constitution_mod})]])]]}} {{Health Roll 2=[[?{Level}+([[(@{selected|constitution_mod})]])]]}} {{Health Roll 3=[[?{Level}+([[(@{selected|constitution_mod})]])]]}}
