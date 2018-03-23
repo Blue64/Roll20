@@ -1,0 +1,17 @@
+# %{MacroGM|AC}
+# Token Action: X
+# In Macro Bar: √
+/w gm &{template:default} {{name=Everyone's AC}} {{Construct:
+Artificer=[[@{Construct: Artificer|ac}]]/[[@{Construct: Artificer|ac_no_armour}]]
+(Base: [[10+(@{Construct: Artificer|dexterity_mod})]])}} {{Construct:
+Mechanist=[[@{Construct: Mechanist|ac}]]/[[@{Construct: Mechanist|ac_no_armour}]]
+(Base: [[10+(@{Construct: Mechanist|dexterity_mod})]])}} {{Dante Ariegato=[[@{Dante Ariegato|ac}]]/[[@{Dante Ariegato|ac_no_armour}]]
+(Base: [[10+(@{Dante Ariegato|dexterity_mod})]])}} {{Ditto=[[@{Ditto|ac}]]/[[@{Ditto|ac_no_armour}]]
+(Base: [[10+(@{Ditto|dexterity_mod})]])}} {{Dragonus=[[@{Dragonus|ac}]]/[[@{Dragonus|ac_no_armour}]]
+(Base: [[10+(@{Dragonus|dexterity_mod})]])}} {{Erin Colddeep=[[@{Erin Colddeep|ac}]]/[[@{Erin Colddeep|ac_no_armour}]]
+(Base: [[10+(@{Erin Colddeep|dexterity_mod})]])}} {{Isabella=[[@{Isabella|ac}]]/[[@{Isabella|ac_no_armour}]]
+(Base: [[10+(@{Isabella|dexterity_mod})]])}} {{Jamala=[[@{Jamala|ac}]]/[[@{Jamala|ac_no_armour}]]
+(Base: [[10+(@{Jamala|dexterity_mod})]])}} {{Meiister=[[@{Meiister|ac}]]/[[@{Meiister|ac_no_armour}]]
+(Base: [[10+(@{Meiister|dexterity_mod})]])}} {{Slime Knight=[[@{Slime Knight|ac}]]/[[@{Slime Knight|ac_no_armour}]]
+(Base: [[10+(@{Slime Knight|dexterity_mod})]])}} {{Stran=[[@{Stran|ac}]]/[[@{Stran|ac_no_armour}]]
+(Base: [[10+(@{Stran|dexterity_mod})]])}}
