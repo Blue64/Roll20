@@ -1,0 +1,6 @@
+# %{MacroPC|Artisan-Prof}
+# Token Action: X
+# Macro Bar: X
+# Sub-Macro: √
+/w gm &{template:default} {{name=@{selected|token_name}'s
+Artisan Tool Proficiencies:}}
