@@ -1,0 +1,6 @@
+# %{MacroGM|Refit}
+# Token Action: X
+# Macro Bar: √
+!?{Value|100}
+!?{Labor|Player,1d100r<20r>80cf>70cs<30|NPC,1d100r<40r>90cf>80cs<50}
+/w gm [[(ceil((?{Value})*(?{Labor}/100)))]]
