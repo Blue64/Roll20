@@ -1,0 +1,5 @@
+# %{selected|pro_weapons}
+# Token Action: √
+# Macro Bar: X
+# Sub-Macro: √
+%{MacroPC|Weap-Prof} {{All Weapons=No}}
