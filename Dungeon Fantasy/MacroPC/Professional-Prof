@@ -1,6 +1,0 @@
-# %{MacroPC|Professional-Prof}
-# Token Action: X
-# Macro Bar: X
-# Sub-Macro: √
-/w gm &{template:default} {{name=@{selected|token_name}'s
-Professional Tool Proficiencies:}}
