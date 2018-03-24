@@ -1,0 +1,6 @@
+# %{MacroPC|Initiative}
+# Token Action: √
+# Macro Bar: √
+# Sub-Macro: √
+!?{Mod|Yes,[[(@{selected|dexterity_mod})]]|No,[[(0)]]|Invert,[[((abs(@{selected|dexterity_mod}))*(-1))]]}
+/w gm &{template:default} {{name=@{selected|token_name}'s Initiative Roll}} {{Initiative=[[(((1d20)+?{Mod})+((1d20)+?{Mod})*0.001)&{tracker}]]}}
