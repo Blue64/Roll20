@@ -1,2 +1,6 @@
+# %{MacroPC|Ammo}
+# Token Action: √
+# Macro Bar: X
+# Sub-Macro: X
 !?{Ammo|Tally,Tally: @{selected|token_name}&#125;&#125; {{@{selected|inventoryname35}=[[@{selected|inventoryqty35}]]/[[((@{selected|inventoryqty37})*20)]]&#125;&#125; {{@{selected|inventoryname36}=[[@{selected|inventoryqty36}]]/[[((@{selected|inventoryqty38})*20)]]&#125;&#125; {{@{selected|inventoryname39}=[[@{selected|inventoryqty39}]]&#125;&#125; {{@{selected|inventoryname40}=[[@{selected|inventoryqty40}]]&#125;&#125;|Recovery,Recovery: @{selected|token_name}&#125;&#125; {{Scavenge Time=[[(1d3cs<1cf>3)]] min&#125;&#125; {{@{selected|inventoryname35} Recovered=[[(floor((@{selected|inventoryqty39})/1d3cs<2cf>3r1))]]&#125;&#125; {{@{selected|inventoryname36} Recovered=[[(floor((@{selected|inventoryqty40})/1d3cs<2cf>3r1))]]&#125;&#125; {{@{selected|inventoryname34} Recovered=[[((floor(((@{selected|inventoryqty39})+(@{selected|inventoryqty40}))/((1d10cs<2cf>10r<1)*(1d10cs<2cf>10r<1))))*1d6)]]&#125;&#125;}
 /ooc &{template:default} {{name=Ammo ?{Ammo}
