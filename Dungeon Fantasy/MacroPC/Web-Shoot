@@ -1,0 +1,4 @@
+!?{Proficiency|Proficient,[[@{selected|pb}]]|Half,[[(floor((@{selected|pb})/2))]]|None,[[0]]|Invert,[[(@{selected|pb})*(-1)]]} ?{Advantage|Normal,Normal=[[1d20cf<1cs>20+?{Proficiency&#125;]]|Disadvantage,Disadvantage=[[1d20cf<1cs>20+?{Proficiency&#125;]] [[1d20cf<1cs>20+?{Proficiency&#125;]]|Advantage,Advantage=[[1d20cf<1cs>20+?{Proficiency&#125;]] [[1d20cf<1cs>20+?{Proficiency&#125;]]}
+/ooc &{template:default} {{name=@{selected|token_name}
+Spews forth Web}} {{Advantage: ?{Advantage}}} {{Evasion=as a Reaction, the Victim must pass a [[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|dexterity_mod})]])]] DC Acrobatics(Dexterity) check to Dodge}} {{on Hit=The Victim is Restrained by Webbing.}}
+%{MacroPC|Web-Stats}
