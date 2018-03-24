@@ -1,0 +1,5 @@
+# %{MacroPC|Health}
+# Token Action: X
+# Macro Bar: √
+# Sub-Macro: X
+/ooc &{template:default} {{name=Everyone's HP}} {{Dante Ariegato=([[@{Dante Ariegato|HP}]]/[[@{Dante Ariegato|HP|Max}]])+[[@{Dante Ariegato|temp_HP}]]}} {{Ditto=([[@{Ditto|HP}]]/[[@{Ditto|HP|Max}]])+[[@{Ditto|temp_HP}]]}} {{Dragonus=([[@{Dragonus|HP}]]/[[@{Dragonus|HP|Max}]])+[[@{Dragonus|temp_HP}]]}} {{Erin Colddeep=([[@{Erin Colddeep|HP}]]/[[@{Erin Colddeep|HP|Max}]])+[[@{Erin Colddeep|temp_HP}]]}} {{Jamala=([[@{Jamala|HP}]]/[[@{Jamala|HP|Max}]])+[[@{Jamala|temp_HP}]]}} {{Meiister=([[@{Meiister|HP}]]/[[@{Meiister|HP|Max}]])+[[@{Meiister|temp_HP}]]}} {{Slime Knight=([[@{Slime Knight|HP}]]/[[@{Slime Knight|HP|Max}]])+[[@{Slime Knight|temp_HP}]]}} {{Stran=([[@{Stran|HP}]]/[[@{Stran|HP|Max}]])+[[@{Stran|temp_HP}]]}}
