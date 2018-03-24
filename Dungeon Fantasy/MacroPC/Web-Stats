@@ -1,3 +1,7 @@
+# %{MacroPC|Web-Stats}
+# Token Action: √
+# Macro Bar: X
+# Sub-Macro: √
 /w gm &{template:default} {{name=@{selected|token_name}
 Web Stats}} {{To Hit=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|constitution_mod})]])]] AC}} {{Web Max HP=[[(floor(([[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+[[[[(@{selected|constitution_mod})]]]])*(0.75)))]]}} {{Vulnerabilities=Fire}} {{Immunities=Bludgeoning
 Poison
