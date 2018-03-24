@@ -1,0 +1,5 @@
+# %{selected|pro_weapons}
+# Token Action: √
+# Macro Bar: X
+# Sub-Macro: √
+%{MacroPC|Weap-Prof} {{All Simple Weapons=No}} {{All Martial Weapons=No}} {{Axe, Battle=No}} {{Axe, Great=No}} {{Axe, Hand=No}} {{Blowgun=No}} {{Bow, Long=No}} {{Bow, Short=No}} {{Club, Great=No}} {{Club=No}} {{Crossbow, Hand=No}} {{Crossbow, Heavy=No}} {{Crossbow, Light=No}} {{Dagger=No}} {{Dart=No}} {{Flail=No}} {{Glaive=No}} {{Halberd=No}} {{Hammer, Light=No}} {{Hammer, War=No}} {{Javelin=No}} {{Lance=No}} {{Mace=No}} {{Maul=No}} {{Morningstar=No}} {{Net=No}} {{Pike=No}} {{Quarterstaff=No}} {{Rapier=No}} {{Scimitar=No}} {{Sickle=No}} {{Sling=No}} {{Spear=No}} {{Sword, Great=No}} {{Sword, Long=No}} {{Sword, Short=No}} {{Trident=No}} {{War Pick=No}} {{Whip=No}}
