@@ -1,6 +1,0 @@
-# %{MacroPC|Gaming-Prof}
-# Token Action: X
-# Macro Bar: X
-# Sub-Macro: √
-/w gm &{template:default} {{name=@{selected|token_name}'s
-Gaming Set Proficiencies:}}
