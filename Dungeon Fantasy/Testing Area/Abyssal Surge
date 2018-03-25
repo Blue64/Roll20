@@ -1,0 +1,1 @@
+/ooc &{template:default} {{name=Abyssal Surge}} {{Effect=[[[[{{@{selected|constitution_mod},0}>1}*(@{selected|constitution_mod})]]d[[((@{selected|constitution_mod})*4)]]]]}} {{Action=***-@{selected|token_name} on Touch-***}}
