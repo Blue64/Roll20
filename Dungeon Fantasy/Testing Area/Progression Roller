@@ -1,0 +1,2 @@
+!?{Sides|4|6|8|10|12|20|100} ?{Modifiers|0}
+/ooc &{template:default} {{name=Some Time has Passed}} {{Roll 1=[[1d[[?{Sides}+?{Modifiers}]]cf<1cs=[[?{Sides}*100]]!1]]}} {{Roll 2=[[1d[[?{Sides}+?{Modifiers}]]cf<1cs=[[?{Sides}*100]]!1]]}} {{Roll 3=[[1d[[?{Sides}+?{Modifiers}]]cf<1cs=[[?{Sides}*100]]!1]]}} {{Roll 4=[[1d[[?{Sides}+?{Modifiers}]]cf<1cs=[[?{Sides}*100]]!1]]}} {{Roll 5=[[1d[[?{Sides}+?{Modifiers}]]cf<1cs=[[?{Sides}*100]]!1]]}} {{Roll 6=[[1d[[?{Sides}+?{Modifiers}]]cf<1cs=[[?{Sides}*100]]!1]]}}
