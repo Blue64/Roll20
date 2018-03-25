@@ -1,0 +1,9 @@
+/ooc &{template:default} {{name=@{selected|token_name}'s Heated Body}} {{Fire Damage:=[[1d6]]}}
+/ooc &{template:default} {{name=@{selected|token_name}'s Bite}} {{To Hit=[[(1d20)+3]]}} {{Piercing=[[1d4+1]]}}
+%{Fire Snake|Heated Body}
+/ooc &{template:default} {{name=@{selected|token_name}'s Tail Swipe}} {{To Hit=[[(1d20)+3]]}} {{Bludgeoning=[[1d4+1]]}}
+%{Fire Snake|Heated Body}
+/ooc &{template:default} {{name=@{selected|token_name}'s Critical Hit!}} {{Extra Damage:=[[1d4+1]]}}
+
+Likely transferring to &{template:5eDefault}
+https://www.reddit.com/r/Roll20/comments/2zx7a1/dd_5e_roll_template/?st=ivzn15t7&sh=f2954b7a
