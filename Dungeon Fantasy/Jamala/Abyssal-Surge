@@ -1,1 +1,4 @@
+# %{MacroPC|Abyssal-Surge}
+# Token Action: √
+# Macro Bar: X
 /w gm &{template:default} {{name=@{selected|token_name}'s Abyssal Surge}} {{Trigger=Touch}} {{Necrotic Damage=[[[[{{@{selected|constitution_mod},0}>1}*(@{selected|constitution_mod})]]d[[((@{selected|constitution_mod})*[[(ceil(@{selected|warlock_level}/4))]])]]cf<1cs>[[(ceil(@{selected|warlock_level}/3))]]]]}} {{Radiant Healing=[[[[{{@{selected|constitution_mod},1}<0}*[[abs(@{selected|constitution_mod})]]]]d[[[[abs(@{selected|constitution_mod})]]*[[(ceil(@{selected|warlock_level}/4))]]]]cf<1cs>[[(ceil(@{selected|warlock_level}/3))]]]]}} {{Resist=[[[[@{selected|warlock_spell_dc}]]]] DC Dexterity Saving Throw}}
