@@ -1,0 +1,2003 @@
+https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/DnD_5e/DnD_5e.html
+
+@{AC_calc} [[@{armouractive1}+@{armouractive2}+@{armouractive3}+@{armouractive4}+@{armouractive5}+@{armouractive6}+@{armouractive7}+@{armouractive8}+@{armouractive9}+@{armouractive10}]]
+@{AC_no_armour_calc} [[10+@{dexterity_mod}+floor(@{unarmoured_class_bonus})+@{armouractiveunarmoured1}+@{armouractiveunarmoured2}+@{armouractiveunarmoured3}+@{armouractiveunarmoured4}+@{armouractiveunarmoured5}+@{armouractiveunarmoured6}+@{armouractiveunarmoured7}+@{armouractiveunarmoured8}+@{armouractiveunarmoured9}+@{armouractiveunarmoured10}]]
+@{AC_no_armour} [[@{AC_no_armour_calc}]]
+@{acrobatics_bonus}
+@{acrobatics_prof_exp}
+@{acrobatics} [[@{acrobatics_prof_exp}+@{dexterity_mod}+@{acrobatics_bonus}]]
+@{AC} [[@{AC_calc}]]
+@{age}
+@{alignment}
+@{amourname1}
+@{amourname2}
+@{amourname3}
+@{amourname4}
+@{amourname5}
+@{amourname6}
+@{amourname7}
+@{amourname8}
+@{amourname9}
+@{amourname10}
+@{animalhandling_bonus}
+@{animalhandling_prof_exp}
+@{animalhandling} [[@{animalhandling_prof_exp}+@{wisdom_mod}+@{animalhandling_bonus}]]
+@{arcana_bonus}
+@{arcana_prof_exp}
+@{arcana} [[@{arcana_prof_exp}+@{intelligence_mod}+@{arcana_bonus}]]
+@{arcane_trickster_spell_bonus} [[(@{intelligence_mod}+@{PB})]]
+@{arcane_trickster_spell_dc} [[(@{base_spell_dc}+@{arcane_trickster_spell_bonus})]]
+@{armourACbase1}
+@{armourACbase2}
+@{armourACbase3}
+@{armourACbase4}
+@{armourACbase5}
+@{armourACbase6}
+@{armourACbase7}
+@{armourACbase8}
+@{armourACbase9}
+@{armourACbase10}
+@{armouractive1} [[@{armourtotalAC1}]]
+@{armouractive2} [[@{armourtotalAC2}]]
+@{armouractive3} [[@{armourtotalAC3}]]
+@{armouractive4} [[@{armourtotalAC4}]]
+@{armouractive5} [[@{armourtotalAC5}]]
+@{armouractive6} [[@{armourtotalAC6}]]
+@{armouractive7} [[@{armourtotalAC7}]]
+@{armouractive8} [[@{armourtotalAC8}]]
+@{armouractive9} [[@{armourtotalAC9}]]
+@{armouractive10} [[@{armourtotalAC10}]]
+@{armouractiveunarmoured1} [[@{armourtotalAC1}]]
+@{armouractiveunarmoured2} [[@{armourtotalAC2}]]
+@{armouractiveunarmoured3} [[@{armourtotalAC3}]]
+@{armouractiveunarmoured4} [[@{armourtotalAC4}]]
+@{armouractiveunarmoured5} [[@{armourtotalAC5}]]
+@{armouractiveunarmoured6} [[@{armourtotalAC6}]]
+@{armouractiveunarmoured7} [[@{armourtotalAC7}]]
+@{armouractiveunarmoured8} [[@{armourtotalAC8}]]
+@{armouractiveunarmoured9} [[@{armourtotalAC9}]]
+@{armouractiveunarmoured10} [[@{armourtotalAC10}]]
+@{armourmagicbonus1}
+@{armourmagicbonus2}
+@{armourmagicbonus3}
+@{armourmagicbonus4}
+@{armourmagicbonus5}
+@{armourmagicbonus6}
+@{armourmagicbonus7}
+@{armourmagicbonus8}
+@{armourmagicbonus9}
+@{armourmagicbonus10}
+@{armourspeedpen1}
+@{armourspeedpen2}
+@{armourspeedpen3}
+@{armourspeedpen4}
+@{armourspeedpen5}
+@{armourspeedpen6}
+@{armourspeedpen7}
+@{armourspeedpen8}
+@{armourspeedpen9}
+@{armourspeedpen10}
+@{armourstealthpen1}
+@{armourstealthpen2}
+@{armourstealthpen3}
+@{armourstealthpen4}
+@{armourstealthpen5}
+@{armourstealthpen6}
+@{armourstealthpen7}
+@{armourstealthpen8}
+@{armourstealthpen9}
+@{armourstealthpen10}
+@{armourtotalAC1} [[@{armourACbase1}+floor(@{armourtype1})+@{armourmagicbonus1}]]
+@{armourtotalAC2} [[@{armourACbase2}+floor(@{armourtype2})+@{armourmagicbonus2}]]
+@{armourtotalAC3} [[@{armourACbase3}+floor(@{armourtype3})+@{armourmagicbonus3}]]
+@{armourtotalAC4} [[@{armourACbase4}+floor(@{armourtype4})+@{armourmagicbonus4}]]
+@{armourtotalAC5} [[@{armourACbase5}+floor(@{armourtype5})+@{armourmagicbonus5}]]
+@{armourtotalAC6} [[@{armourACbase6}+floor(@{armourtype6})+@{armourmagicbonus6}]]
+@{armourtotalAC7} [[@{armourACbase7}+floor(@{armourtype7})+@{armourmagicbonus7}]]
+@{armourtotalAC8} [[@{armourACbase8}+floor(@{armourtype8})+@{armourmagicbonus8}]]
+@{armourtotalAC9} [[@{armourACbase9}+floor(@{armourtype9})+@{armourmagicbonus9}]]
+@{armourtotalAC10} [[@{armourACbase10}+floor(@{armourtype10})+@{armourmagicbonus10}]]
+@{armourtype1}
+@{armourtype2}
+@{armourtype3}
+@{armourtype4}
+@{armourtype5}
+@{armourtype6}
+@{armourtype7}
+@{armourtype8}
+@{armourtype9}
+@{armourtype10}
+@{athletics_bonus}
+@{athletics_prof_exp}
+@{athletics} [[@{athletics_prof_exp}+@{strength_mod}+@{athletics_bonus}]]
+@{attackstat}
+@{background}
+@{barbarian_level}
+@{bard_level}
+@{bard_spell_bonus} [[(@{charisma_mod}+@{PB})]]
+@{bard_spell_dc} [[(@{base_spell_dc}+@{bard_spell_bonus})]]
+@{base_spell_dc} [[(8 + (@{global_spell_dc_bonus}))]]
+@{basic_charisma_bonus}
+@{basic_charisma_check_mod} [[@{charisma_mod} + @{basic_charisma_bonus} + @{basic_charisma_prof_exp}]]
+@{basic_charisma_prof_exp}
+@{basic_constitution_bonus}
+@{basic_constitution_check_mod} [[@{constitution_mod} + @{basic_constitution_bonus} + @{basic_constitution_prof_exp}]]
+@{basic_constitution_prof_exp}
+@{basic_dexterity_bonus}
+@{basic_dexterity_check_mod} [[@{dexterity_mod} + @{basic_dexterity_bonus} + @{basic_dexterity_prof_exp}]]
+@{basic_dexterity_prof_exp}
+@{basic_intelligence_bonus}
+@{basic_intelligence_check_mod} [[@{intelligence_mod} + @{basic_intelligence_bonus} + @{basic_intelligence_prof_exp}]]
+@{basic_intelligence_prof_exp}
+@{basic_strength_bonus}
+@{basic_strength_check_mod} [[@{strength_mod} + @{basic_strength_bonus} + @{basic_strength_prof_exp}]]
+@{basic_strength_prof_exp}
+@{basic_wisdom_bonus}
+@{basic_wisdom_check_mod} [[@{wisdom_mod} + @{basic_wisdom_bonus} + @{basic_wisdom_prof_exp}]]
+@{basic_wisdom_prof_exp}
+@{bonds}
+@{cantrips_known_arcane_trickster} [[((ceil((@{rogue_level}-2)/1e10)*3) + (ceil((@{rogue_level}-9)/1e10)))]]
+@{cantrips_known_bard} [[((ceil(@{bard_level}/1e10)*2) + (ceil((@{bard_level}-3)/1e10)) + (ceil((@{bard_level}-9)/1e10)))]]
+@{cantrips_known_cleric} [[((ceil(@{cleric_level}/1e10)*3) + (ceil((@{cleric_level}-3)/1e10)) + (ceil((@{cleric_level}-9)/1e10)))]]
+@{cantrips_known_druid} [[((ceil(@{druid_level}/1e10)*2) + (ceil((@{druid_level}-3)/1e10)) + (ceil((@{druid_level}-9)/1e10)))]]
+@{cantrips_known_eldritch_knight} [[((ceil((@{fighter_level}-2)/1e10)*2) + (ceil((@{fighter_level}-9)/1e10)))]]
+@{cantrips_known_paladin}
+@{cantrips_known_ranger}
+@{cantrips_known_sorcerer} [[((ceil(@{sorcerer_level}/1e10)*4) + (ceil((@{sorcerer_level}-3)/1e10)) + (ceil((@{sorcerer_level}-9)/1e10)))]]
+@{cantrips_known_warlock} [[((ceil(@{warlock_level}/1e10)*2) + (ceil((@{warlock_level}-3)/1e10)) + (ceil((@{warlock_level}-9)/1e10)))]]
+@{cantrips_known_wizard} [[((ceil(@{wizard_level}/1e10)*3) + (ceil((@{wizard_level}-3)/1e10)) + (ceil((@{wizard_level}-9)/1e10)))]]
+@{character_name}
+@{charisma_mod} [[(floor((@{charisma}-10)/2))]]
+@{charisma_save_mod} [[@{charisma_mod} + @{charisma_save_prof}]]
+@{charisma_save_prof} [[@{PB}]]
+@{charisma}
+@{class_abilities_and_feats}
+@{class_features}
+@{classactionacrobatics10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionacrobatics11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionacrobatics12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionacrobatics13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionacrobatics14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionacrobatics15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionacrobatics16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionacrobatics17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionacrobatics18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionacrobatics19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionacrobatics1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionacrobatics20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionacrobatics2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionacrobatics3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionacrobatics4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionacrobatics5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionacrobatics6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionacrobatics7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionacrobatics8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionacrobatics9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionacrobatics} [[@{classactionacrobatics1} @{classactionacrobatics2} @{classactionacrobatics3} @{classactionacrobatics4} @{classactionacrobatics5} @{classactionacrobatics6} @{classactionacrobatics7} @{classactionacrobatics8} @{classactionacrobatics9} @{classactionacrobatics10} @{classactionacrobatics11} @{classactionacrobatics12} @{classactionacrobatics13} @{classactionacrobatics14} @{classactionacrobatics15} @{classactionacrobatics16} @{classactionacrobatics17} @{classactionacrobatics18} @{classactionacrobatics19} @{classactionacrobatics20} {{showclassactions=1}}]]
+@{classactionanimalhandling10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionanimalhandling11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionanimalhandling12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionanimalhandling13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionanimalhandling14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionanimalhandling15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionanimalhandling16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionanimalhandling17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionanimalhandling18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionanimalhandling19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionanimalhandling1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionanimalhandling20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionanimalhandling2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionanimalhandling3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionanimalhandling4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionanimalhandling5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionanimalhandling6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionanimalhandling7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionanimalhandling8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionanimalhandling9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionanimalhandling} [[@{classactionanimalhandling1} @{classactionanimalhandling2} @{classactionanimalhandling3} @{classactionanimalhandling4} @{classactionanimalhandling5} @{classactionanimalhandling6} @{classactionanimalhandling7} @{classactionanimalhandling8} @{classactionanimalhandling9} @{classactionanimalhandling10} @{classactionanimalhandling11} @{classactionanimalhandling12} @{classactionanimalhandling13} @{classactionanimalhandling14} @{classactionanimalhandling15} @{classactionanimalhandling16} @{classactionanimalhandling17} @{classactionanimalhandling18} @{classactionanimalhandling19} @{classactionanimalhandling20} {{showclassactions=1}}]]
+@{classactionarcana10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionarcana11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionarcana12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionarcana13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionarcana14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionarcana15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionarcana16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionarcana17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionarcana18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionarcana19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionarcana1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionarcana20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionarcana2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionarcana3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionarcana4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionarcana5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionarcana6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionarcana7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionarcana8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionarcana9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionarcana} [[@{classactionarcana1} @{classactionarcana2} @{classactionarcana3} @{classactionarcana4} @{classactionarcana5} @{classactionarcana6} @{classactionarcana7} @{classactionarcana8} @{classactionarcana9} @{classactionarcana10} @{classactionarcana11} @{classactionarcana12} @{classactionarcana13} @{classactionarcana14} @{classactionarcana15} @{classactionarcana16} @{classactionarcana17} @{classactionarcana18} @{classactionarcana19} @{classactionarcana20} {{showclassactions=1}}]]
+@{classactionathletics10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionathletics11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionathletics12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionathletics13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionathletics14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionathletics15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionathletics16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionathletics17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionathletics18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionathletics19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionathletics1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionathletics20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionathletics2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionathletics3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionathletics4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionathletics5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionathletics6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionathletics7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionathletics8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionathletics9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionathletics} [[@{classactionathletics1} @{classactionathletics2} @{classactionathletics3} @{classactionathletics4} @{classactionathletics5} @{classactionathletics6} @{classactionathletics7} @{classactionathletics8} @{classactionathletics9} @{classactionathletics10} @{classactionathletics11} @{classactionathletics12} @{classactionathletics13} @{classactionathletics14} @{classactionathletics15} @{classactionathletics16} @{classactionathletics17} @{classactionathletics18} @{classactionathletics19} @{classactionathletics20} {{showclassactions=1}}]]
+@{classactioncharismasave10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactioncharismasave11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactioncharismasave12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactioncharismasave13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactioncharismasave14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactioncharismasave15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactioncharismasave16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactioncharismasave17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactioncharismasave18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactioncharismasave19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactioncharismasave1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactioncharismasave20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactioncharismasave2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactioncharismasave3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactioncharismasave4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactioncharismasave5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactioncharismasave6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactioncharismasave7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactioncharismasave8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactioncharismasave9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactioncharismasave} [[@{classactioncharismasave1} @{classactioncharismasave2} @{classactioncharismasave3} @{classactioncharismasave4} @{classactioncharismasave5} @{classactioncharismasave6} @{classactioncharismasave7} @{classactioncharismasave8} @{classactioncharismasave9} @{classactioncharismasave10} @{classactioncharismasave11} @{classactioncharismasave12} @{classactioncharismasave13} @{classactioncharismasave14} @{classactioncharismasave15} @{classactioncharismasave16} @{classactioncharismasave17} @{classactioncharismasave18} @{classactioncharismasave19} @{classactioncharismasave20} {{showclassactions=1}}]]
+@{classactionconstitutionsave10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionconstitutionsave11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionconstitutionsave12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionconstitutionsave13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionconstitutionsave14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionconstitutionsave15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionconstitutionsave16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionconstitutionsave17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionconstitutionsave18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionconstitutionsave19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionconstitutionsave1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionconstitutionsave20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionconstitutionsave2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionconstitutionsave3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionconstitutionsave4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionconstitutionsave5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionconstitutionsave6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionconstitutionsave7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionconstitutionsave8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionconstitutionsave9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionconstitutionsave} [[@{classactionconstitutionsave1} @{classactionconstitutionsave2} @{classactionconstitutionsave3} @{classactionconstitutionsave4} @{classactionconstitutionsave5} @{classactionconstitutionsave6} @{classactionconstitutionsave7} @{classactionconstitutionsave8} @{classactionconstitutionsave9} @{classactionconstitutionsave10} @{classactionconstitutionsave11} @{classactionconstitutionsave12} @{classactionconstitutionsave13} @{classactionconstitutionsave14} @{classactionconstitutionsave15} @{classactionconstitutionsave16} @{classactionconstitutionsave17} @{classactionconstitutionsave18} @{classactionconstitutionsave19} @{classactionconstitutionsave20} {{showclassactions=1}}]]
+@{classactioncustom1skill10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactioncustom1skill11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactioncustom1skill12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactioncustom1skill13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactioncustom1skill14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactioncustom1skill15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactioncustom1skill16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactioncustom1skill17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactioncustom1skill18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactioncustom1skill19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactioncustom1skill1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactioncustom1skill20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactioncustom1skill2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactioncustom1skill3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactioncustom1skill4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactioncustom1skill5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactioncustom1skill6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactioncustom1skill7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactioncustom1skill8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactioncustom1skill9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactioncustom1skill} [[@{classactioncustom1skill1} @{classactioncustom1skill2} @{classactioncustom1skill3} @{classactioncustom1skill4} @{classactioncustom1skill5} @{classactioncustom1skill6} @{classactioncustom1skill7} @{classactioncustom1skill8} @{classactioncustom1skill9} @{classactioncustom1skill10} @{classactioncustom1skill11} @{classactioncustom1skill12} @{classactioncustom1skill13} @{classactioncustom1skill14} @{classactioncustom1skill15} @{classactioncustom1skill16} @{classactioncustom1skill17} @{classactioncustom1skill18} @{classactioncustom1skill19} @{classactioncustom1skill20} {{showclassactions=1}}]]
+@{classactioncustom2skill10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactioncustom2skill11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactioncustom2skill12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactioncustom2skill13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactioncustom2skill14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactioncustom2skill15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactioncustom2skill16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactioncustom2skill17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactioncustom2skill18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactioncustom2skill19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactioncustom2skill1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactioncustom2skill20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactioncustom2skill2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactioncustom2skill3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactioncustom2skill4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactioncustom2skill5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactioncustom2skill6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactioncustom2skill7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactioncustom2skill8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactioncustom2skill9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactioncustom2skill} [[@{classactioncustom2skill1} @{classactioncustom2skill2} @{classactioncustom2skill3} @{classactioncustom2skill4} @{classactioncustom2skill5} @{classactioncustom2skill6} @{classactioncustom2skill7} @{classactioncustom2skill8} @{classactioncustom2skill9} @{classactioncustom2skill10} @{classactioncustom2skill11} @{classactioncustom2skill12} @{classactioncustom2skill13} @{classactioncustom2skill14} @{classactioncustom2skill15} @{classactioncustom2skill16} @{classactioncustom2skill17} @{classactioncustom2skill18} @{classactioncustom2skill19} @{classactioncustom2skill20} {{showclassactions=1}}]]
+@{classactioncustom3skill10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactioncustom3skill11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactioncustom3skill12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactioncustom3skill13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactioncustom3skill14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactioncustom3skill15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactioncustom3skill16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactioncustom3skill17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactioncustom3skill18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactioncustom3skill19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactioncustom3skill1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactioncustom3skill20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactioncustom3skill2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactioncustom3skill3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactioncustom3skill4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactioncustom3skill5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactioncustom3skill6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactioncustom3skill7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactioncustom3skill8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactioncustom3skill9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactioncustom3skill} [[@{classactioncustom3skill1} @{classactioncustom3skill2} @{classactioncustom3skill3} @{classactioncustom3skill4} @{classactioncustom3skill5} @{classactioncustom3skill6} @{classactioncustom3skill7} @{classactioncustom3skill8} @{classactioncustom3skill9} @{classactioncustom3skill10} @{classactioncustom3skill11} @{classactioncustom3skill12} @{classactioncustom3skill13} @{classactioncustom3skill14} @{classactioncustom3skill15} @{classactioncustom3skill16} @{classactioncustom3skill17} @{classactioncustom3skill18} @{classactioncustom3skill19} @{classactioncustom3skill20} {{showclassactions=1}}]]
+@{classactioncustom4skill10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactioncustom4skill11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactioncustom4skill12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactioncustom4skill13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactioncustom4skill14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactioncustom4skill15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactioncustom4skill16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactioncustom4skill17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactioncustom4skill18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactioncustom4skill19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactioncustom4skill1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactioncustom4skill20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactioncustom4skill2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactioncustom4skill3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactioncustom4skill4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactioncustom4skill5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactioncustom4skill6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactioncustom4skill7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactioncustom4skill8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactioncustom4skill9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactioncustom4skill} [[@{classactioncustom4skill1} @{classactioncustom4skill2} @{classactioncustom4skill3} @{classactioncustom4skill4} @{classactioncustom4skill5} @{classactioncustom4skill6} @{classactioncustom4skill7} @{classactioncustom4skill8} @{classactioncustom4skill9} @{classactioncustom4skill10} @{classactioncustom4skill11} @{classactioncustom4skill12} @{classactioncustom4skill13} @{classactioncustom4skill14} @{classactioncustom4skill15} @{classactioncustom4skill16} @{classactioncustom4skill17} @{classactioncustom4skill18} @{classactioncustom4skill19} @{classactioncustom4skill20} {{showclassactions=1}}]]
+@{classactiondeathsave10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactiondeathsave11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactiondeathsave12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactiondeathsave13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactiondeathsave14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactiondeathsave15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactiondeathsave16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactiondeathsave17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactiondeathsave18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactiondeathsave19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactiondeathsave1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactiondeathsave20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactiondeathsave2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactiondeathsave3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactiondeathsave4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactiondeathsave5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactiondeathsave6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactiondeathsave7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactiondeathsave8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactiondeathsave9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactiondeathsave} [[@{classactiondeathsave1} @{classactiondeathsave2} @{classactiondeathsave3} @{classactiondeathsave4} @{classactiondeathsave5} @{classactiondeathsave6} @{classactiondeathsave7} @{classactiondeathsave8} @{classactiondeathsave9} @{classactiondeathsave10} @{classactiondeathsave11} @{classactiondeathsave12} @{classactiondeathsave13} @{classactiondeathsave14} @{classactiondeathsave15} @{classactiondeathsave16} @{classactiondeathsave17} @{classactiondeathsave18} @{classactiondeathsave19} @{classactiondeathsave20} {{showclassactions=1}}]]
+@{classactiondeception10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactiondeception11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactiondeception12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactiondeception13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactiondeception14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactiondeception15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactiondeception16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactiondeception17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactiondeception18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactiondeception19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactiondeception1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactiondeception20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactiondeception2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactiondeception3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactiondeception4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactiondeception5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactiondeception6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactiondeception7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactiondeception8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactiondeception9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactiondeception} [[@{classactiondeception1} @{classactiondeception2} @{classactiondeception3} @{classactiondeception4} @{classactiondeception5} @{classactiondeception6} @{classactiondeception7} @{classactiondeception8} @{classactiondeception9} @{classactiondeception10} @{classactiondeception11} @{classactiondeception12} @{classactiondeception13} @{classactiondeception14} @{classactiondeception15} @{classactiondeception16} @{classactiondeception17} @{classactiondeception18} @{classactiondeception19} @{classactiondeception20} {{showclassactions=1}}]]
+@{classactiondescription}
+@{classactiondexteritysave10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactiondexteritysave11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactiondexteritysave12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactiondexteritysave13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactiondexteritysave14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactiondexteritysave15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactiondexteritysave16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactiondexteritysave17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactiondexteritysave18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactiondexteritysave19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactiondexteritysave1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactiondexteritysave20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactiondexteritysave2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactiondexteritysave3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactiondexteritysave4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactiondexteritysave5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactiondexteritysave6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactiondexteritysave7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactiondexteritysave8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactiondexteritysave9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactiondexteritysave} [[@{classactiondexteritysave1} @{classactiondexteritysave2} @{classactiondexteritysave3} @{classactiondexteritysave4} @{classactiondexteritysave5} @{classactiondexteritysave6} @{classactiondexteritysave7} @{classactiondexteritysave8} @{classactiondexteritysave9} @{classactiondexteritysave10} @{classactiondexteritysave11} @{classactiondexteritysave12} @{classactiondexteritysave13} @{classactiondexteritysave14} @{classactiondexteritysave15} @{classactiondexteritysave16} @{classactiondexteritysave17} @{classactiondexteritysave18} @{classactiondexteritysave19} @{classactiondexteritysave20} {{showclassactions=1}}]]
+@{classactionhistory10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionhistory11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionhistory12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionhistory13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionhistory14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionhistory15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionhistory16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionhistory17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionhistory18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionhistory19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionhistory1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionhistory20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionhistory2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionhistory3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionhistory4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionhistory5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionhistory6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionhistory7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionhistory8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionhistory9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionhistory} [[@{classactionhistory1} @{classactionhistory2} @{classactionhistory3} @{classactionhistory4} @{classactionhistory5} @{classactionhistory6} @{classactionhistory7} @{classactionhistory8} @{classactionhistory9} @{classactionhistory10} @{classactionhistory11} @{classactionhistory12} @{classactionhistory13} @{classactionhistory14} @{classactionhistory15} @{classactionhistory16} @{classactionhistory17} @{classactionhistory18} @{classactionhistory19} @{classactionhistory20} {{showclassactions=1}}]]
+@{classactionhitdice10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionhitdice11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionhitdice12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionhitdice13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionhitdice14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionhitdice15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionhitdice16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionhitdice17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionhitdice18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionhitdice19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionhitdice1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionhitdice20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionhitdice2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionhitdice3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionhitdice4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionhitdice5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionhitdice6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionhitdice7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionhitdice8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionhitdice9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionhitdice} [[@{classactionhitdice1} @{classactionhitdice2} @{classactionhitdice3} @{classactionhitdice4} @{classactionhitdice5} @{classactionhitdice6} @{classactionhitdice7} @{classactionhitdice8} @{classactionhitdice9} @{classactionhitdice10} @{classactionhitdice11} @{classactionhitdice12} @{classactionhitdice13} @{classactionhitdice14} @{classactionhitdice15} @{classactionhitdice16} @{classactionhitdice17} @{classactionhitdice18} @{classactionhitdice19} @{classactionhitdice20} {{showclassactions=1}}]]
+@{classactioninitiative10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactioninitiative11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactioninitiative12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactioninitiative13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactioninitiative14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactioninitiative15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactioninitiative16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactioninitiative17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactioninitiative18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactioninitiative19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactioninitiative1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactioninitiative20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactioninitiative2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactioninitiative3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactioninitiative4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactioninitiative5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactioninitiative6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactioninitiative7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactioninitiative8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactioninitiative9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactioninitiative} [[@{classactioninitiative1} @{classactioninitiative2} @{classactioninitiative3} @{classactioninitiative4} @{classactioninitiative5} @{classactioninitiative6} @{classactioninitiative7} @{classactioninitiative8} @{classactioninitiative9} @{classactioninitiative10} @{classactioninitiative11} @{classactioninitiative12} @{classactioninitiative13} @{classactioninitiative14} @{classactioninitiative15} @{classactioninitiative16} @{classactioninitiative17} @{classactioninitiative18} @{classactioninitiative19} @{classactioninitiative20} {{showclassactions=1}}]]
+@{classactioninsight10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactioninsight11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactioninsight12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactioninsight13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactioninsight14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactioninsight15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactioninsight16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactioninsight17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactioninsight18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactioninsight19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactioninsight1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactioninsight20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactioninsight2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactioninsight3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactioninsight4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactioninsight5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactioninsight6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactioninsight7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactioninsight8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactioninsight9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactioninsight} [[@{classactioninsight1} @{classactioninsight2} @{classactioninsight3} @{classactioninsight4} @{classactioninsight5} @{classactioninsight6} @{classactioninsight7} @{classactioninsight8} @{classactioninsight9} @{classactioninsight10} @{classactioninsight11} @{classactioninsight12} @{classactioninsight13} @{classactioninsight14} @{classactioninsight15} @{classactioninsight16} @{classactioninsight17} @{classactioninsight18} @{classactioninsight19} @{classactioninsight20} {{showclassactions=1}}]]
+@{classactionintelligencesave10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionintelligencesave11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionintelligencesave12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionintelligencesave13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionintelligencesave14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionintelligencesave15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionintelligencesave16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionintelligencesave17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionintelligencesave18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionintelligencesave19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionintelligencesave1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionintelligencesave20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionintelligencesave2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionintelligencesave3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionintelligencesave4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionintelligencesave5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionintelligencesave6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionintelligencesave7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionintelligencesave8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionintelligencesave9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionintelligencesave} [[@{classactionintelligencesave1} @{classactionintelligencesave2} @{classactionintelligencesave3} @{classactionintelligencesave4} @{classactionintelligencesave5} @{classactionintelligencesave6} @{classactionintelligencesave7} @{classactionintelligencesave8} @{classactionintelligencesave9} @{classactionintelligencesave10} @{classactionintelligencesave11} @{classactionintelligencesave12} @{classactionintelligencesave13} @{classactionintelligencesave14} @{classactionintelligencesave15} @{classactionintelligencesave16} @{classactionintelligencesave17} @{classactionintelligencesave18} @{classactionintelligencesave19} @{classactionintelligencesave20} {{showclassactions=1}}]]
+@{classactionintimidation10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionintimidation11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionintimidation12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionintimidation13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionintimidation14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionintimidation15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionintimidation16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionintimidation17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionintimidation18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionintimidation19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionintimidation1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionintimidation20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionintimidation2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionintimidation3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionintimidation4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionintimidation5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionintimidation6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionintimidation7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionintimidation8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionintimidation9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionintimidation} [[@{classactionintimidation1} @{classactionintimidation2} @{classactionintimidation3} @{classactionintimidation4} @{classactionintimidation5} @{classactionintimidation6} @{classactionintimidation7} @{classactionintimidation8} @{classactionintimidation9} @{classactionintimidation10} @{classactionintimidation11} @{classactionintimidation12} @{classactionintimidation13} @{classactionintimidation14} @{classactionintimidation15} @{classactionintimidation16} @{classactionintimidation17} @{classactionintimidation18} @{classactionintimidation19} @{classactionintimidation20} {{showclassactions=1}}]]
+@{classactioninvestigation10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactioninvestigation11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactioninvestigation12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactioninvestigation13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactioninvestigation14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactioninvestigation15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactioninvestigation16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactioninvestigation17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactioninvestigation18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactioninvestigation19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactioninvestigation1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactioninvestigation20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactioninvestigation2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactioninvestigation3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactioninvestigation4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactioninvestigation5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactioninvestigation6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactioninvestigation7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactioninvestigation8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactioninvestigation9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactioninvestigation} [[@{classactioninvestigation1} @{classactioninvestigation2} @{classactioninvestigation3} @{classactioninvestigation4} @{classactioninvestigation5} @{classactioninvestigation6} @{classactioninvestigation7} @{classactioninvestigation8} @{classactioninvestigation9} @{classactioninvestigation10} @{classactioninvestigation11} @{classactioninvestigation12} @{classactioninvestigation13} @{classactioninvestigation14} @{classactioninvestigation15} @{classactioninvestigation16} @{classactioninvestigation17} @{classactioninvestigation18} @{classactioninvestigation19} @{classactioninvestigation20} {{showclassactions=1}}]]
+@{classactionmedicine10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionmedicine11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionmedicine12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionmedicine13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionmedicine14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionmedicine15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionmedicine16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionmedicine17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionmedicine18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionmedicine19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionmedicine1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionmedicine20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionmedicine2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionmedicine3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionmedicine4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionmedicine5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionmedicine6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionmedicine7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionmedicine8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionmedicine9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionmedicine} [[@{classactionmedicine1} @{classactionmedicine2} @{classactionmedicine3} @{classactionmedicine4} @{classactionmedicine5} @{classactionmedicine6} @{classactionmedicine7} @{classactionmedicine8} @{classactionmedicine9} @{classactionmedicine10} @{classactionmedicine11} @{classactionmedicine12} @{classactionmedicine13} @{classactionmedicine14} @{classactionmedicine15} @{classactionmedicine16} @{classactionmedicine17} @{classactionmedicine18} @{classactionmedicine19} @{classactionmedicine20} {{showclassactions=1}}]]
+@{classactionmeleeweapon10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionmeleeweapon11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionmeleeweapon12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionmeleeweapon13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionmeleeweapon14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionmeleeweapon15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionmeleeweapon16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionmeleeweapon17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionmeleeweapon18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionmeleeweapon19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionmeleeweapon1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionmeleeweapon20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionmeleeweapon2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionmeleeweapon3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionmeleeweapon4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionmeleeweapon5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionmeleeweapon6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionmeleeweapon7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionmeleeweapon8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionmeleeweapon9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionmeleeweapon} [[@{classactionmeleeweapon1} @{classactionmeleeweapon2} @{classactionmeleeweapon3} @{classactionmeleeweapon4} @{classactionmeleeweapon5} @{classactionmeleeweapon6} @{classactionmeleeweapon7} @{classactionmeleeweapon8} @{classactionmeleeweapon9} @{classactionmeleeweapon10} @{classactionmeleeweapon11} @{classactionmeleeweapon12} @{classactionmeleeweapon13} @{classactionmeleeweapon14} @{classactionmeleeweapon15} @{classactionmeleeweapon16} @{classactionmeleeweapon17} @{classactionmeleeweapon18} @{classactionmeleeweapon19} @{classactionmeleeweapon20} {{showclassactions=1}}]]
+@{classactionname10}
+@{classactionname11}
+@{classactionname12}
+@{classactionname13}
+@{classactionname14}
+@{classactionname15}
+@{classactionname16}
+@{classactionname17}
+@{classactionname18}
+@{classactionname19}
+@{classactionname1}
+@{classactionname20}
+@{classactionname2}
+@{classactionname3}
+@{classactionname4}
+@{classactionname5}
+@{classactionname6}
+@{classactionname7}
+@{classactionname8}
+@{classactionname9}
+@{classactionname}
+@{classactionnature10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionnature11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionnature12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionnature13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionnature14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionnature15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionnature16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionnature17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionnature18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionnature19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionnature1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionnature20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionnature2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionnature3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionnature4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionnature5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionnature6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionnature7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionnature8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionnature9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionnature} [[@{classactionnature1} @{classactionnature2} @{classactionnature3} @{classactionnature4} @{classactionnature5} @{classactionnature6} @{classactionnature7} @{classactionnature8} @{classactionnature9} @{classactionnature10} @{classactionnature11} @{classactionnature12} @{classactionnature13} @{classactionnature14} @{classactionnature15} @{classactionnature16} @{classactionnature17} @{classactionnature18} @{classactionnature19} @{classactionnature20} {{showclassactions=1}}]]
+@{classactionoutput10}
+@{classactionoutput11}
+@{classactionoutput12}
+@{classactionoutput13}
+@{classactionoutput14}
+@{classactionoutput15}
+@{classactionoutput16}
+@{classactionoutput17}
+@{classactionoutput18}
+@{classactionoutput19}
+@{classactionoutput1}
+@{classactionoutput20}
+@{classactionoutput2}
+@{classactionoutput3}
+@{classactionoutput4}
+@{classactionoutput5}
+@{classactionoutput6}
+@{classactionoutput7}
+@{classactionoutput8}
+@{classactionoutput9}
+@{classactionperception10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionperception11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionperception12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionperception13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionperception14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionperception15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionperception16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionperception17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionperception18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionperception19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionperception1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionperception20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionperception2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionperception3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionperception4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionperception5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionperception6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionperception7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionperception8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionperception9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionperception} [[@{classactionperception1} @{classactionperception2} @{classactionperception3} @{classactionperception4} @{classactionperception5} @{classactionperception6} @{classactionperception7} @{classactionperception8} @{classactionperception9} @{classactionperception10} @{classactionperception11} @{classactionperception12} @{classactionperception13} @{classactionperception14} @{classactionperception15} @{classactionperception16} @{classactionperception17} @{classactionperception18} @{classactionperception19} @{classactionperception20} {{showclassactions=1}}]]
+@{classactionperformance10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionperformance11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionperformance12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionperformance13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionperformance14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionperformance15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionperformance16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionperformance17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionperformance18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionperformance19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionperformance1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionperformance20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionperformance2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionperformance3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionperformance4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionperformance5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionperformance6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionperformance7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionperformance8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionperformance9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionperformance} [[@{classactionperformance1} @{classactionperformance2} @{classactionperformance3} @{classactionperformance4} @{classactionperformance5} @{classactionperformance6} @{classactionperformance7} @{classactionperformance8} @{classactionperformance9} @{classactionperformance10} @{classactionperformance11} @{classactionperformance12} @{classactionperformance13} @{classactionperformance14} @{classactionperformance15} @{classactionperformance16} @{classactionperformance17} @{classactionperformance18} @{classactionperformance19} @{classactionperformance20} {{showclassactions=1}}]]
+@{classactionpersuasion10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionpersuasion11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionpersuasion12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionpersuasion13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionpersuasion14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionpersuasion15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionpersuasion16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionpersuasion17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionpersuasion18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionpersuasion19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionpersuasion1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionpersuasion20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionpersuasion2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionpersuasion3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionpersuasion4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionpersuasion5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionpersuasion6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionpersuasion7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionpersuasion8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionpersuasion9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionpersuasion} [[@{classactionpersuasion1} @{classactionpersuasion2} @{classactionpersuasion3} @{classactionpersuasion4} @{classactionpersuasion5} @{classactionpersuasion6} @{classactionpersuasion7} @{classactionpersuasion8} @{classactionpersuasion9} @{classactionpersuasion10} @{classactionpersuasion11} @{classactionpersuasion12} @{classactionpersuasion13} @{classactionpersuasion14} @{classactionpersuasion15} @{classactionpersuasion16} @{classactionpersuasion17} @{classactionpersuasion18} @{classactionpersuasion19} @{classactionpersuasion20} {{showclassactions=1}}]]
+@{classactionrangedweapon10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionrangedweapon11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionrangedweapon12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionrangedweapon13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionrangedweapon14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionrangedweapon15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionrangedweapon16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionrangedweapon17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionrangedweapon18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionrangedweapon19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionrangedweapon1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionrangedweapon20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionrangedweapon2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionrangedweapon3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionrangedweapon4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionrangedweapon5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionrangedweapon6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionrangedweapon7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionrangedweapon8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionrangedweapon9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionrangedweapon} [[@{classactionrangedweapon1} @{classactionrangedweapon2} @{classactionrangedweapon3} @{classactionrangedweapon4} @{classactionrangedweapon5} @{classactionrangedweapon6} @{classactionrangedweapon7} @{classactionrangedweapon8} @{classactionrangedweapon9} @{classactionrangedweapon10} @{classactionrangedweapon11} @{classactionrangedweapon12} @{classactionrangedweapon13} @{classactionrangedweapon14} @{classactionrangedweapon15} @{classactionrangedweapon16} @{classactionrangedweapon17} @{classactionrangedweapon18} @{classactionrangedweapon19} @{classactionrangedweapon20} {{showclassactions=1}}]]
+@{classactionrecharge10}
+@{classactionrecharge11}
+@{classactionrecharge12}
+@{classactionrecharge13}
+@{classactionrecharge14}
+@{classactionrecharge15}
+@{classactionrecharge16}
+@{classactionrecharge17}
+@{classactionrecharge18}
+@{classactionrecharge19}
+@{classactionrecharge1}
+@{classactionrecharge20}
+@{classactionrecharge2}
+@{classactionrecharge3}
+@{classactionrecharge4}
+@{classactionrecharge5}
+@{classactionrecharge6}
+@{classactionrecharge7}
+@{classactionrecharge8}
+@{classactionrecharge9}
+@{classactionreligion10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionreligion11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionreligion12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionreligion13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionreligion14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionreligion15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionreligion16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionreligion17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionreligion18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionreligion19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionreligion1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionreligion20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionreligion2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionreligion3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionreligion4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionreligion5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionreligion6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionreligion7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionreligion8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionreligion9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionreligion} [[@{classactionreligion1} @{classactionreligion2} @{classactionreligion3} @{classactionreligion4} @{classactionreligion5} @{classactionreligion6} @{classactionreligion7} @{classactionreligion8} @{classactionreligion9} @{classactionreligion10} @{classactionreligion11} @{classactionreligion12} @{classactionreligion13} @{classactionreligion14} @{classactionreligion15} @{classactionreligion16} @{classactionreligion17} @{classactionreligion18} @{classactionreligion19} @{classactionreligion20} {{showclassactions=1}}]]
+@{classactionresource10_max}
+@{classactionresource10}
+@{classactionresource11_max}
+@{classactionresource11}
+@{classactionresource12_max}
+@{classactionresource12}
+@{classactionresource13_max}
+@{classactionresource13}
+@{classactionresource14_max}
+@{classactionresource14}
+@{classactionresource15_max}
+@{classactionresource15}
+@{classactionresource16_max}
+@{classactionresource16}
+@{classactionresource17_max}
+@{classactionresource17}
+@{classactionresource18_max}
+@{classactionresource18}
+@{classactionresource19_max}
+@{classactionresource19}
+@{classactionresource1_max}
+@{classactionresource1}
+@{classactionresource20_max}
+@{classactionresource20}
+@{classactionresource2_max}
+@{classactionresource2}
+@{classactionresource3_max}
+@{classactionresource3}
+@{classactionresource4_max}
+@{classactionresource4}
+@{classactionresource5_max}
+@{classactionresource5}
+@{classactionresource6_max}
+@{classactionresource6}
+@{classactionresource7_max}
+@{classactionresource7}
+@{classactionresource8_max}
+@{classactionresource8}
+@{classactionresource9_max}
+@{classactionresource9}
+@{classactionshowoptions10}
+@{classactionshowoptions11}
+@{classactionshowoptions12}
+@{classactionshowoptions13}
+@{classactionshowoptions14}
+@{classactionshowoptions15}
+@{classactionshowoptions16}
+@{classactionshowoptions17}
+@{classactionshowoptions18}
+@{classactionshowoptions19}
+@{classactionshowoptions1}
+@{classactionshowoptions20}
+@{classactionshowoptions2}
+@{classactionshowoptions3}
+@{classactionshowoptions4}
+@{classactionshowoptions5}
+@{classactionshowoptions6}
+@{classactionshowoptions7}
+@{classactionshowoptions8}
+@{classactionshowoptions9}
+@{classactionsleightofhand10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionsleightofhand11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionsleightofhand12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionsleightofhand13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionsleightofhand14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionsleightofhand15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionsleightofhand16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionsleightofhand17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionsleightofhand18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionsleightofhand19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionsleightofhand1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionsleightofhand20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionsleightofhand2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionsleightofhand3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionsleightofhand4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionsleightofhand5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionsleightofhand6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionsleightofhand7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionsleightofhand8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionsleightofhand9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionsleightofhand} [[@{classactionsleightofhand1} @{classactionsleightofhand2} @{classactionsleightofhand3} @{classactionsleightofhand4} @{classactionsleightofhand5} @{classactionsleightofhand6} @{classactionsleightofhand7} @{classactionsleightofhand8} @{classactionsleightofhand9} @{classactionsleightofhand10} @{classactionsleightofhand11} @{classactionsleightofhand12} @{classactionsleightofhand13} @{classactionsleightofhand14} @{classactionsleightofhand15} @{classactionsleightofhand16} @{classactionsleightofhand17} @{classactionsleightofhand18} @{classactionsleightofhand19} @{classactionsleightofhand20} {{showclassactions=1}}]]
+@{classactionsource10}
+@{classactionsource11}
+@{classactionsource12}
+@{classactionsource13}
+@{classactionsource14}
+@{classactionsource15}
+@{classactionsource16}
+@{classactionsource17}
+@{classactionsource18}
+@{classactionsource19}
+@{classactionsource1}
+@{classactionsource20}
+@{classactionsource2}
+@{classactionsource3}
+@{classactionsource4}
+@{classactionsource5}
+@{classactionsource6}
+@{classactionsource7}
+@{classactionsource8}
+@{classactionsource9}
+@{classactionspellcast10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionspellcast11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionspellcast12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionspellcast13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionspellcast14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionspellcast15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionspellcast16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionspellcast17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionspellcast18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionspellcast19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionspellcast1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionspellcast20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionspellcast2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionspellcast3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionspellcast4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionspellcast5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionspellcast6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionspellcast7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionspellcast8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionspellcast9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionspellcast} [[@{classactionspellcast1} @{classactionspellcast2} @{classactionspellcast3} @{classactionspellcast4} @{classactionspellcast5} @{classactionspellcast6} @{classactionspellcast7} @{classactionspellcast8} @{classactionspellcast9} @{classactionspellcast10} @{classactionspellcast11} @{classactionspellcast12} @{classactionspellcast13} @{classactionspellcast14} @{classactionspellcast15} @{classactionspellcast16} @{classactionspellcast17} @{classactionspellcast18} @{classactionspellcast19} @{classactionspellcast20} {{showclassactions=1}}]]
+@{classactionspellinfo10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionspellinfo11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionspellinfo12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionspellinfo13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionspellinfo14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionspellinfo15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionspellinfo16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionspellinfo17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionspellinfo18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionspellinfo19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionspellinfo1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionspellinfo20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionspellinfo2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionspellinfo3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionspellinfo4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionspellinfo5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionspellinfo6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionspellinfo7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionspellinfo8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionspellinfo9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionspellinfo} [[@{classactionspellinfo1} @{classactionspellinfo2} @{classactionspellinfo3} @{classactionspellinfo4} @{classactionspellinfo5} @{classactionspellinfo6} @{classactionspellinfo7} @{classactionspellinfo8} @{classactionspellinfo9} @{classactionspellinfo10} @{classactionspellinfo11} @{classactionspellinfo12} @{classactionspellinfo13} @{classactionspellinfo14} @{classactionspellinfo15} @{classactionspellinfo16} @{classactionspellinfo17} @{classactionspellinfo18} @{classactionspellinfo19} @{classactionspellinfo20} {{showclassactions=1}}]]
+@{classactionstealth10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionstealth11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionstealth12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionstealth13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionstealth14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionstealth15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionstealth16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionstealth17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionstealth18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionstealth19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionstealth1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionstealth20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionstealth2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionstealth3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionstealth4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionstealth5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionstealth6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionstealth7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionstealth8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionstealth9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionstealth} [[@{classactionstealth1} @{classactionstealth2} @{classactionstealth3} @{classactionstealth4} @{classactionstealth5} @{classactionstealth6} @{classactionstealth7} @{classactionstealth8} @{classactionstealth9} @{classactionstealth10} @{classactionstealth11} @{classactionstealth12} @{classactionstealth13} @{classactionstealth14} @{classactionstealth15} @{classactionstealth16} @{classactionstealth17} @{classactionstealth18} @{classactionstealth19} @{classactionstealth20} {{showclassactions=1}}]]
+@{classactionstrengthsave10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionstrengthsave11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionstrengthsave12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionstrengthsave13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionstrengthsave14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionstrengthsave15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionstrengthsave16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionstrengthsave17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionstrengthsave18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionstrengthsave19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionstrengthsave1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionstrengthsave20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionstrengthsave2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionstrengthsave3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionstrengthsave4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionstrengthsave5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionstrengthsave6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionstrengthsave7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionstrengthsave8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionstrengthsave9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionstrengthsave} [[@{classactionstrengthsave1} @{classactionstrengthsave2} @{classactionstrengthsave3} @{classactionstrengthsave4} @{classactionstrengthsave5} @{classactionstrengthsave6} @{classactionstrengthsave7} @{classactionstrengthsave8} @{classactionstrengthsave9} @{classactionstrengthsave10} @{classactionstrengthsave11} @{classactionstrengthsave12} @{classactionstrengthsave13} @{classactionstrengthsave14} @{classactionstrengthsave15} @{classactionstrengthsave16} @{classactionstrengthsave17} @{classactionstrengthsave18} @{classactionstrengthsave19} @{classactionstrengthsave20} {{showclassactions=1}}]]
+@{classactionsurvival10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionsurvival11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionsurvival12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionsurvival13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionsurvival14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionsurvival15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionsurvival16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionsurvival17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionsurvival18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionsurvival19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionsurvival1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionsurvival20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionsurvival2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionsurvival3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionsurvival4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionsurvival5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionsurvival6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionsurvival7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionsurvival8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionsurvival9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionsurvival} [[@{classactionsurvival1} @{classactionsurvival2} @{classactionsurvival3} @{classactionsurvival4} @{classactionsurvival5} @{classactionsurvival6} @{classactionsurvival7} @{classactionsurvival8} @{classactionsurvival9} @{classactionsurvival10} @{classactionsurvival11} @{classactionsurvival12} @{classactionsurvival13} @{classactionsurvival14} @{classactionsurvival15} @{classactionsurvival16} @{classactionsurvival17} @{classactionsurvival18} @{classactionsurvival19} @{classactionsurvival20} {{showclassactions=1}}]]
+@{classactiontab}
+@{classactionunskilledcha10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionunskilledcha11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionunskilledcha12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionunskilledcha13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionunskilledcha14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionunskilledcha15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionunskilledcha16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionunskilledcha17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionunskilledcha18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionunskilledcha19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionunskilledcha1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionunskilledcha20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionunskilledcha2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionunskilledcha3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionunskilledcha4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionunskilledcha5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionunskilledcha6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionunskilledcha7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionunskilledcha8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionunskilledcha9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionunskilledcha} [[@{classactionunskilledcha1} @{classactionunskilledcha2} @{classactionunskilledcha3} @{classactionunskilledcha4} @{classactionunskilledcha5} @{classactionunskilledcha6} @{classactionunskilledcha7} @{classactionunskilledcha8} @{classactionunskilledcha9} @{classactionunskilledcha10} @{classactionunskilledcha11} @{classactionunskilledcha12} @{classactionunskilledcha13} @{classactionunskilledcha14} @{classactionunskilledcha15} @{classactionunskilledcha16} @{classactionunskilledcha17} @{classactionunskilledcha18} @{classactionunskilledcha19} @{classactionunskilledcha20} {{showclassactions=1}}]]
+@{classactionunskilledcon10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionunskilledcon11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionunskilledcon12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionunskilledcon13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionunskilledcon14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionunskilledcon15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionunskilledcon16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionunskilledcon17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionunskilledcon18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionunskilledcon19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionunskilledcon1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionunskilledcon20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionunskilledcon2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionunskilledcon3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionunskilledcon4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionunskilledcon5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionunskilledcon6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionunskilledcon7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionunskilledcon8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionunskilledcon9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionunskilledcon} [[@{classactionunskilledcon1} @{classactionunskilledcon2} @{classactionunskilledcon3} @{classactionunskilledcon4} @{classactionunskilledcon5} @{classactionunskilledcon6} @{classactionunskilledcon7} @{classactionunskilledcon8} @{classactionunskilledcon9} @{classactionunskilledcon10} @{classactionunskilledcon11} @{classactionunskilledcon12} @{classactionunskilledcon13} @{classactionunskilledcon14} @{classactionunskilledcon15} @{classactionunskilledcon16} @{classactionunskilledcon17} @{classactionunskilledcon18} @{classactionunskilledcon19} @{classactionunskilledcon20} {{showclassactions=1}}]]
+@{classactionunskilleddex10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionunskilleddex11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionunskilleddex12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionunskilleddex13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionunskilleddex14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionunskilleddex15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionunskilleddex16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionunskilleddex17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionunskilleddex18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionunskilleddex19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionunskilleddex1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionunskilleddex20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionunskilleddex2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionunskilleddex3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionunskilleddex4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionunskilleddex5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionunskilleddex6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionunskilleddex7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionunskilleddex8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionunskilleddex9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionunskilleddex} [[@{classactionunskilleddex1} @{classactionunskilleddex2} @{classactionunskilleddex3} @{classactionunskilleddex4} @{classactionunskilleddex5} @{classactionunskilleddex6} @{classactionunskilleddex7} @{classactionunskilleddex8} @{classactionunskilleddex9} @{classactionunskilleddex10} @{classactionunskilleddex11} @{classactionunskilleddex12} @{classactionunskilleddex13} @{classactionunskilleddex14} @{classactionunskilleddex15} @{classactionunskilleddex16} @{classactionunskilleddex17} @{classactionunskilleddex18} @{classactionunskilleddex19} @{classactionunskilleddex20} {{showclassactions=1}}]]
+@{classactionunskilledint10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionunskilledint11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionunskilledint12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionunskilledint13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionunskilledint14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionunskilledint15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionunskilledint16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionunskilledint17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionunskilledint18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionunskilledint19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionunskilledint1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionunskilledint20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionunskilledint2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionunskilledint3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionunskilledint4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionunskilledint5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionunskilledint6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionunskilledint7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionunskilledint8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionunskilledint9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionunskilledint} [[@{classactionunskilledint1} @{classactionunskilledint2} @{classactionunskilledint3} @{classactionunskilledint4} @{classactionunskilledint5} @{classactionunskilledint6} @{classactionunskilledint7} @{classactionunskilledint8} @{classactionunskilledint9} @{classactionunskilledint10} @{classactionunskilledint11} @{classactionunskilledint12} @{classactionunskilledint13} @{classactionunskilledint14} @{classactionunskilledint15} @{classactionunskilledint16} @{classactionunskilledint17} @{classactionunskilledint18} @{classactionunskilledint19} @{classactionunskilledint20} {{showclassactions=1}}]]
+@{classactionunskilledstr10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionunskilledstr11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionunskilledstr12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionunskilledstr13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionunskilledstr14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionunskilledstr15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionunskilledstr16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionunskilledstr17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionunskilledstr18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionunskilledstr19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionunskilledstr1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionunskilledstr20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionunskilledstr2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionunskilledstr3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionunskilledstr4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionunskilledstr5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionunskilledstr6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionunskilledstr7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionunskilledstr8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionunskilledstr9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionunskilledstr} [[@{classactionunskilledstr1} @{classactionunskilledstr2} @{classactionunskilledstr3} @{classactionunskilledstr4} @{classactionunskilledstr5} @{classactionunskilledstr6} @{classactionunskilledstr7} @{classactionunskilledstr8} @{classactionunskilledstr9} @{classactionunskilledstr10} @{classactionunskilledstr11} @{classactionunskilledstr12} @{classactionunskilledstr13} @{classactionunskilledstr14} @{classactionunskilledstr15} @{classactionunskilledstr16} @{classactionunskilledstr17} @{classactionunskilledstr18} @{classactionunskilledstr19} @{classactionunskilledstr20} {{showclassactions=1}}]]
+@{classactionunskilledwis10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionunskilledwis11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionunskilledwis12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionunskilledwis13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionunskilledwis14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionunskilledwis15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionunskilledwis16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionunskilledwis17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionunskilledwis18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionunskilledwis19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionunskilledwis1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionunskilledwis20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionunskilledwis2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionunskilledwis3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionunskilledwis4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionunskilledwis5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionunskilledwis6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionunskilledwis7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionunskilledwis8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionunskilledwis9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionunskilledwis} [[@{classactionunskilledwis1} @{classactionunskilledwis2} @{classactionunskilledwis3} @{classactionunskilledwis4} @{classactionunskilledwis5} @{classactionunskilledwis6} @{classactionunskilledwis7} @{classactionunskilledwis8} @{classactionunskilledwis9} @{classactionunskilledwis10} @{classactionunskilledwis11} @{classactionunskilledwis12} @{classactionunskilledwis13} @{classactionunskilledwis14} @{classactionunskilledwis15} @{classactionunskilledwis16} @{classactionunskilledwis17} @{classactionunskilledwis18} @{classactionunskilledwis19} @{classactionunskilledwis20} {{showclassactions=1}}]]
+@{classactionwisdomsave10} [[{{@{classactionname10}=@{classactionoutput10}}}]]
+@{classactionwisdomsave11} [[{{@{classactionname11}=@{classactionoutput11}}}]]
+@{classactionwisdomsave12} [[{{@{classactionname12}=@{classactionoutput12}}}]]
+@{classactionwisdomsave13} [[{{@{classactionname13}=@{classactionoutput13}}}]]
+@{classactionwisdomsave14} [[{{@{classactionname14}=@{classactionoutput14}}}]]
+@{classactionwisdomsave15} [[{{@{classactionname15}=@{classactionoutput15}}}]]
+@{classactionwisdomsave16} [[{{@{classactionname16}=@{classactionoutput16}}}]]
+@{classactionwisdomsave17} [[{{@{classactionname17}=@{classactionoutput17}}}]]
+@{classactionwisdomsave18} [[{{@{classactionname18}=@{classactionoutput18}}}]]
+@{classactionwisdomsave19} [[{{@{classactionname19}=@{classactionoutput19}}}]]
+@{classactionwisdomsave1} [[{{@{classactionname1}=@{classactionoutput1}}}]]
+@{classactionwisdomsave20} [[{{@{classactionname20}=@{classactionoutput20}}}]]
+@{classactionwisdomsave2} [[{{@{classactionname2}=@{classactionoutput2}}}]]
+@{classactionwisdomsave3} [[{{@{classactionname3}=@{classactionoutput3}}}]]
+@{classactionwisdomsave4} [[{{@{classactionname4}=@{classactionoutput4}}}]]
+@{classactionwisdomsave5} [[{{@{classactionname5}=@{classactionoutput5}}}]]
+@{classactionwisdomsave6} [[{{@{classactionname6}=@{classactionoutput6}}}]]
+@{classactionwisdomsave7} [[{{@{classactionname7}=@{classactionoutput7}}}]]
+@{classactionwisdomsave8} [[{{@{classactionname8}=@{classactionoutput8}}}]]
+@{classactionwisdomsave9} [[{{@{classactionname9}=@{classactionoutput9}}}]]
+@{classactionwisdomsave} [[@{classactionwisdomsave1} @{classactionwisdomsave2} @{classactionwisdomsave3} @{classactionwisdomsave4} @{classactionwisdomsave5} @{classactionwisdomsave6} @{classactionwisdomsave7} @{classactionwisdomsave8} @{classactionwisdomsave9} @{classactionwisdomsave10} @{classactionwisdomsave11} @{classactionwisdomsave12} @{classactionwisdomsave13} @{classactionwisdomsave14} @{classactionwisdomsave15} @{classactionwisdomsave16} @{classactionwisdomsave17} @{classactionwisdomsave18} @{classactionwisdomsave19} @{classactionwisdomsave20} {{showclassactions=1}}]]
+@{ClassResourceName}
+@{ClassResourceRecharge}
+@{ClassResourceTotal_max}
+@{ClassResourceTotal}
+@{class}
+@{cleric_level}
+@{cleric_spell_bonus} [[(@{wisdom_mod}+@{PB})]]
+@{cleric_spell_dc} [[(@{base_spell_dc}+@{cleric_spell_bonus})]]
+@{coin_weight} [[((@{CP} + @{SP} + @{EP} + @{GP} + @{PP}) / 50)]]
+@{constitution_mod} [[(floor((@{constitution}-10)/2))]]
+@{constitution_save_mod} [[@{constitution_mod} + @{constitution_save_prof}]]
+@{constitution_save_prof} [[@{PB}]]
+@{constitution}
+@{cp}
+@{custom_skill_1_bonus}
+@{custom_skill_1_mod}
+@{custom_skill_1_name}
+@{custom_skill_1_prof_exp}
+@{custom_skill_1} [[@{custom_skill_1_prof_exp}+@{custom_skill_1_mod}+@{custom_skill_1_bonus}]]
+@{custom_skill_2_bonus}
+@{custom_skill_2_mod}
+@{custom_skill_2_name}
+@{custom_skill_2_prof_exp}
+@{custom_skill_2} [[@{custom_skill_2_prof_exp}+@{custom_skill_2_mod}+@{custom_skill_2_bonus}]]
+@{custom_skill_3_bonus}
+@{custom_skill_3_mod}
+@{custom_skill_3_name}
+@{custom_skill_3_prof_exp}
+@{custom_skill_3} [[@{custom_skill_3_prof_exp}+@{custom_skill_3_mod}+@{custom_skill_3_bonus}]]
+@{custom_skill_4_bonus}
+@{custom_skill_4_mod}
+@{custom_skill_4_name}
+@{custom_skill_4_prof_exp}
+@{custom_skill_4} [[@{custom_skill_4_prof_exp}+@{custom_skill_4_mod}+@{custom_skill_4_bonus}]]
+@{customsavedc}
+@{damagemiscbonus}
+@{damagestatbonus}
+@{damagetype}
+@{damage}
+@{death_save_fail_1}
+@{death_save_fail_2}
+@{death_save_fail_3}
+@{death_save_success_1}
+@{death_save_success_2}
+@{death_save_success_3}
+@{deception_bonus}
+@{deception_prof_exp}
+@{deception} [[@{deception_prof_exp}+@{charisma_mod}+@{deception_bonus}]]
+@{dexterity_mod} [[(floor((@{dexterity}-10)/2))]]
+@{dexterity_save_mod} [[@{dexterity_mod} + @{dexterity_save_prof}]]
+@{dexterity_save_prof} [[@{PB}]]
+@{dexterity}
+@{druid_level}
+@{druid_spell_bonus} [[(@{wisdom_mod}+@{PB})]]
+@{druid_spell_dc} [[(@{base_spell_dc}+@{druid_spell_bonus})]]
+@{eldritch_knight_spell_bonus} [[(@{intelligence_mod}+@{PB})]]
+@{eldritch_knight_spell_dc} [[(@{base_spell_dc}+@{eldritch_knight_spell_bonus})]]
+@{encumbered} [[5*@{strength}]]
+@{ep}
+@{eyes}
+@{fighter_level}
+@{finesse_dex_weight} [[(ceil((@{dexterity_mod}/1e10) - (@{strength_mod}/1e10)))]]
+@{finesse_mod} [[(((ceil((@{strength_mod}/1e10) - (@{dexterity_mod}/1e10))) * @{strength_mod}) + ((ceil((@{dexterity_mod}/1e10) - (@{strength_mod}/1e10))) * @{dexterity_mod}) + ((1 - (ceil((@{strength_mod}/1e10) - (@{dexterity_mod}/1e10))) - (ceil((@{dexterity_mod}/1e10) - (@{strength_mod}/1e10)))) * (@{strength_mod})))]]
+@{finesse_mod} [[((@{finesse_str_weight} * @{strength_mod}) + (@{finesse_dex_weight} * @{dexterity_mod}) + ((@{finesse_tie_weight}) * (@{strength_mod})))]]
+@{finesse_str_weight} [[(ceil((@{strength_mod}/1e10) - (@{dexterity_mod}/1e10)))]]
+@{finesse_tie_weight} [[(1 - @{finesse_str_weight} - @{finesse_dex_weight})]]
+@{flaws}
+@{gender}
+@{global_check_bonus}
+@{global_melee_attack_bonus}
+@{global_melee_damage_bonus}
+@{global_ranged_attack_bonus}
+@{global_ranged_damage_bonus}
+@{global_saving_bonus}
+@{global_spell_attack_bonus}
+@{global_spell_damage_bonus}
+@{global_spell_dc_bonus}
+@{gp}
+@{hair}
+@{hd_d10_max} [[@{fighter_level} + @{paladin_level} + @{ranger_level}]]
+@{hd_d10}
+@{hd_d12_max} [[@{barbarian_level}]]
+@{hd_d12}
+@{hd_d6_max} [[@{sorcerer_level} + @{wizard_level}]]
+@{hd_d6}
+@{hd_d8_max} [[@{bard_level} + @{cleric_level} + @{druid_level} + @{rogue_level} + @{monk_level} + @{warlock_level}]]
+@{hd_d8}
+@{healstatbonus}
+@{heavily_encumbered} [[10*@{strength}]]
+@{height}
+@{history_bonus}
+@{history_prof_exp}
+@{history} [[@{history_prof_exp}+@{intelligence_mod}+@{history_bonus}]]
+@{HP_max}
+@{HP}
+@{ideals}
+@{initiative_overall} [[@{dexterity_mod} + @{initiative}]]
+@{initiative}
+@{insight_bonus}
+@{insight_prof_exp}
+@{insight} [[@{insight_prof_exp}+@{wisdom_mod}+@{insight_bonus}]]
+@{inspiration}
+@{intelligence_mod} [[(floor((@{intelligence}-10)/2))]]
+@{intelligence_save_mod} [[@{intelligence_mod} + @{intelligence_save_prof}]]
+@{intelligence_save_prof} [[@{PB}]]
+@{intelligence}
+@{intimidation_bonus}
+@{intimidation_prof_exp}
+@{intimidation} [[@{intimidation_prof_exp}+@{charisma_mod}+@{intimidation_bonus}]]
+@{inventory_weight_calc} [[(@{inventorycarried1} + (((@{inventoryqty1} - 1) * @{inventorycarried1}) * @{weight_unit_setting}) + @{inventorycarried2} + (((@{inventoryqty2} - 1) * @{inventorycarried2}) * @{weight_unit_setting}) + @{inventorycarried3} + (((@{inventoryqty3} - 1) * @{inventorycarried3}) * @{weight_unit_setting}) + @{inventorycarried4} + (((@{inventoryqty4} - 1) * @{inventorycarried4}) * @{weight_unit_setting}) + @{inventorycarried5} + (((@{inventoryqty5} - 1) * @{inventorycarried5}) * @{weight_unit_setting}) + @{inventorycarried6} + (((@{inventoryqty6} - 1) * @{inventorycarried6}) * @{weight_unit_setting}) + @{inventorycarried7} + (((@{inventoryqty7} - 1) * @{inventorycarried7}) * @{weight_unit_setting}) + @{inventorycarried8} + (((@{inventoryqty8} - 1) * @{inventorycarried8}) * @{weight_unit_setting}) + @{inventorycarried9} + (((@{inventoryqty9} - 1) * @{inventorycarried9}) * @{weight_unit_setting}) + @{inventorycarried10} + (((@{inventoryqty10} - 1) * @{inventorycarried10}) * @{weight_unit_setting}) + @{inventorycarried11} + (((@{inventoryqty11} - 1) * @{inventorycarried11}) * @{weight_unit_setting}) + @{inventorycarried12} + (((@{inventoryqty12} - 1) * @{inventorycarried12}) * @{weight_unit_setting}) + @{inventorycarried13} + (((@{inventoryqty13} - 1) * @{inventorycarried13}) * @{weight_unit_setting}) + @{inventorycarried14} + (((@{inventoryqty14} - 1) * @{inventorycarried14}) * @{weight_unit_setting}) + @{inventorycarried15} + (((@{inventoryqty15} - 1) * @{inventorycarried15}) * @{weight_unit_setting}) + @{inventorycarried16} + (((@{inventoryqty16} - 1) * @{inventorycarried16}) * @{weight_unit_setting}) + @{inventorycarried17} + (((@{inventoryqty17} - 1) * @{inventorycarried17}) * @{weight_unit_setting}) + @{inventorycarried18} + (((@{inventoryqty18} - 1) * @{inventorycarried18}) * @{weight_unit_setting}) + @{inventorycarried19} + (((@{inventoryqty19} - 1) * @{inventorycarried19}) * @{weight_unit_setting}) + @{inventorycarried20} + (((@{inventoryqty20} - 1) * @{inventorycarried20}) * @{weight_unit_setting}) + @{inventorycarried21} + (((@{inventoryqty21} - 1) * @{inventorycarried21}) * @{weight_unit_setting}) + @{inventorycarried22} + (((@{inventoryqty22} - 1) * @{inventorycarried22}) * @{weight_unit_setting}) + @{inventorycarried23} + (((@{inventoryqty23} - 1) * @{inventorycarried23}) * @{weight_unit_setting}) + @{inventorycarried24} + (((@{inventoryqty24} - 1) * @{inventorycarried24}) * @{weight_unit_setting}) + @{inventorycarried25} + (((@{inventoryqty25} - 1) * @{inventorycarried25}) * @{weight_unit_setting}) + @{inventorycarried26} + (((@{inventoryqty26} - 1) * @{inventorycarried26}) * @{weight_unit_setting}) + @{inventorycarried27} + (((@{inventoryqty27} - 1) * @{inventorycarried27}) * @{weight_unit_setting}) + @{inventorycarried28} + (((@{inventoryqty28} - 1) * @{inventorycarried28}) * @{weight_unit_setting}) + @{inventorycarried29} + (((@{inventoryqty29} - 1) * @{inventorycarried29}) * @{weight_unit_setting}) + @{inventorycarried30} + (((@{inventoryqty30} - 1) * @{inventorycarried30}) * @{weight_unit_setting}) + @{inventorycarried31} + (((@{inventoryqty31} - 1) * @{inventorycarried31}) * @{weight_unit_setting}) + @{inventorycarried32} + (((@{inventoryqty32} - 1) * @{inventorycarried32}) * @{weight_unit_setting}) + @{inventorycarried33} + (((@{inventoryqty33} - 1) * @{inventorycarried33}) * @{weight_unit_setting}) + @{inventorycarried34} + (((@{inventoryqty34} - 1) * @{inventorycarried34}) * @{weight_unit_setting}) + @{inventorycarried35} + (((@{inventoryqty35} - 1) * @{inventorycarried35}) * @{weight_unit_setting}) + @{inventorycarried36} + (((@{inventoryqty36} - 1) * @{inventorycarried36}) * @{weight_unit_setting}) + @{inventorycarried37} + (((@{inventoryqty37} - 1) * @{inventorycarried37}) * @{weight_unit_setting}) + @{inventorycarried38} + (((@{inventoryqty38} - 1) * @{inventorycarried38}) * @{weight_unit_setting}) + @{inventorycarried39} + (((@{inventoryqty39} - 1) * @{inventorycarried39}) * @{weight_unit_setting}) + @{inventorycarried40} + (((@{inventoryqty40} - 1) * @{inventorycarried40}) * @{weight_unit_setting}))]]
+@{inventory_weight} [[@{inventory_weight_calc}]]
+@{inventorycarried10} [[@{inventoryweight10}]]
+@{inventorycarried11} [[@{inventoryweight11}]]
+@{inventorycarried12} [[@{inventoryweight12}]]
+@{inventorycarried13} [[@{inventoryweight13}]]
+@{inventorycarried14} [[@{inventoryweight14}]]
+@{inventorycarried15} [[@{inventoryweight15}]]
+@{inventorycarried16} [[@{inventoryweight16}]]
+@{inventorycarried17} [[@{inventoryweight17}]]
+@{inventorycarried18} [[@{inventoryweight18}]]
+@{inventorycarried19} [[@{inventoryweight19}]]
+@{inventorycarried1} [[@{inventoryweight1}]]
+@{inventorycarried20} [[@{inventoryweight20}]]
+@{inventorycarried21} [[@{inventoryweight21}]]
+@{inventorycarried22} [[@{inventoryweight22}]]
+@{inventorycarried23} [[@{inventoryweight23}]]
+@{inventorycarried24} [[@{inventoryweight24}]]
+@{inventorycarried25} [[@{inventoryweight25}]]
+@{inventorycarried26} [[@{inventoryweight26}]]
+@{inventorycarried27} [[@{inventoryweight27}]]
+@{inventorycarried28} [[@{inventoryweight28}]]
+@{inventorycarried29} [[@{inventoryweight29}]]
+@{inventorycarried2} [[@{inventoryweight2}]]
+@{inventorycarried30} [[@{inventoryweight30}]]
+@{inventorycarried31} [[@{inventoryweight31}]]
+@{inventorycarried32} [[@{inventoryweight32}]]
+@{inventorycarried33} [[@{inventoryweight33}]]
+@{inventorycarried34} [[@{inventoryweight34}]]
+@{inventorycarried35} [[@{inventoryweight35}]]
+@{inventorycarried36} [[@{inventoryweight36}]]
+@{inventorycarried37} [[@{inventoryweight37}]]
+@{inventorycarried38} [[@{inventoryweight38}]]
+@{inventorycarried39} [[@{inventoryweight39}]]
+@{inventorycarried3} [[@{inventoryweight3}]]
+@{inventorycarried40} [[@{inventoryweight40}]]
+@{inventorycarried4} [[@{inventoryweight4}]]
+@{inventorycarried5} [[@{inventoryweight5}]]
+@{inventorycarried6} [[@{inventoryweight6}]]
+@{inventorycarried7} [[@{inventoryweight7}]]
+@{inventorycarried8} [[@{inventoryweight8}]]
+@{inventorycarried9} [[@{inventoryweight9}]]
+@{inventorydescription10}
+@{inventorydescription11}
+@{inventorydescription12}
+@{inventorydescription13}
+@{inventorydescription14}
+@{inventorydescription15}
+@{inventorydescription16}
+@{inventorydescription17}
+@{inventorydescription18}
+@{inventorydescription19}
+@{inventorydescription1}
+@{inventorydescription20}
+@{inventorydescription21}
+@{inventorydescription22}
+@{inventorydescription23}
+@{inventorydescription24}
+@{inventorydescription25}
+@{inventorydescription26}
+@{inventorydescription27}
+@{inventorydescription28}
+@{inventorydescription29}
+@{inventorydescription2}
+@{inventorydescription30}
+@{inventorydescription31}
+@{inventorydescription32}
+@{inventorydescription33}
+@{inventorydescription34}
+@{inventorydescription35}
+@{inventorydescription36}
+@{inventorydescription37}
+@{inventorydescription38}
+@{inventorydescription39}
+@{inventorydescription3}
+@{inventorydescription40}
+@{inventorydescription4}
+@{inventorydescription5}
+@{inventorydescription6}
+@{inventorydescription7}
+@{inventorydescription8}
+@{inventorydescription9}
+@{inventoryname10}
+@{inventoryname11}
+@{inventoryname12}
+@{inventoryname13}
+@{inventoryname14}
+@{inventoryname15}
+@{inventoryname16}
+@{inventoryname17}
+@{inventoryname18}
+@{inventoryname19}
+@{inventoryname1}
+@{inventoryname20}
+@{inventoryname21}
+@{inventoryname22}
+@{inventoryname23}
+@{inventoryname24}
+@{inventoryname25}
+@{inventoryname26}
+@{inventoryname27}
+@{inventoryname28}
+@{inventoryname29}
+@{inventoryname2}
+@{inventoryname30}
+@{inventoryname31}
+@{inventoryname32}
+@{inventoryname33}
+@{inventoryname34}
+@{inventoryname35}
+@{inventoryname36}
+@{inventoryname37}
+@{inventoryname38}
+@{inventoryname39}
+@{inventoryname3}
+@{inventoryname40}
+@{inventoryname4}
+@{inventoryname5}
+@{inventoryname6}
+@{inventoryname7}
+@{inventoryname8}
+@{inventoryname9}
+@{inventoryqty10}
+@{inventoryqty11}
+@{inventoryqty12}
+@{inventoryqty13}
+@{inventoryqty14}
+@{inventoryqty15}
+@{inventoryqty16}
+@{inventoryqty17}
+@{inventoryqty18}
+@{inventoryqty19}
+@{inventoryqty1}
+@{inventoryqty20}
+@{inventoryqty21}
+@{inventoryqty22}
+@{inventoryqty23}
+@{inventoryqty24}
+@{inventoryqty25}
+@{inventoryqty26}
+@{inventoryqty27}
+@{inventoryqty28}
+@{inventoryqty29}
+@{inventoryqty2}
+@{inventoryqty30}
+@{inventoryqty31}
+@{inventoryqty32}
+@{inventoryqty33}
+@{inventoryqty34}
+@{inventoryqty35}
+@{inventoryqty36}
+@{inventoryqty37}
+@{inventoryqty38}
+@{inventoryqty39}
+@{inventoryqty3}
+@{inventoryqty40}
+@{inventoryqty4}
+@{inventoryqty5}
+@{inventoryqty6}
+@{inventoryqty7}
+@{inventoryqty8}
+@{inventoryqty9}
+@{inventorytab}
+@{inventoryweight10}
+@{inventoryweight11}
+@{inventoryweight12}
+@{inventoryweight13}
+@{inventoryweight14}
+@{inventoryweight15}
+@{inventoryweight16}
+@{inventoryweight17}
+@{inventoryweight18}
+@{inventoryweight19}
+@{inventoryweight1}
+@{inventoryweight20}
+@{inventoryweight21}
+@{inventoryweight22}
+@{inventoryweight23}
+@{inventoryweight24}
+@{inventoryweight25}
+@{inventoryweight26}
+@{inventoryweight27}
+@{inventoryweight28}
+@{inventoryweight29}
+@{inventoryweight2}
+@{inventoryweight30}
+@{inventoryweight31}
+@{inventoryweight32}
+@{inventoryweight33}
+@{inventoryweight34}
+@{inventoryweight35}
+@{inventoryweight36}
+@{inventoryweight37}
+@{inventoryweight38}
+@{inventoryweight39}
+@{inventoryweight3}
+@{inventoryweight40}
+@{inventoryweight4}
+@{inventoryweight5}
+@{inventoryweight6}
+@{inventoryweight7}
+@{inventoryweight8}
+@{inventoryweight9}
+@{investigation_bonus}
+@{investigation_prof_exp}
+@{investigation} [[@{investigation_prof_exp}+@{intelligence_mod}+@{investigation_bonus}]]
+@{is_npc} is-npc
+@{level} [[@{barbarian_level} + @{bard_level} + @{cleric_level} + @{druid_level} + @{fighter_level} + @{monk_level} + @{paladin_level} + @{ranger_level} + @{rogue_level} + @{sorcerer_level} + @{warlock_level} + @{wizard_level}]]
+@{max_push_drag_lift}
+@{medicine_bonus}
+@{medicine_prof_exp}
+@{medicine} [[@{medicine_prof_exp}+@{wisdom_mod}+@{medicine_bonus}]]
+@{meleeattackstat1}
+@{meleeattackstat2}
+@{meleeattackstat3}
+@{meleeattackstat4}
+@{meleeattackstat5}
+@{meleeattackstat6}
+@{meleeattackstatdmg1}
+@{meleeattackstatdmg2}
+@{meleeattackstatdmg3}
+@{meleeattackstatdmg4}
+@{meleeattackstatdmg5}
+@{meleeattackstatdmg6}
+@{meleecritdmg1}
+@{meleecritdmg2}
+@{meleecritdmg3}
+@{meleecritdmg4}
+@{meleecritdmg5}
+@{meleecritdmg6}
+@{meleedmg1}
+@{meleedmg2}
+@{meleedmg3}
+@{meleedmg4}
+@{meleedmg5}
+@{meleedmg6}
+@{meleedmgbonus1} [[(@{meleeattackstat1} * @{meleeattackstatdmg1}) + @{meleemagic1}]]
+@{meleedmgbonus2} [[(@{meleeattackstat2} * @{meleeattackstatdmg2}) + @{meleemagic2}]]
+@{meleedmgbonus3} [[(@{meleeattackstat3} * @{meleeattackstatdmg3}) + @{meleemagic3}]]
+@{meleedmgbonus4} [[(@{meleeattackstat4} * @{meleeattackstatdmg4}) + @{meleemagic4}]]
+@{meleedmgbonus5} [[(@{meleeattackstat5} * @{meleeattackstatdmg5}) + @{meleemagic5}]]
+@{meleedmgbonus6} [[(@{meleeattackstat6} * @{meleeattackstatdmg6}) + @{meleemagic6}]]
+@{meleedmgtype1}
+@{meleedmgtype2}
+@{meleedmgtype3}
+@{meleedmgtype4}
+@{meleedmgtype5}
+@{meleedmgtype6}
+@{meleemagic1}
+@{meleemagic2}
+@{meleemagic3}
+@{meleemagic4}
+@{meleemagic5}
+@{meleemagic6}
+@{meleetohit1} [[@{meleeattackstat1} + @{pbmelee1} + @{meleemagic1}]]
+@{meleetohit2} [[@{meleeattackstat2} + @{pbmelee2} + @{meleemagic2}]]
+@{meleetohit3} [[@{meleeattackstat3} + @{pbmelee3} + @{meleemagic3}]]
+@{meleetohit4} [[@{meleeattackstat4} + @{pbmelee4} + @{meleemagic4}]]
+@{meleetohit5} [[@{meleeattackstat5} + @{pbmelee5} + @{meleemagic5}]]
+@{meleetohit6} [[@{meleeattackstat6} + @{pbmelee6} + @{meleemagic6}]]
+@{meleeweaponcritrange1}
+@{meleeweaponcritrange2}
+@{meleeweaponcritrange3}
+@{meleeweaponcritrange4}
+@{meleeweaponcritrange5}
+@{meleeweaponcritrange6}
+@{meleeweaponname1}
+@{meleeweaponname2}
+@{meleeweaponname3}
+@{meleeweaponname4}
+@{meleeweaponname5}
+@{meleeweaponname6}
+@{misc_notes}
+@{money_total_gp} [[(@{cp} / 100) + (@{sp} / 10) + (@{ep} / 2) + @{gp} + (@{pp} * 10)]]
+@{monk_level}
+@{nature_bonus}
+@{nature_prof_exp}
+@{nature} [[@{nature_prof_exp}+@{intelligence_mod}+@{nature_bonus}]]
+@{notes}
+@{npc_AC_note}
+@{npc_acrobatics_bonus}
+@{npc_acrobatics} [[@{npc_dexterity_mod}+@{npc_acrobatics_bonus}]]
+@{npc_action_description10}
+@{npc_action_description11}
+@{npc_action_description12}
+@{npc_action_description13}
+@{npc_action_description14}
+@{npc_action_description15}
+@{npc_action_description16}
+@{npc_action_description17}
+@{npc_action_description18}
+@{npc_action_description19}
+@{npc_action_description1}
+@{npc_action_description20}
+@{npc_action_description2}
+@{npc_action_description3}
+@{npc_action_description4}
+@{npc_action_description5}
+@{npc_action_description6}
+@{npc_action_description7}
+@{npc_action_description8}
+@{npc_action_description9}
+@{npc_action_effect10}
+@{npc_action_effect11}
+@{npc_action_effect12}
+@{npc_action_effect13}
+@{npc_action_effect14}
+@{npc_action_effect15}
+@{npc_action_effect16}
+@{npc_action_effect17}
+@{npc_action_effect18}
+@{npc_action_effect19}
+@{npc_action_effect1}
+@{npc_action_effect20}
+@{npc_action_effect2}
+@{npc_action_effect3}
+@{npc_action_effect4}
+@{npc_action_effect5}
+@{npc_action_effect6}
+@{npc_action_effect7}
+@{npc_action_effect8}
+@{npc_action_effect9}
+@{npc_action_multiattack10} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack11} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack12} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack13} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack14} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack15} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack16} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack17} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack18} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack19} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack1} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack20} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack2} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack3} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack4} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack5} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack6} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack7} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack8} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_multiattack9} [[{{npc_showmultiattack=1}} {{npc_multiattack=@{npc_multiattack}}}]] \
+@{npc_action_name10}
+@{npc_action_name11}
+@{npc_action_name12}
+@{npc_action_name13}
+@{npc_action_name14}
+@{npc_action_name15}
+@{npc_action_name16}
+@{npc_action_name17}
+@{npc_action_name18}
+@{npc_action_name19}
+@{npc_action_name1}
+@{npc_action_name20}
+@{npc_action_name2}
+@{npc_action_name3}
+@{npc_action_name4}
+@{npc_action_name5}
+@{npc_action_name6}
+@{npc_action_name7}
+@{npc_action_name8}
+@{npc_action_name9}
+@{npc_action_type10}
+@{npc_action_type11}
+@{npc_action_type12}
+@{npc_action_type13}
+@{npc_action_type14}
+@{npc_action_type15}
+@{npc_action_type16}
+@{npc_action_type17}
+@{npc_action_type18}
+@{npc_action_type19}
+@{npc_action_type1}
+@{npc_action_type20}
+@{npc_action_type2}
+@{npc_action_type3}
+@{npc_action_type4}
+@{npc_action_type5}
+@{npc_action_type6}
+@{npc_action_type7}
+@{npc_action_type8}
+@{npc_action_type9}
+@{npc_AC}
+@{npc_alignment}
+@{npc_animalhandling_bonus}
+@{npc_animalhandling} [[@{npc_wisdom_mod}+@{npc_animalhandling_bonus}]]
+@{npc_arcana_bonus}
+@{npc_arcana} [[@{npc_intelligence_mod}+@{npc_arcana_bonus}]]
+@{npc_athletics_bonus}
+@{npc_athletics} [[@{npc_strength_mod}+@{npc_athletics_bonus}]]
+@{npc_basic_charisma_bonus}
+@{npc_basic_charisma_check_mod} [[@{npc_charisma_mod} + @{npc_basic_charisma_bonus}]]
+@{npc_basic_constitution_bonus}
+@{npc_basic_constitution_check_mod} [[@{npc_constitution_mod} + @{npc_basic_constitution_bonus}]]
+@{npc_basic_dexterity_bonus}
+@{npc_basic_dexterity_check_mod} [[@{npc_dexterity_mod} + @{npc_basic_dexterity_bonus}]]
+@{npc_basic_intelligence_bonus}
+@{npc_basic_intelligence_check_mod} [[@{npc_intelligence_mod} + @{npc_basic_intelligence_bonus}]]
+@{npc_basic_strength_bonus}
+@{npc_basic_strength_check_mod} [[@{npc_strength_mod} + @{npc_basic_strength_bonus}]]
+@{npc_basic_wisdom_bonus}
+@{npc_basic_wisdom_check_mod} [[@{npc_wisdom_mod} + @{npc_basic_wisdom_bonus}]]
+@{npc_challenge}
+@{npc_charisma_mod} [[(floor((@{npc_charisma}-10)/2))]]
+@{npc_charisma_save_bonus}
+@{npc_charisma_save_mod} [[@{npc_charisma_mod} + @{npc_charisma_save_bonus}]]
+@{npc_charisma}
+@{npc_condition_immunity}
+@{npc_constitution_mod} [[(floor((@{npc_constitution}-10)/2))]]
+@{npc_constitution_save_bonus}
+@{npc_constitution_save_mod} [[@{npc_constitution_mod} + @{npc_constitution_save_bonus}]]
+@{npc_constitution}
+@{npc_damage_immunity}
+@{npc_damage_resistance}
+@{npc_damage_vulnerability}
+@{npc_deception_bonus}
+@{npc_deception} [[@{npc_charisma_mod}+@{npc_deception_bonus}]]
+@{npc_dexterity_mod} [[(floor((@{npc_dexterity}-10)/2))]]
+@{npc_dexterity_save_bonus}
+@{npc_dexterity_save_mod} [[@{npc_dexterity_mod} + @{npc_dexterity_save_bonus}]]
+@{npc_dexterity}
+@{npc_history_bonus}
+@{npc_history} [[@{npc_intelligence_mod}+@{npc_history_bonus}]]
+@{npc_HP_hit_dice}
+@{npc_HP_max}
+@{npc_HP}
+@{npc_initiative_overall} [[@{npc_dexterity_mod} + @{npc_initiative}]]
+@{npc_initiative}
+@{npc_insight_bonus}
+@{npc_insight} [[@{npc_wisdom_mod}+@{npc_insight_bonus}]]
+@{npc_intelligence_mod} [[(floor((@{npc_intelligence}-10)/2))]]
+@{npc_intelligence_save_bonus}
+@{npc_intelligence_save_mod} [[@{npc_intelligence_mod} + @{npc_intelligence_save_bonus}]]
+@{npc_intelligence}
+@{npc_intimidation_bonus}
+@{npc_intimidation} [[@{npc_charisma_mod}+@{npc_intimidation_bonus}]]
+@{npc_investigation_bonus}
+@{npc_investigation} [[@{npc_intelligence_mod}+@{npc_investigation_bonus}]]
+@{npc_languages}
+@{npc_medicine_bonus}
+@{npc_medicine} [[@{npc_wisdom_mod}+@{npc_medicine_bonus}]]
+@{npc_multiattack}
+@{npc_nature_bonus}
+@{npc_nature} [[@{npc_intelligence_mod}+@{npc_nature_bonus}]]
+@{npc_output_option}
+@{npc_passive_acrobatics} [[10 + @{npc_acrobatics}]]
+@{npc_passive_animalhandling} [[10 + @{npc_animalhandling}]]
+@{npc_passive_arcana} [[10 + @{npc_arcana}]]
+@{npc_passive_athletics} [[10 + @{npc_athletics}]]
+@{npc_passive_deception} [[10 + @{npc_deception}]]
+@{npc_passive_history} [[10 + @{npc_history}]]
+@{npc_passive_insight} [[10 + @{npc_insight}]]
+@{npc_passive_intimidation} [[10 + @{npc_intimidation}]]
+@{npc_passive_investigation} [[10 + @{npc_investigation}]]
+@{npc_passive_medicine} [[10 + @{npc_medicine}]]
+@{npc_passive_nature} [[10 + @{npc_nature}]]
+@{npc_passive_perception} [[10 + @{npc_perception}]]
+@{npc_passive_performance} [[10 + @{npc_performance}]]
+@{npc_passive_persuasion} [[10 + @{npc_persuasion}]]
+@{npc_passive_religion} [[10 + @{npc_religion}]]
+@{npc_passive_sleightofhand} [[10 + @{npc_sleightofhand}]]
+@{npc_passive_stealth} [[10 + @{npc_stealth}]]
+@{npc_passive_survival} [[10 + @{npc_survival}]]
+@{npc_perception_bonus}
+@{npc_perception} [[@{npc_wisdom_mod}+@{npc_perception_bonus}]]
+@{npc_performance_bonus}
+@{npc_performance} [[@{npc_charisma_mod}+@{npc_performance_bonus}]]
+@{npc_persuasion_bonus}
+@{npc_persuasion} [[@{npc_charisma_mod}+@{npc_persuasion_bonus}]]
+@{npc_religion_bonus}
+@{npc_religion} [[@{npc_intelligence_mod}+@{npc_religion_bonus}]]
+@{npc_senses}
+@{npc_size}
+@{npc_sleightofhand_bonus}
+@{npc_sleightofhand} [[@{npc_dexterity_mod}+@{npc_sleightofhand_bonus}]]
+@{npc_speed_climb}
+@{npc_speed_fly}
+@{npc_speed_swim}
+@{npc_speed}
+@{npc_stealth_bonus}
+@{npc_stealth} [[@{npc_dexterity_mod}+@{npc_stealth_bonus}]]
+@{npc_strength_mod} [[(floor((@{npc_strength}-10)/2))]]
+@{npc_strength_save_bonus}
+@{npc_strength_save_mod} [[@{npc_strength_mod} + @{npc_strength_save_bonus}]]
+@{npc_strength}
+@{npc_survival_bonus}
+@{npc_survival} [[@{npc_wisdom_mod}+@{npc_survival_bonus}]]
+@{npc_temp_HP}
+@{npc_traits}>None</textarea
+@{npc_type}
+@{npc_wisdom_mod} [[(floor((@{npc_wisdom}-10)/2))]]
+@{npc_wisdom_save_bonus}
+@{npc_wisdom_save_mod} [[@{npc_wisdom_mod} + @{npc_wisdom_save_bonus}]]
+@{npc_wisdom}
+@{npc_xp}
+@{other_weight}
+@{paladin_level}
+@{paladin_spell_bonus} [[(@{charisma_mod}+@{PB})]]
+@{paladin_spell_dc} [[(@{base_spell_dc}+@{paladin_spell_bonus})]]
+@{passive_acrobatics} [[10 + @{acrobatics}]]
+@{passive_animalhandling} [[10 + @{animalhandling}]]
+@{passive_arcana} [[10 + @{arcana}]]
+@{passive_athletics} [[10 + @{athletics}]]
+@{passive_deception} [[10 + @{deception}]]
+@{passive_history} [[10 + @{history}]]
+@{passive_insight} [[10 + @{insight}]]
+@{passive_intimidation} [[10 + @{intimidation}]]
+@{passive_investigation} [[10 + @{investigation}]]
+@{passive_medicine} [[10 + @{medicine}]]
+@{passive_nature} [[10 + @{nature}]]
+@{passive_perception} [[10 + @{perception}]]
+@{passive_performance} [[10 + @{performance}]]
+@{passive_persuasion} [[10 + @{persuasion}]]
+@{passive_religion} [[10 + @{religion}]]
+@{passive_sleightofhand} [[10 + @{sleightofhand}]]
+@{passive_stealth} [[10 + @{stealth}]]
+@{passive_survival} [[10 + @{survival}]]
+@{pbmelee1} [[@{PB}]]
+@{pbmelee2} [[@{PB}]]
+@{pbmelee3} [[@{PB}]]
+@{pbmelee4} [[@{PB}]]
+@{pbmelee5} [[@{PB}]]
+@{pbmelee6} [[@{PB}]]
+@{pbranged1} [[@{PB}]]
+@{pbranged2} [[@{PB}]]
+@{pbranged3} [[@{PB}]]
+@{pbranged4} [[@{PB}]]
+@{pbranged5} [[@{PB}]]
+@{pbranged6} [[@{PB}]]
+@{PB} [[(ceil((@{level})/1e10) + ceil((@{level})/4))]]
+@{perception_bonus}
+@{perception_prof_exp}
+@{perception} [[@{perception_prof_exp}+@{wisdom_mod}+@{perception_bonus}]]
+@{performance_bonus}
+@{performance_prof_exp}
+@{performance} [[@{performance_prof_exp}+@{charisma_mod}+@{performance_bonus}]]
+@{personality_traits}
+@{persuasion_bonus}
+@{persuasion_prof_exp}
+@{persuasion} [[@{persuasion_prof_exp}+@{charisma_mod}+@{persuasion_bonus}]]
+@{pp}
+@{prepared_spells_max} [[@{spells_prepared_cleric} + @{spells_prepared_druid} + @{spells_prepared_paladin} + @{spells_prepared_wizard}]]
+@{pro_armour}
+@{pro_tools}
+@{pro_weapons}
+@{prolanguages}
+@{race}
+@{racial_traits}
+@{rangedammo1}
+@{rangedammo2}
+@{rangedammo3}
+@{rangedammo4}
+@{rangedammo5}
+@{rangedammo6}
+@{rangedcritdmg1}
+@{rangedcritdmg2}
+@{rangedcritdmg3}
+@{rangedcritdmg4}
+@{rangedcritdmg5}
+@{rangedcritdmg6}
+@{rangeddmg1}
+@{rangeddmg2}
+@{rangeddmg3}
+@{rangeddmg4}
+@{rangeddmg5}
+@{rangeddmg6}
+@{rangeddmgbonus1} [[@{rangedtype1} + @{rangedmagic1}]]
+@{rangeddmgbonus2} [[@{rangedtype2} + @{rangedmagic2}]]
+@{rangeddmgbonus3} [[@{rangedtype3} + @{rangedmagic3}]]
+@{rangeddmgbonus4} [[@{rangedtype4} + @{rangedmagic4}]]
+@{rangeddmgbonus5} [[@{rangedtype5} + @{rangedmagic5}]]
+@{rangeddmgbonus6} [[@{rangedtype6} + @{rangedmagic6}]]
+@{rangeddmgtype1}
+@{rangeddmgtype2}
+@{rangeddmgtype3}
+@{rangeddmgtype4}
+@{rangeddmgtype5}
+@{rangeddmgtype6}
+@{rangedmagic1}
+@{rangedmagic2}
+@{rangedmagic3}
+@{rangedmagic4}
+@{rangedmagic5}
+@{rangedmagic6}
+@{rangedtohit1} [[@{rangedtype1} + @{pbranged1} + @{rangedmagic1}]]
+@{rangedtohit2} [[@{rangedtype2} + @{pbranged2} + @{rangedmagic2}]]
+@{rangedtohit3} [[@{rangedtype3} + @{pbranged3} + @{rangedmagic3}]]
+@{rangedtohit4} [[@{rangedtype4} + @{pbranged4} + @{rangedmagic4}]]
+@{rangedtohit5} [[@{rangedtype5} + @{pbranged5} + @{rangedmagic5}]]
+@{rangedtohit6} [[@{rangedtype6} + @{pbranged6} + @{rangedmagic6}]]
+@{rangedtype1}
+@{rangedtype2}
+@{rangedtype3}
+@{rangedtype4}
+@{rangedtype5}
+@{rangedtype6}
+@{rangedweaponcritrange1}
+@{rangedweaponcritrange2}
+@{rangedweaponcritrange3}
+@{rangedweaponcritrange4}
+@{rangedweaponcritrange5}
+@{rangedweaponcritrange6}
+@{rangedweaponname1}
+@{rangedweaponname2}
+@{rangedweaponname3}
+@{rangedweaponname4}
+@{rangedweaponname5}
+@{rangedweaponname6}
+@{ranger_level}
+@{ranger_spell_bonus} [[(@{wisdom_mod}+@{PB})]]
+@{ranger_spell_dc} [[(@{base_spell_dc}+@{ranger_spell_bonus})]]
+@{religion_bonus}
+@{religion_prof_exp}
+@{religion} [[@{religion_prof_exp}+@{intelligence_mod}+@{religion_bonus}]]
+@{rogue_level}
+@{savestat}
+@{savesuccess}
+@{size}
+@{sleightofhand_bonus}
+@{sleightofhand_prof_exp}
+@{sleightofhand} [[@{sleightofhand_prof_exp}+@{dexterity_mod}+@{sleightofhand_bonus}]]
+@{sorcerer_level}
+@{sorcerer_spell_bonus} [[(@{charisma_mod}+@{PB})]]
+@{sorcerer_spell_dc} [[(@{base_spell_dc}+@{sorcerer_spell_bonus})]]
+@{sorcery_points_max} [[(@{sorcerer_level} * ceil((@{sorcerer_level}-1)/1e10))]]
+@{sorcery_points}
+@{speed}
+@{spell_slots_l1_max}
+@{spell_slots_l1}
+@{spell_slots_l2_max}
+@{spell_slots_l2}
+@{spell_slots_l3_max}
+@{spell_slots_l3}
+@{spell_slots_l4_max}
+@{spell_slots_l4}
+@{spell_slots_l5_max}
+@{spell_slots_l5}
+@{spell_slots_l6_max}
+@{spell_slots_l6}
+@{spell_slots_l7_max}
+@{spell_slots_l7}
+@{spell_slots_l8_max}
+@{spell_slots_l8}
+@{spell_slots_l9_max}
+@{spell_slots_l9}
+@{spellbaselevel}
+@{spellcancrit} [[{{spellcancrit=1}} {{spellcritdamage=Additional [[@{damage}]] damage}}]]
+@{spellcastmacrooptions} [[@{spellshowinfoblock} @{spellshowdesc} @{spellshowhigherlvl} @{spellshowattack} @{spellshowattackadv} @{spellshowsavethrow} @{spellshowhealing} @{spellshowdamage} @{spellshoweffects}]]
+@{spellcasttime}
+@{spellcomponents}
+@{spellconcentration}
+@{spelldescription}
+@{spellduration}
+@{spelleffect}
+@{spellfriendlylevel}
+@{spellgainedfrom}
+@{spellhealamount}
+@{spellhighersloteffect}
+@{spellisprepared}
+@{spellname}
+@{spellpagetab}
+@{spellrange}
+@{spellritual}
+@{spells_known_arcane_trickster} [[((ceil(@{rogue_level}/1e10)*3) + (ceil((@{rogue_level}-3)/1e10)) + (ceil((@{rogue_level}-6)/1e10)) + (ceil((@{rogue_level}-7)/1e10)) + (ceil((@{rogue_level}-9)/1e10)) + (ceil((@{rogue_level}-10)/1e10)) + (ceil((@{rogue_level}-12)/1e10)) + (ceil((@{rogue_level}-13)/1e10)) + (ceil((@{rogue_level}-15)/1e10)) + (ceil((@{rogue_level}-18)/1e10)) + (ceil((@{rogue_level}-19)/1e10)))]]
+@{spells_known_bard} [[((ceil(@{bard_level}/1e10)*4) + (ceil((@{bard_level}-1)/1e10)) + (ceil((@{bard_level}-2)/1e10)) + (ceil((@{bard_level}-3)/1e10)) + (ceil((@{bard_level}-4)/1e10)) + (ceil((@{bard_level}-5)/1e10)) + (ceil((@{bard_level}-6)/1e10)) + (ceil((@{bard_level}-7)/1e10)) + (ceil((@{bard_level}-8)/1e10)) + (ceil((@{bard_level}-9)/1e10)*2) + (ceil((@{bard_level}-10)/1e10)) + (ceil((@{bard_level}-12)/1e10)) + (ceil((@{bard_level}-13)/1e10)*2) + (ceil((@{bard_level}-14)/1e10)) + (ceil((@{bard_level}-16)/1e10)) + (ceil((@{bard_level}-17)/1e10)*2))]]
+@{spells_known_cleric}
+@{spells_known_druid}
+@{spells_known_eldritch_knight} [[((ceil((@{fighter_level}-2)/1e10)*3) + (ceil((@{fighter_level}-3)/1e10)) + (ceil((@{fighter_level}-6)/1e10)) + (ceil((@{fighter_level}-7)/1e10)) + (ceil((@{fighter_level}-9)/1e10)) + (ceil((@{fighter_level}-10)/1e10)) + (ceil((@{fighter_level}-12)/1e10)) + (ceil((@{fighter_level}-13)/1e10)) + (ceil((@{fighter_level}-15)/1e10)) + (ceil((@{fighter_level}-18)/1e10)) + (ceil((@{fighter_level}-19)/1e10)))]]
+@{spells_known_paladin}
+@{spells_known_ranger} [[((1+ceil(@{ranger_level}/2)) * (ceil((@{ranger_level}-1)/1e10)))]]
+@{spells_known_sorcerer} [[((ceil(@{sorcerer_level}/1e10)*2) + (ceil((@{sorcerer_level}-1)/1e10)) + (ceil((@{sorcerer_level}-2)/1e10)) + (ceil((@{sorcerer_level}-3)/1e10)) + (ceil((@{sorcerer_level}-4)/1e10)) + (ceil((@{sorcerer_level}-5)/1e10)) + (ceil((@{sorcerer_level}-6)/1e10)) + (ceil((@{sorcerer_level}-7)/1e10)) + (ceil((@{sorcerer_level}-8)/1e10)) + (ceil((@{sorcerer_level}-9)/1e10)) + (ceil((@{sorcerer_level}-10)/1e10)) + (ceil((@{sorcerer_level}-12)/1e10)) + (ceil((@{sorcerer_level}-14)/1e10)) + (ceil((@{sorcerer_level}-16)/1e10)))]]
+@{spells_known_warlock} [[((ceil(@{warlock_level}/1e10) + @{warlock_level}) - (ceil((@{warlock_level}-9)/1e10)) - (ceil((@{warlock_level}-11)/1e10)) - (ceil((@{warlock_level}-13)/1e10)) - (ceil((@{warlock_level}-15)/1e10)) - (ceil((@{warlock_level}-17)/1e10)) - (ceil((@{warlock_level}-19)/1e10)))]]
+@{spells_known_wizard}
+@{spells_prepared_arcane_trickster}
+@{spells_prepared_bard}
+@{spells_prepared_cleric} [[(((((@{cleric_level} + @{wisdom_mod}) + 1) + abs((@{cleric_level} + @{wisdom_mod}) - 1)) / 2) * (ceil(@{cleric_level}/1e10)))]]
+@{spells_prepared_druid} [[(((((@{druid_level} + @{wisdom_mod}) + 1) + abs((@{druid_level} + @{wisdom_mod}) - 1)) / 2) * (ceil(@{druid_level}/1e10)))]]
+@{spells_prepared_eldritch_knight}
+@{spells_prepared_paladin} [[(((((floor(@{paladin_level}/2) + @{charisma_mod}) + 1) + abs((floor(@{paladin_level}/2) + @{charisma_mod}) - 1)) / 2) * (ceil((@{paladin_level}-1)/1e10)))]]
+@{spells_prepared_ranger}
+@{spells_prepared_sorcerer}
+@{spells_prepared_warlock}
+@{spells_prepared_wizard} [[(((((@{wizard_level} + @{intelligence_mod}) + 1) + abs((@{wizard_level} + @{intelligence_mod}) - 1)) / 2) * (ceil(@{wizard_level}/1e10)))]]
+@{spellsavedc}
+@{spellschool}
+@{spellshowattackadv} [[{{spellshowattackadv=1}} {{spellattackadv=[[1d20 + @{attackstat} + @{PB} + (@{global_spell_attack_bonus})]]}}]]
+@{spellshowattack} [[{{spellshowattack=1}} {{spellattack=[[1d20 + @{attackstat} + @{PB} + (@{global_spell_attack_bonus})]]}}]]
+@{spellshowdamage} [[{{spellshowdamage=1}} {{spelldamage=[[@{damage} + @{damagestatbonus} + @{damagemiscbonus} + (@{global_spell_damage_bonus}) + 0d0]] @{damagetype}}} @{spellcancrit}]]
+@{spellshowdesc} [[{{spellshowdesc=1}} {{spelldescription=@{spelldescription}}}]]
+@{spellshoweffects} [[{{spellshoweffects=1}} {{spelleffect=@{spelleffect}}}]]
+@{spellshowhealing} [[{{spellshowhealing=1}} {{spellhealing=[[@{spellhealamount} + @{healstatbonus}]]}}]]
+@{spellshowhigherlvl} [[{{spellshowhigherlvl=1}} {{spellhigherlevel=@{spellhighersloteffect}}}]]
+@{spellshowinfoblock} [[{{spellshowinfoblock=1}}]]
+@{spellshowsavethrow} [[{{spellshowsavethrow=1}} {{spellsavedc=[[@{spellsavedc} + @{customsavedc}]]}} {{spellsavestat=@{savestat}}} {{spellsavesuccess=@{savesuccess}}}]]
+@{spelltarget}
+@{spelltypdamage}
+@{spelltypeadvanced}
+@{spelltypeattack}
+@{spelltypeeffects}
+@{spelltypeheal}
+@{spelltypesave}
+@{sp}
+@{stealth_bonus}
+@{stealth_prof_exp}
+@{stealth} [[@{stealth_prof_exp}+@{dexterity_mod}+@{stealth_bonus}]]
+@{strength_mod} [[(floor((@{strength}-10)/2))]]
+@{strength_save_mod} [[@{strength_mod} + @{strength_save_prof}]]
+@{strength_save_prof} [[@{PB}]]
+@{strength}
+@{survival_bonus}
+@{survival_prof_exp}
+@{survival} [[@{survival_prof_exp}+@{wisdom_mod}+@{survival_bonus}]]
+@{temp_HP}
+@{total_weight_max}
+@{total_weight} [[@{inventory_weight} + @{coin_weight} + @{other_weight}]]
+@{unarmoured_class_bonus}
+@{vision}
+@{warlock_invocations_known} [[((ceil((@{warlock_level}-1)/1e10)*2) + (ceil((@{warlock_level}-4)/1e10)) + (ceil((@{warlock_level}-6)/1e10)) + (ceil((@{warlock_level}-8)/1e10)) + (ceil((@{warlock_level}-11)/1e10)) + (ceil((@{warlock_level}-14)/1e10)) + (ceil((@{warlock_level}-17)/1e10)))]]
+@{warlock_level}
+@{warlock_spell_bonus} [[(@{charisma_mod}+@{PB})]]
+@{warlock_spell_dc} [[(@{base_spell_dc}+@{warlock_spell_bonus})]]
+@{warlock_spell_slots_level} [[(ceil(@{warlock_level}/1e10) + (ceil((@{warlock_level}-2)/1e10)) + (ceil((@{warlock_level}-4)/1e10)) + (ceil((@{warlock_level}-6)/1e10)) + (ceil((@{warlock_level}-8)/1e10)))]]
+@{warlock_spell_slots_max} [[(ceil(@{warlock_level}/1e10) + (ceil((@{warlock_level}-1)/1e10)) + (ceil((@{warlock_level}-10)/1e10)) + (ceil((@{warlock_level}-16)/1e10)))]]
+@{warlock_spell_slots}
+@{weight_unit_setting}
+@{weight}
+@{wisdom_mod} [[(floor((@{wisdom}-10)/2))]]
+@{wisdom_save_mod} [[@{wisdom_mod} + @{wisdom_save_prof}]]
+@{wisdom_save_prof} [[@{PB}]]
+@{wisdom}
+@{wizard_level}
+@{wizard_spell_bonus} [[(@{intelligence_mod}+@{PB})]]
+@{wizard_spell_dc} [[(@{base_spell_dc}+@{wizard_spell_bonus})]]
+@{xp_next_level}
+@{xp}

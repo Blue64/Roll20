@@ -1,0 +1,10 @@
+# %{selected|pro_tools}
+# Token Action: √
+# Macro Bar: X
+# Sub-Macro: √
+%{MacroPC|Artisan-Prof} {{Alchemist's Supplies=No}} {{Brewer's Supplies=No}} {{Calligrapher's Tools=No}} {{Carpenter's Tools=No}} {{Cartographer's Tools=No}} {{Cobbler's Tools=No}} {{Cook's Utensils=No}} {{Glassblower's Tools=No}} {{Jeweler's Tools=No}} {{Leather-worker's Tools=No}} {{Mason's Tools=No}} {{Painter's Supplies=No}} {{Potter's Tools=No}} {{Smith's Tools=No}} {{Tinker's Tools=No}} {{Weaver's Tools=No}} {{Woodcarver's Tools=No}}
+%{MacroPC|Gaming-Prof} {{Dice Set=No}} {{Dragon Chess Set=No}} {{Playing Card Set=No}} {{Three-Dragon Ante Set=No}}
+%{MacroPC|Kit-Prof} {{Disguise Kit=No}} {{Forgery Kit=No}} {{Herbalism Kit=No}} {{Poisoner's Kit=No}}
+%{MacroPC|Instrument-Prof} {{Bagpipes=No}} {{Drum=No}} {{Dulcimer=No}} {{Flute=No}} {{Horn=No}} {{Lute=No}} {{Lyre=No}} {{Pan Flute=No}} {{Shawm=No}} {{Viol=No}}
+%{MacroPC|Professional-Prof} {{Navigator's Tools=No}} {{Thieves' Tools=No}}
+%{MacroPC|Transportation-Prof} {{Carriage=No}} {{Cart=No}} {{Chariot=No}} {{Galley=No}} {{Keelboat=No}} {{Longship=No}} {{Rowboat=No}} {{Sailing Ship=No}} {{Sled=No}} {{Wagon=No}} {{Warship=No}}
