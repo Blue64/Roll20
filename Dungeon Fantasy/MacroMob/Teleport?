@@ -1,0 +1,11 @@
+Teleport Odds
+Familiarity - Mishap - Similar Area - Off Target - On Target
+Permanent Circle - x - x - x - 01-100
+Associated Object - x - x - x - 01-100
+Very Familiar - 01-05 - 06-13 - 14-24 - 25-100
+Seen Casually - 01-33 - 34-43 - 44-53 - 54-100
+Viewed Once - 01-43 - 44-53 - 54-73 - 74-100
+Description - 01-43 - 44-53 - 54-73 - 74-100
+False Description - 01-50 - 51-100 - x - x
+
+I need to create a Rollable Table for this.
