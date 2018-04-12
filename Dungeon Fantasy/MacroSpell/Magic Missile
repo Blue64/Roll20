@@ -1,0 +1,21 @@
+/ooc &{template:default} {{name=@{selected|character_name}
+
+Casts Magic Missile}} {{Level=1st}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}}
+Casts Magic Missile}} {{Level=2nd}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}} {{4th Dart=[[1d4+1]] Force Damage}}
+Casts Magic Missile}} {{Level=3rd}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}} {{4th Dart=[[1d4+1]] Force Damage}} {{5th Dart=[[1d4+1]] Force Damage}}
+Casts Magic Missile}} {{Level=4th}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}} {{4th Dart=[[1d4+1]] Force Damage}} {{5th Dart=[[1d4+1]] Force Damage}} {{6th Dart=[[1d4+1]] Force Damage}}
+Casts Magic Missile}} {{Level=5th}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}} {{4th Dart=[[1d4+1]] Force Damage}} {{5th Dart=[[1d4+1]] Force Damage}} {{6th Dart=[[1d4+1]] Force Damage}} {{7th Dart=[[1d4+1]] Force Damage}}
+Casts Magic Missile}} {{Level=6th}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}} {{4th Dart=[[1d4+1]] Force Damage}} {{5th Dart=[[1d4+1]] Force Damage}} {{6th Dart=[[1d4+1]] Force Damage}} {{7th Dart=[[1d4+1]] Force Damage}} {{8th Dart=[[1d4+1]] Force Damage}}
+Casts Magic Missile}} {{Level=7th}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}} {{4th Dart=[[1d4+1]] Force Damage}} {{5th Dart=[[1d4+1]] Force Damage}} {{6th Dart=[[1d4+1]] Force Damage}} {{7th Dart=[[1d4+1]] Force Damage}} {{8th Dart=[[1d4+1]] Force Damage}} {{9th Dart=[[1d4+1]] Force Damage}}
+Casts Magic Missile}} {{Level=8th}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}} {{4th Dart=[[1d4+1]] Force Damage}} {{5th Dart=[[1d4+1]] Force Damage}} {{6th Dart=[[1d4+1]] Force Damage}} {{7th Dart=[[1d4+1]] Force Damage}} {{8th Dart=[[1d4+1]] Force Damage}} {{9th Dart=[[1d4+1]] Force Damage}} {{10th Dart=[[1d4+1]] Force Damage}}
+Casts Magic Missile}} {{Level=9th}} {{1st Dart=[[1d4+1]] Force Damage}} {{2nd Dart=[[1d4+1]] Force Damage}} {{3rd Dart=[[1d4+1]] Force Damage}} {{4th Dart=[[1d4+1]] Force Damage}} {{5th Dart=[[1d4+1]] Force Damage}} {{6th Dart=[[1d4+1]] Force Damage}} {{7th Dart=[[1d4+1]] Force Damage}} {{8th Dart=[[1d4+1]] Force Damage}} {{9th Dart=[[1d4+1]] Force Damage}} {{10th Dart=[[1d4+1]] Force Damage}} {{11th Dart=[[1d4+1]] Force Damage}}
+
+!&#13;%{MacroSpell|MagicMissile1}
+!&#13;%{MacroSpell|MagicMissile2}
+!&#13;%{MacroSpell|MagicMissile3}
+!&#13;%{MacroSpell|MagicMissile4}
+!&#13;%{MacroSpell|MagicMissile5}
+!&#13;%{MacroSpell|MagicMissile6}
+!&#13;%{MacroSpell|MagicMissile7}
+!&#13;%{MacroSpell|MagicMissile8}
+!&#13;%{MacroSpell|MagicMissile9}
