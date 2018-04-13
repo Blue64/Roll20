@@ -1,0 +1,15 @@
+| Lv 1 | Lv 2 | Lv 3 | Lv 4 | Lv 5 | Lv 6 | Lv 7 | Lv 8 | Lv 9 |
+Level 1: ([[3d4]]+[[1d4]]) or ([[2d4]]+[[1d4]]) or ([[2d4]]+[[1d2]])
+Level 2: [[4d4]]+[[2d4]]
+Level 3: [[5d4]]+[[3d4]]
+Level 4: [[6d4]]+[[4d4]]
+Level 5: [[7d4]]+[[5d4]]
+Level 6: [[8d4]]+[[6d4]]
+Level 7: [[9d4]]+[[7d4]]
+Level 8: [[10d4]]+[[8d4]]
+Level 9: [[11d4]]+[[9d4]]
+A shimmering green arrow streaks toward a target within range and bursts in a spray of acid.
+Make a ranged spell attack against the target.
+On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn.
+On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.
+At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.
