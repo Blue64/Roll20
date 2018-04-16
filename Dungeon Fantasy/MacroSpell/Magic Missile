@@ -19,3 +19,75 @@ Casts Magic Missile}} {{Damage Type=Force}} {{Level=9th}} {{1st Dart=[[1d4+1]] a
 !&#13;%{MacroSpell|MagicMissile7}
 !&#13;%{MacroSpell|MagicMissile8}
 !&#13;%{MacroSpell|MagicMissile9}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile1}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile1
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=1st}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile2}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile2
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=2nd}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile3}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile3
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=3rd}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}} {{5th Dart=[[1d4+1]] at @{target|5|character_name}}}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile4}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile4
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=4th}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}} {{5th Dart=[[1d4+1]] at @{target|5|character_name}}} {{6th Dart=[[1d4+1]] at @{target|6|character_name}}}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile5}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile5
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=5th}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}} {{5th Dart=[[1d4+1]] at @{target|5|character_name}}} {{6th Dart=[[1d4+1]] at @{target|6|character_name}}} {{7th Dart=[[1d4+1]] at @{target|7|character_name}}}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile6}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile6
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=6th}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}} {{5th Dart=[[1d4+1]] at @{target|5|character_name}}} {{6th Dart=[[1d4+1]] at @{target|6|character_name}}} {{7th Dart=[[1d4+1]] at @{target|7|character_name}}} {{8th Dart=[[1d4+1]] at @{target|8|character_name}}}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile7}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile7
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=7th}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}} {{5th Dart=[[1d4+1]] at @{target|5|character_name}}} {{6th Dart=[[1d4+1]] at @{target|6|character_name}}} {{7th Dart=[[1d4+1]] at @{target|7|character_name}}} {{8th Dart=[[1d4+1]] at @{target|8|character_name}}} {{9th Dart=[[1d4+1]] at @{target|9|character_name}}}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile8}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile8
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=8th}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}} {{5th Dart=[[1d4+1]] at @{target|5|character_name}}} {{6th Dart=[[1d4+1]] at @{target|6|character_name}}} {{7th Dart=[[1d4+1]] at @{target|7|character_name}}} {{8th Dart=[[1d4+1]] at @{target|8|character_name}}} {{9th Dart=[[1d4+1]] at @{target|9|character_name}}} {{10th Dart=[[1d4+1]] at @{target|10|character_name}}}
+
+URL in Handout:
+!&#13;%{MacroSpell|MagicMissile9}
+Links to:
+Character: MacroSpell
+Ability: MagicMissile9
+/ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Damage Type=Force}} {{Level=9th}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}} {{5th Dart=[[1d4+1]] at @{target|5|character_name}}} {{6th Dart=[[1d4+1]] at @{target|6|character_name}}} {{7th Dart=[[1d4+1]] at @{target|7|character_name}}} {{8th Dart=[[1d4+1]] at @{target|8|character_name}}} {{9th Dart=[[1d4+1]] at @{target|9|character_name}}} {{10th Dart=[[1d4+1]] at @{target|10|character_name}}} {{11th Dart=[[1d4+1]] at @{target|11|character_name}}}
