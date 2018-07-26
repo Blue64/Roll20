@@ -1,0 +1,10 @@
+# %{MacroGM|Web-Stats}
+# Token Action: √
+# Macro Bar: X
+# Chat Macro: X
+# Handout Macro: X
+# Sub-Macro: X
+/w gm &{template:default} {{name=@{selected|token_name}'s
+Web's Stats}} {{Natural Armor=[[8 +@{selected|pb} +([[@{selected|constitution_mod}]])]] AC}} {{Web Max HP=[[floor((8 +@{selected|pb} +([[@{selected|constitution_mod}]]))*(0.75))]]}} {{Vulnerabilities=Fire}} {{Immunities=Bludgeoning
+Poison
+Psychic}} {{Sunder=As an Action, the Restrained Victim, or it's Ally, can make a DC [[8 +@{selected|pb} +([[@{selected|constitution_mod}]])]] Athletics(Strength) Check, breaking the Webbing on a success.}}
