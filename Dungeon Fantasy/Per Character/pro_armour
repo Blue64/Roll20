@@ -1,5 +1,0 @@
-# @{selected|pro_armour}
-# Token Action: √
-# Macro Bar: X
-# Sub-Macro: √
-%{MacroPC|Armor-Prof} {{Mage Armor=[[13+@{selected|dexterity_mod}]] vs [[@{selected|ac}]]/[[@{selected|ac_no_armour}]]}} {{Light Armor=No}} {{Medium Armor=No}} {{Heavy Armor=No}} {{Shields=No}}
