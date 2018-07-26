@@ -1,32 +1,38 @@
 # Roll20
 
-https://app.roll20.net/campaigns/details/2942185/dungeon-fantasy
+https://app.roll20.net/campaigns/details/3546113/the-elder-earth
 
-I have been inspired by getting everything ready for a neat little organizing session, I've been working on this GitHub Repository for the last 8 Hours, I'm going to first go over a few things really quick, the Macros have some lines such as
+This is the GitHub Page for all of my Roll20 Ideas & Content.
+
+The Macros will have some Formatting based on it's intended usage, this will vary Section to Section, but, it's got some general Guidelines.
+
+The Following Code Table will lay out the Guidelines for the various Header segments:
 
 ```
-# Token Action: √
-# Macro Bar: X
-# Sub-Macro: X
+# Yes: √
+# No: X
+This is the way we note if a Feature is used or not, these Lines themselves are not meant to be used in the actual Macros, this is just here so you can Copy/Paste them into the correct Fields for proper identification.
+
+# Token Action: √ / X
+Is this Macro to be flagged as a Token Action?
+This is used whenever a Macro uses the prefix of "@{selected|" instead of just "@{" or "@{target|1|"
+
+# Macro Bar: √ / X
+This is to be shown on the Macro Bar, the Bar be Enabled.
+This Flag is rarely used, instead favoring things such as the Chat Macros or Handouts, but this is useful for setting up such Macros.
+
+# Chat Macro: √ / X
+This denotes the Macro is a Macro sent to the Chat Window, useful for a wide variety of things, ranging from long lists of similar tasks, to 
+
+# Handout Macro: √ / X
+This denotes that it is to be called from Within a Handout, complete with the Call on the Next Line.
+
+# Sub-Macro: √ / X
+This denotes that it is supposed to be a Macro Called by another Macro.
 ```
 
-The lines that Start like that aren't a part of the Macro, those are the Descriptors, to help you identify the way to use the Macro,
-
-- Token Action denotes that it's using the Variable `@selected|` which requires a selected Token, or something similar, it's going to be looking up a Variable from the attached Character Sheet
-
-- Macro Bar is for the actions not linked to any specific Token features, it's a bit of a Free-Use Macro, such as a Group Skill Check, or the Group AC or the Group HP, these are likely explicit uses, as I have not yet learned how to do such a large scale as a Variable, or it's a simple little Macro, such as the `/talktomyself` command.
-
-Note: the above two tasks can usually be accomplished by setting up a separate Macro in the Macro List, especially the Token Macros, as those allow you to add it to any Token that Player targets, if this is undesirable, simply call the Macro from the Player's Character Sheet.
-
-- Sub-Macro is to note that it's supposed to be called by another Macro, such as the Proficiency Macros.
-
-I was having problems sharing my Codes for Roll20, so here I am once again drawn to GitHub.
-
-This Repository contains the variety of Macros from my Campaign (Dungeon Fantasy)
-
-You'll likely encounter HTML Code for bypassing the Parser
-
-You might also find JavaScript Code, as the site utilizes such things.
+You'll likely encounter HTML Code for bypassing the Parser in here,
+You might also find JavaScript Code, as Roll20 utilizes such things.
 
 Like most Repositories, if you encounter any problems with my Codes, post a Bug Report in the Issues section.
 
