@@ -6,9 +6,17 @@ OPEN HAND TECHNIQUES:
 - It must make a DC [[@{ranger_spell_dc}]] Strength saving throw. If it fails, you can push it up to 15 feet away from you.
 - It can’t take reactions until the end of your next turn.}}
 
-DEFLECT MISSILES: (Updated)
-&{template:default} {{name=Deflect Missiles Description}} {{Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by [[1d10 +(@{dexterity_mod}) +@{base_level}]]. If you reduce the damage to **0**, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, which has a normal range of 20 feet and a long range of 60 feet.}}
-&{template:default} {{name=Deflect Missiles}} {{To Hit=[[1d20 +@{pb} +(@{dexterity_mod})]] | [[1d20 +@{pb} +(@{dexterity_mod})]] vs AC}} {{Damage=[[1d[[((floor((@{base_level} +1) /6)) +2) *2]] +(@{dexterity_mod})]]}}
+Deflect Missiles: (Updated)
+&{template:default} {{name=Deflect Missile}} {{=Starting at 3rd Level, you can use your Reaction to Deflect/Catch the Projectile when you are Hit by a Ranged Weapon Attack.
+
+When you do so, the Damage you take from the Attack is reduced by [[1d10 +([[{@{strength_mod},@{dexterity_mod}}kh1]]) +@{base_level}]].
+
+If you reduce the Damage to **0**, you can catch the Projectile if it is small enough for you to hold in 1 Hand & you have at least 1 Hand free.
+
+If you catch a Projectile in this way, as part of the same Reaction, you can spend 1 Ki point to make a Ranged Weapon Attack with the Projectile you just caught.
+
+The Projectile counts as a Monk Weapon for the Attack, granting you Proficiency with this Attack, which has a Range of 20/60.}}
+&{template:default} {{name=Reflect Missile}} {{To Hit=[[1d20 +@{pb} +([[{@{strength_mod},@{dexterity_mod}}kh1]])]] | [[1d20 +@{pb} +([[{@{strength_mod},@{dexterity_mod}}kh1]])]] vs AC}} {{Damage=[[1d[[((floor((@{base_level} +1) /6)) +2) *2]] +([[{@{strength_mod},@{dexterity_mod}}kh1]])]]}}
 
 SLOW FALL:
 &{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.}}{{Damage reduced=[[5*@{monk_level}]]}}
