@@ -1,6 +1,17 @@
 # %{MacroGM|DC-List}
-# Token Action: √
-# Macro Bar: X
-/w gm &{template:default} {{name=@{selected|token_name}
-@{selected|class}
-DC List}} {{Strength DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|strength_mod})]])]]}} {{Dexterity DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|dexterity_mod})]])]]}} {{Constitution DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|constitution_mod})]])]]}} {{Intelligence DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|intelligence_mod})]])]]}} {{Wisdom DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|wisdom_mod})]])]]}} {{Charisma DC=[[[[@{selected|base_spell_dc}]]+[[@{selected|pb}]]+([[(@{selected|charisma_mod})]])]]}}
+# Token Action: X
+# Macro Bar: √
+/w gm &{template:5eDefault} {{showclassactions=1}} {{title=DC List for}} {{subheader=@{target|character_name}}} {{subheaderright=@{target|class}}} {{Strength DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|strength_mod})]])]]}} {{Dexterity DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|dexterity_mod})]])]]}} {{Constitution DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|constitution_mod})]])]]}} {{Intelligence DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|intelligence_mod})]])]]}} {{Wisdom DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|wisdom_mod})]])]]}} {{Charisma DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|charisma_mod})]])]]}}
+
+Exploded:
+/w gm &{template:5eDefault}
+{{showclassactions=1}}
+{{title=DC List for}}
+{{subheader=@{target|character_name}}}
+{{subheaderright=@{target|class}}}
+{{Strength DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|strength_mod})]])]]}}
+{{Dexterity DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|dexterity_mod})]])]]}}
+{{Constitution DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|constitution_mod})]])]]}}
+{{Intelligence DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|intelligence_mod})]])]]}}
+{{Wisdom DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|wisdom_mod})]])]]}}
+{{Charisma DC=[[[[@{target|base_spell_dc}]]+[[@{target|pb}]]+([[(@{target|charisma_mod})]])]]}}
