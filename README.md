@@ -31,6 +31,14 @@ This denotes that it is to be called from Within a Handout, complete with the Ca
 This denotes that it is supposed to be a Macro Called by another Macro.
 ```
 
+```
+# Token Action: √ / X
+# Macro Bar: √ / X
+# Chat Macro: √ / X
+# Handout Macro: √ / X
+# Sub-Macro: √ / X
+```
+
 You'll likely encounter HTML Code for bypassing the Parser in here,
 You might also find JavaScript Code, as Roll20 utilizes such things.
 
