@@ -1,6 +1,0 @@
-# %{selected|pro_tools}
-# Token Action: √
-# Macro Bar: X
-# Sub-Macro: √
-/w gm &{template:default} {{name=@{selected|token_name}'s
-Tool Proficiencies:}} {{All Tools=No}}
