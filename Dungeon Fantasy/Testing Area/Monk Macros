@@ -1,15 +1,15 @@
 =====
-Open Hand Techniques:
-&{template:default} {{name=Open Hand Techniques}} {{Description=Starting when you choose this tradition at 3rd level, you can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:
-- It must succeed on a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Dexterity saving throw or be knocked prone.
-- It must make a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Strength saving throw. If it fails, you can push it up to 15 feet away from you.
-- It can’t take reactions until the end of your next turn.}}
+Open Hand Techniques: (Updated)
+&{template:default} {{name=Open Hand Techniques Description}} {{Starting when you choose this Tradition at 3rd Level, you can manipulate your Enemy's Ki when you harness your own.
 
-Wholeness of Body:
-Starting at 6th Level, once per Long Rest, as an Action, you can regainHhitPpoints equal to 3x your Monk Level ([[@{base_level} *3]]).
-Starting at 6th Level, once per Long Rest, as an Action, you can regainHhitPpoints equal to 3x your Monk Level ([[@{multiclass1_lvl} *3]]).
-Starting at 6th Level, once per Long Rest, as an Action, you can regainHhitPpoints equal to 3x your Monk Level ([[@{multiclass2_lvl} *3]]).
-Starting at 6th Level, once per Long Rest, as an Action, you can regainHhitPpoints equal to 3x your Monk Level ([[@{multiclass3_lvl} *3]]).
+Whenever you Hit a Creature with 1 of the Attacks granted by your Flurry of Blows, you can impose 1 of the following Effects on that Target:}}
+&{template:default} {{name=Open Hand Techniques}} {{- It must succeed on a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Dexterity Saving Throw or be knocked Prone.}} {{- It must succeed on a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Strength Saving Throw or you can push it up to 15 Feet away from you.}} {{- It can’t take Reactions until the End of your next Turn.}}
+
+Wholeness of Body: (Updated)
+Starting at 6th Level, once per Long Rest, as an Action, you can regain Hit Points equal to 3x your Monk Level ([[@{base_level} *3]]).
+Starting at 6th Level, once per Long Rest, as an Action, you can regain Hit Points equal to 3x your Monk Level ([[@{multiclass1_lvl} *3]]).
+Starting at 6th Level, once per Long Rest, as an Action, you can regain Hit Points equal to 3x your Monk Level ([[@{multiclass2_lvl} *3]]).
+Starting at 6th Level, once per Long Rest, as an Action, you can regain Hit Points equal to 3x your Monk Level ([[@{multiclass3_lvl} *3]]).
 
 Deflect Missiles: (Updated)
 &{template:default} {{name=Deflect Missile}} {{Starting at 3rd Level, you can use your Reaction to Deflect/Catch the Projectile when you are Hit by a Ranged Weapon Attack.
@@ -23,13 +23,21 @@ If you catch a Projectile in this way, as part of the same Reaction, you can spe
 The Projectile counts as a Monk Weapon for the Attack, granting you Proficiency with this Attack, which has a Range of 20/60.}}
 &{template:default} {{name=Reflect Missile}} {{To Hit=[[1d20 +@{pb} +([[{[[floor((@{strength} -10) /2)]],[[floor((@{dexterity} -10) /2)]]}kh1]])]] | [[1d20 +@{pb} +([[{[[floor((@{strength} -10) /2)]],[[floor((@{dexterity} -10) /2)]]}kh1]])]] vs AC}} {{Damage=[[1d[[((floor((@{base_level} +1) /6)) +2) *2]] +([[{[[floor((@{strength} -10) /2)]],[[floor((@{dexterity} -10) /2)]]}kh1]])]]}}
 
-SLOW FALL:
-&{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.}}{{Damage reduced=[[5*@{monk_level}]]}}
+Slow Fall: (Updated)
+&{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th Level, you can use your Reaction when you Fall to reduce any Falling Damage you take by an amount equal to 5x your Monk Level.}} {{Damage Reduced=[[5 *@{base_level}]]}}
+&{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th Level, you can use your Reaction when you Fall to reduce any Falling Damage you take by an amount equal to 5x your Monk Level.}} {{Damage Reduced=[[5 *@{multiclass1_lvl}]]}}
+&{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th Level, you can use your Reaction when you Fall to reduce any Falling Damage you take by an amount equal to 5x your Monk Level.}} {{Damage Reduced=[[5 *@{multiclass2_lvl}]]}}
+&{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th Level, you can use your Reaction when you Fall to reduce any Falling Damage you take by an amount equal to 5x your Monk Level.}} {{Damage Reduced=[[5 *@{multiclass3_lvl}]]}}
 
-STUNNING STRIKE:
+Stunning Strike:
 &{template:default} {{name=Stunning Strike}} {{Description=Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a CD [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Constitution saving throw or be stunned until the end of your next turn.}}
 
-WHOLENESS OF BODY:
+@{base_level}
+@{multiclass1_lvl}
+@{multiclass2_lvl}
+@{multiclass3_lvl}
+
+Wholeness of Body:
 &{template:default} {{name=Wholeness of Body}} {{Description=At 6th level, you gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.}}{{Hit Points healed=[[3*@{monk_level}]]}}
 
 QUIVERING PALM:
