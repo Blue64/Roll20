@@ -1,34 +1,39 @@
 =====
-OPEN HAND TECHNIQUES:
-
+Open Hand Techniques:
 &{template:default} {{name=Open Hand Techniques}} {{Description=Starting when you choose this tradition at 3rd level, you can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:
-- It must succeed on a DC [[@{ranger_spell_dc}]] Dexterity saving throw or be knocked prone.
-- It must make a DC [[@{ranger_spell_dc}]] Strength saving throw. If it fails, you can push it up to 15 feet away from you.
+- It must succeed on a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Dexterity saving throw or be knocked prone.
+- It must make a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Strength saving throw. If it fails, you can push it up to 15 feet away from you.
 - It can’t take reactions until the end of your next turn.}}
 
+Wholeness of Body:
+Starting at 6th Level, once per Long Rest, as an Action, you can regainHhitPpoints equal to 3x your Monk Level ([[@{base_level} *3]]).
+Starting at 6th Level, once per Long Rest, as an Action, you can regainHhitPpoints equal to 3x your Monk Level ([[@{multiclass1_lvl} *3]]).
+Starting at 6th Level, once per Long Rest, as an Action, you can regainHhitPpoints equal to 3x your Monk Level ([[@{multiclass2_lvl} *3]]).
+Starting at 6th Level, once per Long Rest, as an Action, you can regainHhitPpoints equal to 3x your Monk Level ([[@{multiclass3_lvl} *3]]).
+
 Deflect Missiles: (Updated)
-&{template:default} {{name=Deflect Missile}} {{=Starting at 3rd Level, you can use your Reaction to Deflect/Catch the Projectile when you are Hit by a Ranged Weapon Attack.
+&{template:default} {{name=Deflect Missile}} {{Starting at 3rd Level, you can use your Reaction to Deflect/Catch the Projectile when you are Hit by a Ranged Weapon Attack.
 
-When you do so, the Damage you take from the Attack is reduced by [[1d10 +([[{@{strength_mod},@{dexterity_mod}}kh1]]) +@{base_level}]].
+When you do so, the Damage you take from the Attack is reduced by [[1d10 +([[{[[floor((@{strength} -10) /2)]],[[floor((@{dexterity} -10) /2)]]}kh1]]) +@{base_level}]].
 
-If you reduce the Damage to **0**, you can catch the Projectile if it is small enough for you to hold in 1 Hand & you have at least 1 Hand free.
+If you reduce the Damage to 0, you can catch the Projectile if it is small enough for you to hold in 1 Hand & you have at least 1 Hand free.
 
 If you catch a Projectile in this way, as part of the same Reaction, you can spend 1 Ki point to make a Ranged Weapon Attack with the Projectile you just caught.
 
 The Projectile counts as a Monk Weapon for the Attack, granting you Proficiency with this Attack, which has a Range of 20/60.}}
-&{template:default} {{name=Reflect Missile}} {{To Hit=[[1d20 +@{pb} +([[{@{strength_mod},@{dexterity_mod}}kh1]])]] | [[1d20 +@{pb} +([[{@{strength_mod},@{dexterity_mod}}kh1]])]] vs AC}} {{Damage=[[1d[[((floor((@{base_level} +1) /6)) +2) *2]] +([[{@{strength_mod},@{dexterity_mod}}kh1]])]]}}
+&{template:default} {{name=Reflect Missile}} {{To Hit=[[1d20 +@{pb} +([[{[[floor((@{strength} -10) /2)]],[[floor((@{dexterity} -10) /2)]]}kh1]])]] | [[1d20 +@{pb} +([[{[[floor((@{strength} -10) /2)]],[[floor((@{dexterity} -10) /2)]]}kh1]])]] vs AC}} {{Damage=[[1d[[((floor((@{base_level} +1) /6)) +2) *2]] +([[{[[floor((@{strength} -10) /2)]],[[floor((@{dexterity} -10) /2)]]}kh1]])]]}}
 
 SLOW FALL:
 &{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.}}{{Damage reduced=[[5*@{monk_level}]]}}
 
 STUNNING STRIKE:
-&{template:default} {{name=Stunning Strike}} {{Description=Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a CD [[@{ranger_spell_dc}]] Constitution saving throw or be stunned until the end of your next turn.}}
+&{template:default} {{name=Stunning Strike}} {{Description=Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a CD [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Constitution saving throw or be stunned until the end of your next turn.}}
 
 WHOLENESS OF BODY:
 &{template:default} {{name=Wholeness of Body}} {{Description=At 6th level, you gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.}}{{Hit Points healed=[[3*@{monk_level}]]}}
 
 QUIVERING PALM:
-&{template:default} {{name=Quivering Palm}} {{Description=At 17th level, you gain the ability to set up lethal vibrations in someone’s body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a DC [[@{ranger_spell_dc}]] Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it lakes [[10d10]] necrotic damage.
+&{template:default} {{name=Quivering Palm}} {{Description=At 17th level, you gain the ability to set up lethal vibrations in someone’s body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it lakes [[10d10]] necrotic damage.
 You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.}}
 
 ==========
