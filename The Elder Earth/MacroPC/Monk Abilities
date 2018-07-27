@@ -29,19 +29,16 @@ Slow Fall: (Updated)
 &{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th Level, you can use your Reaction when you Fall to reduce any Falling Damage you take by an amount equal to 5x your Monk Level.}} {{Damage Reduced=[[5 *@{multiclass2_lvl}]]}}
 &{template:default} {{name=Slow Fall}} {{Description=Beginning at 4th Level, you can use your Reaction when you Fall to reduce any Falling Damage you take by an amount equal to 5x your Monk Level.}} {{Damage Reduced=[[5 *@{multiclass3_lvl}]]}}
 
-Stunning Strike:
-&{template:default} {{name=Stunning Strike}} {{Description=Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a CD [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Constitution saving throw or be stunned until the end of your next turn.}}
+Stunning Strike: (Updated)
+&{template:default} {{name=Stunning Strike Description}} {{Starting at 5th Level, you can interfere with the flow of Ki in an Opponent’s Body.}} {{When you Hit another Creature with a Melee Weapon Attack, you can spend 1 Ki Point to attempt a Stunning Strike.}} {{The Target must succeed on a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Constitution Saving Throw or be Stunned until the end of your next Turn.}}
 
-@{base_level}
-@{multiclass1_lvl}
-@{multiclass2_lvl}
-@{multiclass3_lvl}
+Wholeness of Body: (Updated)
+&{template:default} {{name=Wholeness of Body Description}} {{At 6th level, you gain the ability to Heal yourself.}} {{As an Action, once per Long Rest, you can regain Hit Points equal to 3x your Monk Level.}}
+{{Hit Points healed=[[3*@{base_level}]]}}
+{{Hit Points healed=[[3*@{multiclass1_lvl}]]}}
+{{Hit Points healed=[[3*@{multiclass2_lvl}]]}}
+{{Hit Points healed=[[3*@{multiclass3_lvl}]]}}
 
-Wholeness of Body:
-&{template:default} {{name=Wholeness of Body}} {{Description=At 6th level, you gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.}}{{Hit Points healed=[[3*@{monk_level}]]}}
-
-QUIVERING PALM:
-&{template:default} {{name=Quivering Palm}} {{Description=At 17th level, you gain the ability to set up lethal vibrations in someone’s body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it lakes [[10d10]] necrotic damage.
-You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.}}
-
-==========
+Quivering Palm: (Updated)
+&{template:default} {{name=Quivering Palm Description}} {{At 17th Level, you gain the Ability to set up Lethal Vibrations in up to 1 Creature's Body at a time.}} {{When you Hit a Creature with an Unarmed Strike, you can spend 3 Ki Points to start these imperceptible vibrations, which last for a number of Days equal to your Monk Level.}} {{The Vibrations are harmless unless you use your Action to end them whilst on the same Plane of Existence as the Target.}} {{When you use this Action, the Creature must make a DC [[8 + @{pb} +[[floor((@{wisdom} -10) /2)]]]] Constitution Saving Throw.}} {{If it succeeds, it lakes [[10d10]] Necrotic Damage, otherwise it is reduced to 0 Hit Points.}}}} {{You can choose to end the vibrations harmlessly as a free action.}}
+&{template:default} {{name=Class Levels}} {{@{class}=[[@{base_level}]]}} {{@{multiclass1}=[[@{multiclass1_lvl}]]}} {{@{multiclass2}=[[@{multiclass2_lvl}]]}} {{@{multiclass3}=[[@{multiclass3_lvl}]]}}
