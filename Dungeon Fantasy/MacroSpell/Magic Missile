@@ -1,4 +1,6 @@
+! ?{Cast at what level?|Level 1,1|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}
 /ooc &{template:default} {{name=@{selected|character_name}
+Casts Magic Missile}} {{Level=?{Cast at what level?} Spell Slot}} {{Per Dart=[[1d4+1]] Force Damage}} {{Firing=[[2 +?{Cast at what level?}]] Darts}} {{1st Dart=@{target|1|token_name}}} {{2nd Dart=@{target|2|token_name}}} {{3rd Dart=@{target|3|token_name}}} {{4th Dart=@{target|4|token_name}}} {{5th Dart=@{target|5|token_name}}} {{6th Dart=@{target|6|token_name}}} {{7th Dart=@{target|7|token_name}}} {{8th Dart=@{target|8|token_name}}} {{9th Dart=@{target|9|token_name}}} {{10th Dart=@{target|10|token_name}}} {{11th Dart=@{target|11|token_name}}}
 
 Casts Magic Missile}} {{Damage Type=Force}} {{Level=1st}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}}
 Casts Magic Missile}} {{Damage Type=Force}} {{Level=2nd}} {{1st Dart=[[1d4+1]] at @{target|1|character_name}}} {{2nd Dart=[[1d4+1]] at @{target|2|character_name}}} {{3rd Dart=[[1d4+1]] at @{target|3|character_name}}} {{4th Dart=[[1d4+1]] at @{target|4|character_name}}}

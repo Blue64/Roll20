@@ -1,0 +1,1 @@
+&{template:default} {{name=Finesse}} {{Finesse=[[{[[floor((@{strength} -10) /2)]],[[floor((@{dexterity} -10) /2)]]}kh1]]}} {{Strength=[[floor((@{strength} -10) /2)]]}} {{Dexterity=[[floor((@{dexterity} -10) /2)]]}}

@@ -1,5 +1,0 @@
-# Scavenged from the Forums, and improved.
-!?{Damage|Bludgeoning|Piercing|Slashing|Magical} ?{BaB|1|2|3|4|5} ?{Enhancement|0|1|2|3|4|5} ?{Misc.|0|1|2|3}
-/me unleashes a flurry of blows, multiple fists and legs striking repeatedly in a single heartbeat
-/w gm &{template:default} {{name=@{selected|token_name}'s First Attack}} {{To Hit=[[1d20+[[?{BaB}-1]]+([[(@{selected|dexterity_mod})]])+?{Enhancement}+?{Misc.}]]}} {{Damage=?{Damage}: [[1d8+?{Enhancement}+([[(@{selected|strength_mod})]])]]}}
-/w gm &{template:default} {{name=@{selected|token_name}'s Second Attack}} {{To Hit=[[1d20+[[?{BaB}-1]]+([[(@{selected|dexterity_mod})]])+?{Enhancement}+?{Misc.}]]}} {{Damage=?{Damage}: [[1d8+?{Enhancement}+([[(@{selected|strength_mod})]])]]}}
