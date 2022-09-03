@@ -1,0 +1,29 @@
+@{prefix}ControlFlames&#125;
+
+/ooc &{template:spell} {{name=**Control Flames**}} {{innate=
+[*Xanathar's Guide to Everything (Page 152),*](https://get.5e.tools/spells.html#control%20flames_xge)
+[*Elemental Evil Player's Companion (Page 16)*](https://www.dndbeyond.com/spells/control-flames)}} {{level=*School of Transmutation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*60 Feet*}} {{target=*5 Foot Cube*}} {{s=1}} {{duration=*Instantaneous or 1 Hour*}} {{description=**Primary Classes:**
+*Cleric (Arcana Domain)*
+*Cleric (Nature Domain)*
+*Druid*
+*Fighter (Eldritch Knight)*
+*Rogue (Arcane Trickster)*
+*Sorcerer*
+*Wizard*
+
+**Primary Races:**
+*Elf (High)*
+*Half-Elf (Moon)*
+*Half-Elf (Sun)*
+
+@{You} chooses a Non-Magical Flame that they See within Range that fits in a 5-Foot Cube; @{You} affects it in 1 of the following ways:
+
+***•*** They instantaneously expand the Non-Magical Flame up to 5 Feet in 1 Direction if fuel is present in the new Location.
+
+***•*** They instantaneously Extinguish the Non-Magical Flames within the Cube
+
+***•*** For up to 1 Hour; They (Halve or Double) the Area of Bright Light & Dim Light Cast by the Non-Magical Flame, or change its Color, or both.
+
+***•*** For up to 1 Hour; They cause simple Shapes to appear within the Non-Magical Flames & Animate as they like.
+
+If they Cast this Spell multiple times, they can have up to 3 of its Non-instantaneous Effects active at a time, & they can Dismiss its Effect as an Action.}}{

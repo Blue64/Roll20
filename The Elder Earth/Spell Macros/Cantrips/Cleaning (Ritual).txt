@@ -1,0 +1,54 @@
+@{prefix}CleaningRitual&#125;
+
+/ooc Work in Progress
+/ooc &{template:spell} {{name=**Cleaning (Ritual)**}} {{innate=
+[*Homebrew; Blue64*](https://www.dndbeyond.com/spells/45854-cleaning)}} {{level=*School of Transmutation **Cantrip***}} {{ritual=1}} {{castingtime=*5 to [[[[@{LV+1}]] *5]] Minutes*}} {{range=*Touch*}} {{s=1}} {{m=1}} {{material=*1 to [[[[@{LV+1}]] *[[@{LV+1}]]]] Gold worth of Gem infused Chalk & Inks, which the Spell Consumes*}} {{duration=*Until Triggered within 24 Hours*}} {{description=**Classes:**
+*Sorcerer*
+*Wizard*
+
+Cast as a Ritual; There are 3 States when casting this spell as a Ritual.
+
+***— 1; Preparation:***
+***•*** Designate up to a [[[[@{LV+1}]] *5]] Foot Cube to be affected, the Bottom or Top of which will be centered on the Ritual.
+***•*** Magically Mark the Containers, if any (this step is required for digging, but is otherwise optional), which will Store the Muck
+***•*** Containers must be capable of cumulatively storing all the Muck, or the Ritual will Fizzle.
+***•*** Secure any Marked Containers within a [[[[@{LV+1}]] *5]] Foot Radius of the Ritual.
+***•*** Designate the Triggers.
+
+***— 2; Triggered:***
+[Roll 1d20](!
+&#47;ooc &&#123;template:default&#125; &#123;&#123;name=Ritual Triggered:&#125;&#125; &#123;&#123;Effect:=**&#91;&#91;[[@{LV+1}]]d8&#93;&#93;**&#125;&#125;) to find out the Result of the Ritual:
+
+***• 1-3; Inverted Intent:***
+Force all Muck within a [[[[@{LV+1}]] *5]] Foot Radius of the Designated Area, including any Muck stored within the Marked Containers, to aggressively fill the Designated Area!
+
+All Creatures within the Radius must make a DC @{DC} Athletics Check to avoid getting flung into the Designated Area as it fills up, whilst any Creatures within the Designated Area must make a DC @{DC} Acrobatics Check at Disadvantage to not get trapped within the Muck.
+
+[[[@{LV+1}]]d4 Bludgeoning Damage](!
+&#47;roll [[@{LV+1}]]d4 Bludgeoning) for every 5 Feet of Movement of Muck against those that failed their Acrobatics Check.
+
+[[[@{LV+1}]]d4 Bludgeoning Damage](!
+&#47;roll [[@{LV+1}]]d4 Bludgeoning) for every 5 Feet sucked against those that failed their Athletics Check.
+
+***• 6-10; Cleaning:***
+Instantly Clean everything in the Designated Area; anything removed in this way will be moved to an Unoccupied Area within a [[[[@{LV+1}]] *5]] Radius of the Ritual, or to Magically marked Containers Placed within a [[[[@{LV+1}]] *5]] Foot Radius of the Ritual.
+
+***• 11-15; Repairs:***
+Slowly Repair up to [[@{LV+1}]] Cubic Feet of Material in the Designated Area over the span of 1 Minute.
+
+***• 16-20; Flawless Casting:***
+Instantly Repair up to [[@{LV+1}]] Cubic Feet of Material in the Designated Area, cleaning everything affected as well; anything removed in this way will be moved to an Unoccupied Area within a [[[[@{LV+1}]] *5]] Radius of the Ritual, or to Magically marked Containers Placed within a [[[[@{LV+1}]] *5]] Foot Radius of the Ritual.
+
+***— 3; Permanence:***
+The Ritual can be triggered repeatedly within a set period of time if given permanence:
+***•*** If @{You} cast this Ritual in the same spot, with the same settings, every day for a Week, it will work for up to 1 Month unless Dispelled, & the [Roll](!
+&#47;roll [[ceil([[@{LV+1}]] *(0.25))]]d20kh1) becomes [This](!
+&#47;roll [[ceil([[@{LV+1}]] *(0.5))]]d20kh1)
+***•*** If @{You} cast this Ritual in the same spot, with the same settings, every day for a Month, it will work for up to 1 Year unless Dispelled, & the [Roll](!
+&#47;roll [[ceil([[@{LV+1}]] *(0.5))]]d20kh1) becomes [This](!
+&#47;roll [[ceil([[@{LV+1}]] *(0.75))]]d20kh1)
+***•*** If @{You} cast this Ritual in the same spot, with the same settings, every day for a Year; it becomes Permanent unless Dispelled, & the [Roll](!
+&#47;roll [[ceil([[@{LV+1}]] *(0.75))]]d20kh1) becomes [This](!
+&#47;roll [[@{LV+1}]]d20kh1)
+
+If this Ritual has maximum Permanence, the Ritual can be consumed in order to repair an Enchantment up to Tier [[floor([[@{LV+1}]] /2)]] Rarity.}}{

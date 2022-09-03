@@ -1,0 +1,23 @@
+@{prefix}KissOfMephistopheles&#125;
+
+/ooc &{template:spell} {{name=**Kiss of Mephistopheles**}} {{innate=
+[*Unearthed Arcana: Warlock and Wizard (Page 4)*](https://5e.tools/optionalfeatures.html#kiss%20of%20mephistopheles_uawarlockandwizard)
+[*Unearthed Arcana: Revised Class Options (Page 6)*](https://5e.tools/optionalfeatures.html#kiss%20of%20mephistopheles_uarevisedclassoptions)}} {{level=*School of Evocation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*120 Feet*}} {{target=*[[[@{LV+1}]] Creatures*](!
+@{TargetLV})}} {{v=1}} {{s=1}} {{duration=*Instantaneous*}} {{description=**Prerequisites:**
+*5th Level*
+*The Fiend Patron*
+*Eldritch Blast Cantrip*
+
+[[@{LV+1}]] Beams of Raw Magical Energy independently streak towards Creatures of @{You}'s choice within Range, making Ranged Spell Attacks for each Beam.
+
+You can channel the fires of Mephistopheles through your eldritch blast; when you hit a creature with your eldritch blast, you can cast fireball as a bonus action using a warlock spell slot. However, the spell must be centered on a creature you hit with eldritch blast.
+
+**To Hit: d20+@{Ability}**
+[Normal](!
+%{MacroPC|ToHit}Normal=**&#91;&#91;1d20+@{Ability}&#93;&#93;**&#125;&#125;) | [Advantage](!
+%{MacroPC|ToHit}Advantage=**&#91;&#91;2d20kh1+@{Ability}&#93;&#93;**&#125;&#125;) | [Disadvantage](!
+%{MacroPC|ToHit}Disadvantage=**&#91;&#91;2d20kl1+@{Ability}&#93;&#93;**&#125;&#125;)
+
+**On Hit:**
+Each Beam deals [1d10 Force Damage](!
+%{MacroPC|DmgCalc}Total Force Damage:=**&#91;&#91;[[@{LV+1}]]d10 [Total]&#93;&#93;**&#125;&#125;).}}{

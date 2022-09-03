@@ -1,0 +1,36 @@
+@{prefix}ChillTouch&#125;
+
+/ooc &{template:spell} {{name=**Chill Touch**}} {{innate=
+[*Player's Handbook (Page 221)](https://get.5e.tools/spells.html#chill%20touch_phb)
+[*Basic Rules (Page 221)*](https://www.dndbeyond.com/spells/chill-touch)}} {{level=*School of Necromancy **Cantrip***}} {{castingtime=*1 Action*}} {{range=*120 Feet*}} {{target=[***1 Creature***](!
+@{Target1})}} {{v=1}} {{s=1}} {{duration=*1 Round*}} {{description=**Primary Classes:**
+*Cleric (Arcana Domain)*
+*Cleric (Death Domain)*
+*Druid (Circle of Spores)*
+*Fighter (Eldritch Knight)*
+*Rogue (Arcane Trickster)*
+*Sorcerer*
+*Warlock*
+*Wizard*
+
+**Primary Races:**
+*Elf (Eladrin)*
+*Elf (High)*
+*Elf (Shadar-kai)*
+*Elf (Zendikar; Mul Daya Nation)*
+*Half-Elf (Moon)*
+*Half-Elf (Sun)*
+
+@{You} creates a Ghostly, Skeletal Hand in the Space of a Creature within Range; making a Ranged Spell Attack to assail it with the Necrotic Chill of the Grave.
+
+**To Hit: d20+@{Ability}**
+[Normal](!
+%{MacroPC|ToHit}Normal=**&#91;&#91;1d20+@{Ability}&#93;&#93;**&#125;&#125;) | [Advantage](!
+%{MacroPC|ToHit}Advantage=**&#91;&#91;2d20kh1+@{Ability}&#93;&#93;**&#125;&#125;) | [Disadvantage](!
+%{MacroPC|ToHit}Disadvantage=**&#91;&#91;2d20kl1+@{Ability}&#93;&#93;**&#125;&#125;)
+
+**On Hit:**
+The Target takes [[[@{LV+1}]]d8 Necrotic Damage](!
+%{MacroPC|DmgCalc}Necrotic Damage:=**&#91;&#91;[[@{LV+1}]]d8&#93;&#93;**&#125;&#125;), & can't regain Hit Points until the Start of @{You}'s next turn, with the hand clinging to the Target until then.
+
+If they hit an Undead Target; the Target also has Disadvantage on Attack Rolls against @{You} until the End of @{You}'s next Turn.}}{

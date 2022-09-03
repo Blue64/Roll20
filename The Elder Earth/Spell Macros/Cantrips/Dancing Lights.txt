@@ -1,0 +1,34 @@
+@{prefix}DancingLights&#125;
+
+/ooc &{template:spell} {{name=**Dancing Lights**}} {{innate=
+[*Player's Handbook (Page 230),*](https://get.5e.tools/spells.html#dancing%20lights_phb)
+[*Standard Reference Document,*](https://get.5e.tools/spells.html#dancing%20lights_phb)
+[*Basic Rules (Page 230)*](https://www.dndbeyond.com/spells/dancing-lights)}} {{level=*School of Evocation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*120 Feet*}} {{v=1}} {{s=1}} {{m=1}} {{material=*a bit of Phosphorus / a bit of Wychwood / a Glow Worm*}} {{concentration=1}} {{duration=*up to 1 Minute*}} {{description=**Primary Classes:**
+*Artificer*
+*Bard*
+*Cleric (Arcana Domain)*
+*Fighter (Eldritch Knight)*
+*Rogue (Arcane Trickster)*
+*Sorcerer*
+*Wizard*
+
+**Primary Races:**
+*Elf (Drow)*
+*Elf (High)*
+*Half-Elf (Drow Descent)*
+*Half-Elf (Moon)*
+*Half-Elf (Sun)*
+*Tiefling (Abyssal)*
+
+**Primary Backgrounds:**
+*Golgari Agent*
+
+@{You} creates up to 4 Torch Sized Lights within Range, making them appear as Torches, Lanterns, or Glowing Orbs that Hover in the Air for the Duration.
+
+@{You} can also combine the 4 Lights into 1 Glowing, vaguely Humanoid Form, of Medium Size.
+
+Whichever Form @{You} chose, each Light sheds Dim Light in a 10-Foot Radius.
+
+As a Bonus Action on their Turn, @{You} can Move the Lights up to 60 Feet to a new Spot within Range.
+
+A Light must be within 20 Feet of another Light created by this Spell, & a Light winks out if it exceeds the Spell's Range.}}{

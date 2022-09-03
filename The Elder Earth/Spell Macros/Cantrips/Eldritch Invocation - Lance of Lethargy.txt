@@ -1,0 +1,23 @@
+@{prefix}LanceOfLethargy&#125;
+
+/ooc &{template:spell} {{name=**Lance of Lethargy**}} {{innate=
+[*Xanathar's Guide to Everything*](https://www.dndbeyond.com/sources/xgte/subclasses#EldritchInvocations) [*(Page 57)*](https://5e.tools/optionalfeatures.html#lance%20of%20lethargy_xge)
+[*Unearthed Arcana: Warlock and Wizard (Page 4)*](https://5e.tools/optionalfeatures.html#frost%20lance_uawarlockandwizard)
+[*Unearthed Arcana: Revised Class Options (Page 6)*](https://5e.tools/optionalfeatures.html#frost%20lance_uarevisedclassoptions)}} {{level=*School of Evocation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*120 Feet*}} {{target=*[[[@{LV+1}]] Creatures*](!
+@{TargetLV})}} {{v=1}} {{s=1}} {{duration=*Instantaneous*}} {{description=**Prerequisites:**
+*The Archfey Patron*
+*Eldritch Blast Cantrip*
+
+[[@{LV+1}]] Beams of Raw Magical Energy independently streak towards Creatures of @{You}'s choice within Range, making Ranged Spell Attacks for each Beam.
+
+@{You} draws upon their gifts from the Prince of Frost to trap their enemies in ice. When @{You} hits a creature with their Eldritch Blast Cantrip one or more times on their turn: @{You} can reduce that creature's speed by 10 feet until the end of the caster's next turn.
+
+**To Hit: d20+@{Ability}**
+[Normal](!
+%{MacroPC|ToHit}Normal=**&#91;&#91;1d20+@{Ability}&#93;&#93;**&#125;&#125;) | [Advantage](!
+%{MacroPC|ToHit}Advantage=**&#91;&#91;2d20kh1+@{Ability}&#93;&#93;**&#125;&#125;) | [Disadvantage](!
+%{MacroPC|ToHit}Disadvantage=**&#91;&#91;2d20kl1+@{Ability}&#93;&#93;**&#125;&#125;)
+
+**On Hit:**
+Each Beam deals [1d10 Force Damage](!
+%{MacroPC|DmgCalc}Total Force Damage:=**&#91;&#91;[[@{LV+1}]]d10 [Total]&#93;&#93;**&#125;&#125;).}}{

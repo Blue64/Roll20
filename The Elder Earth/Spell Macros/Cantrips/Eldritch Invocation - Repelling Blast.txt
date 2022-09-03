@@ -1,0 +1,21 @@
+@{prefix}RepellingBlast&#125;
+
+/ooc &{template:spell} {{name=**Repelling Blast**}} {{innate=
+[*Player's Handbook (Page 111)*](https://www.dndbeyond.com/sources/basic-rules/classes#EldritchInvocations)
+[*Standard Reference Document*](https://5e.tools/optionalfeatures.html#repelling%20blast_phb)}} {{level=*School of Evocation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*120 Feet*}} {{target=*[[[@{LV+1}]] Creatures*](!
+@{TargetLV})}} {{v=1}} {{s=1}} {{duration=*Instantaneous*}} {{description=**Prerequisites:**
+*Eldritch Blast Cantrip*
+
+[[@{LV+1}]] Beams of Raw Magical Energy independently streak towards Creatures of @{You}'s choice within Range, making Ranged Spell Attacks for each Beam.
+
+When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.
+
+**To Hit: d20+@{Ability}**
+[Normal](!
+%{MacroPC|ToHit}Normal=**&#91;&#91;1d20+@{Ability}&#93;&#93;**&#125;&#125;) | [Advantage](!
+%{MacroPC|ToHit}Advantage=**&#91;&#91;2d20kh1+@{Ability}&#93;&#93;**&#125;&#125;) | [Disadvantage](!
+%{MacroPC|ToHit}Disadvantage=**&#91;&#91;2d20kl1+@{Ability}&#93;&#93;**&#125;&#125;)
+
+**On Hit:**
+Each Beam deals [1d10 Force Damage](!
+%{MacroPC|DmgCalc}Total Force Damage:=**&#91;&#91;[[@{LV+1}]]d10 [Total]&#93;&#93;**&#125;&#125;).}}{

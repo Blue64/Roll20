@@ -1,0 +1,21 @@
+@{prefix}RavenQueensBlessing&#125;
+
+/ooc &{template:spell} {{name=**Raven Queen's Blessing**}} {{innate=
+[*Unearthed Arcana: Warlock and Wizard (Page 5)*](https://5e.tools/optionalfeatures.html#raven%20queen's%20blessing_uawarlockandwizard)}} {{level=*School of Evocation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*120 Feet*}} {{target=*[[[@{LV+1}]] Creatures*](!
+@{TargetLV})}} {{v=1}} {{s=1}} {{duration=*Instantaneous*}} {{description=**Prerequisites:**
+*The Raven Queen Patron*
+*Eldritch Blast Cantrip*
+
+[[@{LV+1}]] Beams of Raw Magical Energy independently streak towards Creatures of @{You}'s choice within Range, making Ranged Spell Attacks for each Beam.
+
+When you score a Critical Hit with your Eldritch Blast Cantrip; pick yourself or an ally you can see within 30 feet of you: The chosen creature can immediately expend 1 Hit Die to regain hit points equal to the roll on their Hit Die + their Constitution modifier (minimum of 1 hit point).
+
+**To Hit: d20+@{Ability}**
+[Normal](!
+%{MacroPC|ToHit}Normal=**&#91;&#91;1d20+@{Ability}&#93;&#93;**&#125;&#125;) | [Advantage](!
+%{MacroPC|ToHit}Advantage=**&#91;&#91;2d20kh1+@{Ability}&#93;&#93;**&#125;&#125;) | [Disadvantage](!
+%{MacroPC|ToHit}Disadvantage=**&#91;&#91;2d20kl1+@{Ability}&#93;&#93;**&#125;&#125;)
+
+**On Hit:**
+Each Beam deals [1d10 Force Damage](!
+%{MacroPC|DmgCalc}Total Force Damage:=**&#91;&#91;[[@{LV+1}]]d10 [Total]&#93;&#93;**&#125;&#125;).}}{

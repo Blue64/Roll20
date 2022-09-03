@@ -1,0 +1,27 @@
+@{prefix}AcidSplash&#125;
+
+/ooc &{template:spell} {{name=**Acid Splash**}} {{innate=
+[*Player's Handbook (Page 211),*](https://get.5e.tools/spells.html#acid%20splash_phb)
+[*Standard Reference Document,*](https://www.dndbeyond.com/spells/acid-splash)
+[*Basic Rules (Page 211)*](https://www.dndbeyond.com/spells/acid-splash)}} {{level=*School of Conjuration **Cantrip***}} {{castingtime=*1 Action*}} {{range=*60 Feet*}} {{target=[***1 Creature***](!
+@{Target1}) or [***2 Creatures***](!
+@{Target2})}} {{v=1}} {{s=1}} {{duration=*Instantaneous*}} {{description=**Primary Classes:**
+*Artificer*
+*Cleric (Arcana Domain)*
+*Fighter (Eldritch Knight)*
+*Rogue (Arcane Trickster)*
+*Sorcerer*
+*Wizard*
+
+**Primary Backgrounds:**
+*Simic Scientist*
+
+**Primary Races:**
+*Elf (High)*
+*Half-Elf (Moon)*
+*Half-Elf (Sun)*
+
+@{You} picks up to 2 Creatures within Range that are within 5 Feet of each other to hurl a Bubble of Acid at:
+
+Each Target must succeed on a DC @{DC} Dexterity Saving Throw or take [[[@{LV+1}]]d6 Acid Damage](!
+%{MacroPC|DmgCalc}Acid Damage:=**&#91;&#91;[[@{LV+1}]]d6&#93;&#93;**&#125;&#125;).}}{

@@ -1,0 +1,27 @@
+@{prefix}BoomingBlade&#125;
+
+/ooc &{template:spell} {{name=**Booming Blade**}} {{innate=
+[*Tasha's Cauldron of Everything (page 106),*](https://get.5e.tools/spells.html#booming%20blade_tce)
+[*Sword Coast Adventurer's Guide (page 142)*](https://www.dndbeyond.com/spells/booming-blade)}} {{level=*School of Evocation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*5 Feet*}} {{target=[***1 Creature***](!
+@{Target1})}} {{v=1}} {{m=1}} {{material=*A melee weapon worth at least 1 Silver*}} {{duration=*1 Round*}} {{description=**Primary Classes:**
+*Artificer*
+*Cleric (Arcana Domain)*
+*Fighter (Eldritch Knight)*
+*Rogue (Arcane Trickster)*
+*Sorcerer*
+*Warlock*
+*Wizard*
+
+**Primary Races:**
+*Elf (High)*
+*Half-Elf (Moon)*
+*Half-Elf (Sun)*
+
+As part of the Action used to cast this spell, @{You} must make a Melee Weapon Attack with a Weapon against 1 Creature within the Spell’s Range, otherwise the Spell fails.
+
+**On Hit:**
+The Target suffers the Attack’s Normal Effects, & takes an extra [[[@{LV+0}]]d8 Thunder Damage](!
+%{MacroPC|DmgCalc}Thunder Damage:=**&#91;&#91;[[@{LV+0}]]d8&#93;&#93;**&#125;&#125;) as it becomes sheathed in booming Energy until the Start of @{You}'s next Turn.
+
+If the Target willingly moves before then; it immediately takes [[[@{LV+1}]]d8 Thunder Damage](!
+%{MacroPC|DmgCalc}Thunder Damage:=**&#91;&#91;[[@{LV+1}]]d8&#93;&#93;**&#125;&#125;), & the Spell Ends.}}{

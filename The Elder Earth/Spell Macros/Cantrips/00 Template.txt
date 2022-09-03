@@ -1,0 +1,15 @@
+/ooc &{template:spell} {{name=**aaa**}} {{innate=
+[*aaa*](aaa)}} {{level=*School of aaa **Cantrip***}} {{castingtime=*1 Action*}} {{range=*aaa*}} {{target=[***1 Creature***](!
+@{Target1})}} {{v=1}} {{s=1}} {{m=1}} {{material=*aaa*}} {{concentration=1}} {{duration=*aaa*}} {{description=**Primary Classes:**
+*aaa*
+
+**To Hit: d20+@{Ability}**
+[Normal](!
+%{MacroPC|ToHit}Normal=**&#91;&#91;1d20+@{Ability}&#93;&#93;**&#125;&#125;) | [Advantage](!
+%{MacroPC|ToHit}Advantage=**&#91;&#91;2d20kh1+@{Ability}&#93;&#93;**&#125;&#125;) | [Disadvantage](!
+%{MacroPC|ToHit}Disadvantage=**&#91;&#91;2d20kl1+@{Ability}&#93;&#93;**&#125;&#125;)
+
+**On Hit:**
+The Target takes [[[@{LV+1}]]d0 ?? Damage](!
+%{MacroPC|DmgCalc}?? Damage:=**&#91;&#91;[[@{LV+1}]]d0&#93;&#93;**&#125;&#125;).
+}}{

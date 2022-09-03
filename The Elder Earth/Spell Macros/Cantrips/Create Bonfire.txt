@@ -1,0 +1,28 @@
+@{prefix}CreateBonfire&#125;
+
+/ooc &{template:spell} {{name=**Create Bonfire**}} {{innate=
+[*Xanathar's Guide to Everything (Page 152),*](https://get.5e.tools/spells.html#create%20bonfire_xge)
+[*Elemental Evil Player's Companion (Page 16)*](https://www.dndbeyond.com/spells/create-bonfire)}} {{level=*School of Conjuration **Cantrip***}} {{castingtime=*1 Action*}} {{range=*60 Feet*}} {{target=*5 Foot Cube*}} {{v=1}} {{s=1}} {{concentration=1}} {{duration=*up to 1 Minute*}} {{description=**Primary Classes:**
+*Artificer*
+*Cleric (Arcana Domain)*
+*Cleric (Nature Domain)*
+*Druid*
+*Fighter (Eldritch Knight)*
+*Rogue (Arcane Trickster)*
+*Sorcerer*
+*Warlock*
+*Wizard*
+
+**Primary Races:**
+*Elf (High)*
+*Half-Elf (Moon)*
+*Half-Elf (Sun)*
+
+@{You} creates a Magical Bonfire on Ground that they can see, filling a 5-foot Cube within Range until the Spell Ends.
+
+Any Creature in the Bonfire’s Space when @{You} Casts the Spell must succeed on a @{DC} Dexterity Saving Throw or take [[[@{LV+1}]]d8 Fire Damage](!
+%{MacroPC|DmgCalc}Fire Damage:=**&#91;&#91;[[@{LV+1}]]d8&#93;&#93;**&#125;&#125;)
+
+A Creature must also make the Saving Throw when it Moves into the Bonfire’s Space for the 1st time on a Turn or Ends its Turn there.
+
+The Magical Bonfire Ignites Flammable Objects in its Area that aren't being Worn or Carried.}}{

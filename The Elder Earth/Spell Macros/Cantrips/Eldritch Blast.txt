@@ -1,0 +1,19 @@
+@{prefix}EldritchBlast&#125;
+
+/ooc &{template:spell} {{name=**Eldritch Blast**}} {{innate=
+[*Player's Handbook (Page 237),*](https://5e.tools/spells.html#eldritch%20blast_phb)
+[*Standard Reference Document*](https://www.dndbeyond.com/spells/eldritch-blast)}} {{level=*School of Evocation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*120 Feet*}} {{target=*[[[@{LV+1}]] Creatures*](!
+@{TargetLV})}} {{v=1}} {{s=1}} {{duration=*Instantaneous*}} {{description=**Primary Classes:**
+*Warlock*
+
+[[@{LV+1}]] Beams of Raw Magical Energy independently streak towards up to [[@{LV+1}]] Creatures @{You} picks within Range, making Ranged Spell Attacks for each Beam.
+
+**To Hit: d20+@{Ability}**
+[Normal](!
+%{MacroPC|ToHit}Normal=**&#91;&#91;1d20+@{Ability}&#93;&#93;**&#125;&#125;) | [Advantage](!
+%{MacroPC|ToHit}Advantage=**&#91;&#91;2d20kh1+@{Ability}&#93;&#93;**&#125;&#125;) | [Disadvantage](!
+%{MacroPC|ToHit}Disadvantage=**&#91;&#91;2d20kl1+@{Ability}&#93;&#93;**&#125;&#125;)
+
+**On Hit:**
+Each Beam deals [1d10 Force Damage](!
+%{MacroPC|DmgCalc}Total Force Damage:=**&#91;&#91;[[@{LV+1}]]d10 [Total]&#93;&#93;**&#125;&#125;).}}{

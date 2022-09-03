@@ -1,0 +1,27 @@
+@{prefix}Druidcraft&#125;
+
+/ooc &{template:spell} {{name=**Druidcraft**}} {{innate=
+[*Player's Handbook (Page 236),*](https://get.5e.tools/spells.html#druidcraft_phb)
+[*Standard Reference Document,*](https://get.5e.tools/spells.html#druidcraft_phb)
+[*Basic Rules (Page 236)*](https://www.dndbeyond.com/spells/druidcraft)}} {{level=*School of Transmutation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*30 Feet*}} {{v=1}} {{s=1}} {{duration=*Instantaneous*}} {{description=**Primary Classes:**
+*Cleric (Nature Domain)*
+*Druid*
+*Fighter (Arcane Archer)*
+
+**Primary Races:**
+*Fairy*
+*Halfling (Lotusden)*
+
+**Primary Backgrounds:**
+*Selesnya Initiate*
+*Simic Scientist*
+
+Whispering to the Spirits of Nature; @{You} creates 1 of the following Effects within Range:
+
+***•*** @{You} creates a Tiny, harmless Sensory Effect for 1 Round that predicts what the weather will be at their Location for the next 24 Hours.
+
+***•*** @{You} instantly makes a Flower Blossom, a Seed Pod open, or a Leaf Bud Bloom.
+
+***•*** @{You} instantaneously creates a harmless Nature related Sensory Effect within a 5 Foot Cube.
+
+***•*** @{You} instantly Lights or Snuffs out a Candle, Torch, or Small Campfire.}}{

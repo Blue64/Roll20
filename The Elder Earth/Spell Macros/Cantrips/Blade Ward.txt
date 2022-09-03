@@ -1,0 +1,20 @@
+@{prefix}BladeWard&#125;
+
+/ooc &{template:spell} {{name=**Blade Ward**}} {{innate=
+[*Player's Handbook*](https://get.5e.tools/spells.html#blade%20ward_phb) [*(Page 218)*](https://www.dndbeyond.com/spells/blade-ward)}} {{level=*School of Abjuration **Cantrip***}} {{castingtime=*1 Action*}} {{range=*Self*}} {{v=1}} {{s=1}} {{duration=*1 Round*}} {{description=**Primary Classes:**
+*Bard*
+*Cleric (Arcana Domain)*
+*Fighter (Eldritch Knight)*
+*Rogue (Arcane Trickster)*
+*Sorcerer*
+*Warlock*
+*Wizard*
+
+**Primary Races:**
+*Elf (High)*
+*Half-Elf (Moon)*
+*Half-Elf (Sun)*
+
+@{You} extends their Hand & Traces a Sigil of Warding in the Air.
+
+Until the End of their next Turn; @{You} has Resistance against Bludgeoning, Piercing, & Slashing Damage dealt by Weapon Attacks.}}{

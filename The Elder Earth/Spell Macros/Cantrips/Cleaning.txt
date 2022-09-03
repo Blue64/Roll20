@@ -1,0 +1,27 @@
+@{prefix}Cleaning&#125;
+
+/ooc &{template:spell} {{name=**Cleaning**}} {{innate=
+[*Homebrew; Blue64*](https://www.dndbeyond.com/spells/45854-cleaning)}} {{level=*School of Transmutation **Cantrip***}} {{castingtime=*1 Bonus Action*}} {{range=*[[(@{LV+1} *30)]] Feet*}} {{s=1}} {{concentration=1}} {{duration=*up to [[@{LV+1}]] Hours*}} {{description=**Primary Classes:**
+*Sorcerer*
+*Wizard*
+
+This Spell can be Cast without Concentration as an Instantaneous Effect similar to the Prestidigitation Cantrip's Cleaning Effect, but no Concentration Effects will occur.
+
+With a wave of the hand, @{You} can manipulate the stains, Dirt, grime, Mud & other general "muck" (all of these will be referred to hereafter as Muck) over 1 of the following Target Areas:
+***•*** a [[(@{LV+1} *5)]] Foot Cube
+***•*** 5 Cubic Foot Surfaces: [[(@{LV+1} *@{LV+1})]]
+***•*** Tiny Creatures: [[floor((@{LV+1} *@{LV+1}) /(0.5))]]
+***•*** Small Creatures: [[floor((@{LV+1} *@{LV+1}) /(0.75))]]
+***•*** Medium Creatures: [[floor((@{LV+1} *@{LV+1}) /(1))]]
+***•*** Large Creatures: [[floor((@{LV+1} *@{LV+1}) /(2 *2))]]
+***•*** Huge Creatures: [[floor((@{LV+1} *@{LV+1}) /(3 *3))]]
+***•*** Gargantuan Creatures: [[floor((@{LV+1} *@{LV+1}) /(4 *4))]]
+
+for every Minute @{You} retains Concentration, they are capable of the following Effects:
+***•*** Moving the Muck up to [[((5 +(@{LV+1} *5)) *10)]] Feet (up to [[(5 +(@{LV+1} *5))]] Feet per Round).
+***•*** Repairing up to [[@{LV+1}]] Cubic Ft. of Material ([[(@{LV+1} *12) /10]] Cubic inches per Round).
+
+if the Concentration Effect Repairs it completely; unless the Materials were not already compatible, the Repairs become indistinguishable.
+
+This Effect can Physically Repair a Magic Item or Construct, but this Spell can not restore Magic to an object in such a manner unless Consuming a [Permanent Ritual](!
+@{prefix}CleaningRitual&#125;) to do so.}}{

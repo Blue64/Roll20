@@ -1,0 +1,21 @@
+@{prefix}AgonizingBlast&#125;
+
+/ooc &{template:spell} {{name=**Agonizing Blast**}} {{innate=
+[*Player's Handbook*](https://www.dndbeyond.com/sources/phb/warlock#EldritchInvocations&#40;A-D&#41;) [*(Page 110),*](https://5e.tools/optionalfeatures.html#agonizing%20blast_phb)
+[*Standard Reference Document*](https://www.dndbeyond.com/sources/basic-rules/classes#EldritchInvocations)}} {{level=*School of Evocation **Cantrip***}} {{castingtime=*1 Action*}} {{range=*120 Feet*}} {{target=*[[[@{LV+1}]] Creatures*](!
+@{TargetLV})}} {{v=1}} {{s=1}} {{duration=*Instantaneous*}} {{description=**Prerequisites:**
+*Eldritch Blast Cantrip*
+
+[[@{LV+1}]] Beams of Raw Magical Energy independently streak towards Creatures of @{You}'s choice within Range, making Ranged Spell Attacks for each Beam.
+
+When your Eldritch Blast strikes a target, add your Charisma Modifier ([[@{selected|charisma_mod}]]) to the damage that beam deals.
+
+**To Hit: d20+@{Ability}**
+[Normal](!
+%{MacroPC|ToHit}Normal=**&#91;&#91;1d20+@{Ability}&#93;&#93;**&#125;&#125;) | [Advantage](!
+%{MacroPC|ToHit}Advantage=**&#91;&#91;2d20kh1+@{Ability}&#93;&#93;**&#125;&#125;) | [Disadvantage](!
+%{MacroPC|ToHit}Disadvantage=**&#91;&#91;2d20kl1+@{Ability}&#93;&#93;**&#125;&#125;)
+
+**On Hit:**
+Each Beam deals [1d10 +@{selected|charisma_mod} Force Damage](!
+%{MacroPC|DmgCalc}Total Force Damage:=**&#91;&#91;[[@{LV+1}]]d10 +&#40;@{selected|charisma_mod} *[[@{LV+1}]]&#41; [Total]&#93;&#93;**&#125;&#125;).}}{
