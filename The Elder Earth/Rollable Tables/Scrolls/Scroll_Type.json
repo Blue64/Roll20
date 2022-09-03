@@ -1,0 +1,10 @@
+!import-table --Scroll Type --hide
+!import-table-item --Scroll Type --a Charisma Based Scroll of Arcane Origin --1
+!import-table-item --Scroll Type --a Charisma Based Scroll of Divine Origin --1
+!import-table-item --Scroll Type --a Charisma Based Scroll of Druidic Origin --1
+!import-table-item --Scroll Type --a Wisdom Based Scroll of Arcane Origin --1
+!import-table-item --Scroll Type --a Wisdom Based Scroll of Divine Origin --1
+!import-table-item --Scroll Type --a Wisdom Based Scroll of Druidic Origin --1
+!import-table-item --Scroll Type --an Intelligence Based Scroll of Arcane Origin --1
+!import-table-item --Scroll Type --an Intelligence Based Scroll of Divine Origin --1
+!import-table-item --Scroll Type --an Intelligence Based Scroll of Druidic Origin --1

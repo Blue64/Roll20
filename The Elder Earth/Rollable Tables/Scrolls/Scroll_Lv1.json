@@ -1,0 +1,80 @@
+!import-table --Scroll Lv1 --hide
+!import-table-item --Scroll Lv1 --Absorb Elements --1
+!import-table-item --Scroll Lv1 --Acclimatisation --1
+!import-table-item --Scroll Lv1 --Alarm --1
+!import-table-item --Scroll Lv1 --Animal Friendship --1
+!import-table-item --Scroll Lv1 --Armor of Agathys --1
+!import-table-item --Scroll Lv1 --Arms of Hadar --1
+!import-table-item --Scroll Lv1 --Bane --1
+!import-table-item --Scroll Lv1 --Beast Bond --1
+!import-table-item --Scroll Lv1 --Bless --1
+!import-table-item --Scroll Lv1 --Burning Hands --1
+!import-table-item --Scroll Lv1 --Catapult --1
+!import-table-item --Scroll Lv1 --Cause Fear --1
+!import-table-item --Scroll Lv1 --Ceremony --1
+!import-table-item --Scroll Lv1 --Chaos Bolt --1
+!import-table-item --Scroll Lv1 --Charm Person --1
+!import-table-item --Scroll Lv1 --Chromatic Orb --1
+!import-table-item --Scroll Lv1 --Color Spray --1
+!import-table-item --Scroll Lv1 --Command --1
+!import-table-item --Scroll Lv1 --Compelled Duel --1
+!import-table-item --Scroll Lv1 --Comprehend Languages --1
+!import-table-item --Scroll Lv1 --Create or Destroy Water --1
+!import-table-item --Scroll Lv1 --Cure Wounds --1
+!import-table-item --Scroll Lv1 --Detect Evil & Good --1
+!import-table-item --Scroll Lv1 --Detect Magic --1
+!import-table-item --Scroll Lv1 --Detect Poison & Disease --1
+!import-table-item --Scroll Lv1 --Disguise Self --1
+!import-table-item --Scroll Lv1 --Dissonant Whispers --1
+!import-table-item --Scroll Lv1 --Distort Value --1
+!import-table-item --Scroll Lv1 --Divine Favor --1
+!import-table-item --Scroll Lv1 --Earth Tremor --1
+!import-table-item --Scroll Lv1 --Ensnaring Strike --1
+!import-table-item --Scroll Lv1 --Entangle --1
+!import-table-item --Scroll Lv1 --Expeditious Retreat --1
+!import-table-item --Scroll Lv1 --Faerie Fire --1
+!import-table-item --Scroll Lv1 --False Life --1
+!import-table-item --Scroll Lv1 --Feather Fall --1
+!import-table-item --Scroll Lv1 --Find Familiar --1
+!import-table-item --Scroll Lv1 --Fog Cloud --1
+!import-table-item --Scroll Lv1 --Goodberry --1
+!import-table-item --Scroll Lv1 --Grease --1
+!import-table-item --Scroll Lv1 --Guiding Bolt --1
+!import-table-item --Scroll Lv1 --Guiding Hand --1
+!import-table-item --Scroll Lv1 --Hail of Thorns --1
+!import-table-item --Scroll Lv1 --Healing Word --1
+!import-table-item --Scroll Lv1 --Hellish Rebuke --1
+!import-table-item --Scroll Lv1 --Heroism --1
+!import-table-item --Scroll Lv1 --Hex --1
+!import-table-item --Scroll Lv1 --Hunter's Mark --1
+!import-table-item --Scroll Lv1 --Ice Knife --1
+!import-table-item --Scroll Lv1 --Id Insinuation --1
+!import-table-item --Scroll Lv1 --Identify --1
+!import-table-item --Scroll Lv1 --Illusory Script --1
+!import-table-item --Scroll Lv1 --Inflict Wounds --1
+!import-table-item --Scroll Lv1 --Jim's Magic Missile --1
+!import-table-item --Scroll Lv1 --Jump --1
+!import-table-item --Scroll Lv1 --Longstrider --1
+!import-table-item --Scroll Lv1 --Mage Armor --1
+!import-table-item --Scroll Lv1 --Magic Missile --1
+!import-table-item --Scroll Lv1 --Protection from Evil & Good --1
+!import-table-item --Scroll Lv1 --Purify Food & Drink --1
+!import-table-item --Scroll Lv1 --Ray of Sickness --1
+!import-table-item --Scroll Lv1 --Sanctuary --1
+!import-table-item --Scroll Lv1 --Searing Smite --1
+!import-table-item --Scroll Lv1 --Shield --1
+!import-table-item --Scroll Lv1 --Shield of Faith --1
+!import-table-item --Scroll Lv1 --Silent Image --1
+!import-table-item --Scroll Lv1 --Sleep --1
+!import-table-item --Scroll Lv1 --Snare --1
+!import-table-item --Scroll Lv1 --Speak with Animals --1
+!import-table-item --Scroll Lv1 --Tasha's Hideous Laughter --1
+!import-table-item --Scroll Lv1 --Tenser's Floating Disk --1
+!import-table-item --Scroll Lv1 --Thunderous Smite --1
+!import-table-item --Scroll Lv1 --Thunderwave --1
+!import-table-item --Scroll Lv1 --Unearthly Chorus --1
+!import-table-item --Scroll Lv1 --Unseen Servant --1
+!import-table-item --Scroll Lv1 --Wild Cunning --1
+!import-table-item --Scroll Lv1 --Witch Bolt --1
+!import-table-item --Scroll Lv1 --Wrathful Smite --1
+!import-table-item --Scroll Lv1 --Zephyr Strike --1
