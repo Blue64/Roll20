@@ -1,0 +1,126 @@
+!import-table --Encounter-Grasslands --hide
+!import-table-item --Encounter-Grasslands --A Circular section of Grass nearly a 1/4 Mile across appears to have been pressed Down; [[1d4]] more Circles connected by Lines can be seen from Overhead. --2
+!import-table-item --Encounter-Grasslands --A Giant Hole 50 Feet across that descends nearly 500 Feet before opening into an Empty Cave. --3
+!import-table-item --Encounter-Grasslands --A Hot Wind that carries the stench of Rot. --3
+!import-table-item --Encounter-Grasslands --A Tornado touches down [[1d6]] Miles away, tearing up the land for 1 Mile before it dissipates --2
+!import-table-item --Encounter-Grasslands --A Tribe of [[2d20+20]] Nomads (Tribal Warriors) on Riding Horses following a herd of Antelope (Deer). The Nomads are willing to trade Food, Leather, & Information for Weapons. --2
+!import-table-item --Encounter-Grasslands --A Valley where all the Grass has Died & the Ground is Littered with Stumps & fallen Tree Trunks, all Petrified --5
+!import-table-item --Encounter-Grasslands --A Witch (Mage) dwelling in a Crude Hut. She offers Potions of Healing, Antitoxins, & other Consumable Items for Sale in exchange for Food & News. --3
+!import-table-item --Encounter-Grasslands --A circle of standing stones within which the air is utterly still, no matter how hard the wind blows outside --5
+!import-table-item --Encounter-Grasslands --A fiery Chariot that races across the sky --5
+!import-table-item --Encounter-Grasslands --A friendly Adventuring Party of [[1d6+1]] Characters of varying Race, Class, & Level (Avg: [[1d6+2]]) share Information about their recent Travels. --5
+!import-table-item --Encounter-Grasslands --A stretch of Land littered with rotting War Machines, Bones, & Banners of Forgotten Armies --3
+!import-table-item --Encounter-Grasslands --An old Road of Paved Stones, partly reclaimed by Wilderness, that Travels for [[1d8]] Miles in either Direction before Ending. --2
+!import-table-item --Encounter-Grasslands --[[1] Cyclops --1
+!import-table-item --Encounter-Grasslands --1 Adult Gold Dragon --6
+!import-table-item --Encounter-Grasslands --1 Allosaurus --2
+!import-table-item --Encounter-Grasslands --1 Ancient Gold Dragon --2
+!import-table-item --Encounter-Grasslands --1 Ankheg --2
+!import-table-item --Encounter-Grasslands --1 Ankylosaurus --5
+!import-table-item --Encounter-Grasslands --1 Bulette --3
+!import-table-item --Encounter-Grasslands --1 Chimera --3
+!import-table-item --Encounter-Grasslands --1 Giant Boar --2
+!import-table-item --Encounter-Grasslands --1 Giant Eagle --4
+!import-table-item --Encounter-Grasslands --1 Giant Elk --2
+!import-table-item --Encounter-Grasslands --1 Gnoll Pack Lord with [[1d3]] Giant Hyenas --2
+!import-table-item --Encounter-Grasslands --1 Gnoll Pack Lord with [[1d4+1]] Giant Hyenas --4
+!import-table-item --Encounter-Grasslands --1 Gnoll Pack Lord with [[1d4]] Giant Hyenas --2
+!import-table-item --Encounter-Grasslands --1 Goblin Boss with [[1d6+2]] Goblins & [[1d4+3]] Wolves --2
+!import-table-item --Encounter-Grasslands --1 Goblin Boss with [[2d4]] Goblins --2
+!import-table-item --Encounter-Grasslands --1 Gorgon --1
+!import-table-item --Encounter-Grasslands --1 Hobgoblin Captain with [[1d4+1]] Hobgoblins --1
+!import-table-item --Encounter-Grasslands --1 Hobgoblin Captain with [[2d6]] Hobgoblins --2
+!import-table-item --Encounter-Grasslands --1 Lion --2
+!import-table-item --Encounter-Grasslands --1 Ogre --2
+!import-table-item --Encounter-Grasslands --1 Orc Eye of Gruumsh with [[1d8+1]] Orcs --4
+!import-table-item --Encounter-Grasslands --1 Orc Eye of Gruumsh with [[2d4+1]] Orcs --1
+!import-table-item --Encounter-Grasslands --1 Orog --2
+!import-table-item --Encounter-Grasslands --1 Panther (Leopard) --2
+!import-table-item --Encounter-Grasslands --1 Pegasus --2
+!import-table-item --Encounter-Grasslands --1 Phase Spider --2
+!import-table-item --Encounter-Grasslands --1 Tiger --2
+!import-table-item --Encounter-Grasslands --1 Triceratops --2
+!import-table-item --Encounter-Grasslands --1 Tyrannosaurus Rex --1
+!import-table-item --Encounter-Grasslands --1 Wereboar --2
+!import-table-item --Encounter-Grasslands --1 Weretiger --1
+!import-table-item --Encounter-Grasslands --1 Young Gold Dragon --1
+!import-table-item --Encounter-Grasslands --[[1d10]] Gorgons --10
+!import-table-item --Encounter-Grasslands --[[1d10]] Thri-Kreen --4
+!import-table-item --Encounter-Grasslands --[[1d12]] Chimeras --10
+!import-table-item --Encounter-Grasslands --[[1d12]] Couatls --10
+!import-table-item --Encounter-Grasslands --[[1d12]] Lions --4
+!import-table-item --Encounter-Grasslands --[[1d2]] Couatls --5
+!import-table-item --Encounter-Grasslands --[[1d2]] Giant Eagles --2
+!import-table-item --Encounter-Grasslands --[[1d2]] Giant Poisonous Snakes --2
+!import-table-item --Encounter-Grasslands --[[1d2]] Giant Vultures --2
+!import-table-item --Encounter-Grasslands --[[1d2]] Pegasi --2
+!import-table-item --Encounter-Grasslands --[[1d2]] Tigers --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Allosauruses --1
+!import-table-item --Encounter-Grasslands --[[1d3]] Boars --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Bugbears --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Centaurs --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Chimeras --5
+!import-table-item --Encounter-Grasslands --[[1d3]] Cockatrices --4
+!import-table-item --Encounter-Grasslands --[[1d3]] Druids patrolling the Wilds --5
+!import-table-item --Encounter-Grasslands --[[1d3]] Elephants --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Giant Vultures --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Gnoll Fangs of Yeenoghu --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Gorgons --1
+!import-table-item --Encounter-Grasslands --[[1d3]] Griffons --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Hippogriffs --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Manticores --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Phase Spiders --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Rhinoceri --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Thri-Kreen --2
+!import-table-item --Encounter-Grasslands --[[1d3]] Tyrannosaurus Rexes --1
+!import-table-item --Encounter-Grasslands --[[1d3]] Weretigers --3
+!import-table-item --Encounter-Grasslands --[[1d3]] Young Gold Dragons --19
+!import-table-item --Encounter-Grasslands --[[1d4+1]] Rhinoceri --4
+!import-table-item --Encounter-Grasslands --[[1d4+1]] Veterans on Riding Horses --3
+!import-table-item --Encounter-Grasslands --[[1d4+3]] Gorgons --10
+!import-table-item --Encounter-Grasslands --[[1d4+3]] Swarms of Insects --4
+!import-table-item --Encounter-Grasslands --[[1d4]] Bulettes --5
+!import-table-item --Encounter-Grasslands --[[1d4]] Cyclopes --1
+!import-table-item --Encounter-Grasslands --[[1d4]] Jackalweres --4
+!import-table-item --Encounter-Grasslands --[[1d4]] Manticores --2
+!import-table-item --Encounter-Grasslands --[[1d4]] Ogres & [[1d4]] Orogs --2
+!import-table-item --Encounter-Grasslands --[[1d4]] Scouts --4
+!import-table-item --Encounter-Grasslands --[[1d4]] Triceratops --2
+!import-table-item --Encounter-Grasslands --[[1d6+2]] Elk --2
+!import-table-item --Encounter-Grasslands --[[1d6+2]] Giant Boars --2
+!import-table-item --Encounter-Grasslands --[[1d6+2]] Giant Wasps --4
+!import-table-item --Encounter-Grasslands --[[1d6+2]] Griffons --2
+!import-table-item --Encounter-Grasslands --[[1d6+2]] Riding Horses --2
+!import-table-item --Encounter-Grasslands --[[1d6+2]] Tyrannosaurus Rexes --6
+!import-table-item --Encounter-Grasslands --[[1d6+2]] Wereboars --2
+!import-table-item --Encounter-Grasslands --[[1d6+3]] Goblins riding Wolves --4
+!import-table-item --Encounter-Grasslands --[[1d6]] Elephants --2
+!import-table-item --Encounter-Grasslands --[[1d6]] Scarecrows --2
+!import-table-item --Encounter-Grasslands --[[1d8+1]] Bugbears --4
+!import-table-item --Encounter-Grasslands --[[1d8+1]] Centaurs --2
+!import-table-item --Encounter-Grasslands --[[1d8+1]] Cyclopes --10
+!import-table-item --Encounter-Grasslands --[[1d8+4]] Pteranodons --3
+!import-table-item --Encounter-Grasslands --[[1d8]] Giant Goats --4
+!import-table-item --Encounter-Grasslands --[[1d8]] Worgs --4
+!import-table-item --Encounter-Grasslands --[[2d10]] Bugbears with [[4d6]] Goblins & [[2d10]] Wolves --10
+!import-table-item --Encounter-Grasslands --[[2d10]] Elephants --10
+!import-table-item --Encounter-Grasslands --[[2d10]] Gnoll fangs of Yeenoghu --5
+!import-table-item --Encounter-Grasslands --[[2d4+2]] Axe Beaks --5
+!import-table-item --Encounter-Grasslands --[[2d4]] Ankhegs --2
+!import-table-item --Encounter-Grasslands --[[2d4]] Cyclopes --10
+!import-table-item --Encounter-Grasslands --[[2d4]] Giant Elk --2
+!import-table-item --Encounter-Grasslands --[[2d4]] Gnolls --4
+!import-table-item --Encounter-Grasslands --[[2d4]] Goblins --2
+!import-table-item --Encounter-Grasslands --[[2d4]] Hippogriffs --4
+!import-table-item --Encounter-Grasslands --[[2d4]] Hobgoblins --4
+!import-table-item --Encounter-Grasslands --[[2d4]] Orcs --4
+!import-table-item --Encounter-Grasslands --[[2d4]] Scarecrows --4
+!import-table-item --Encounter-Grasslands --[[2d4]] Tyrannosaurus Rexes --6
+!import-table-item --Encounter-Grasslands --[[2d4]] Weretigers --6
+!import-table-item --Encounter-Grasslands --[[2d6]] Giant Wolf Spiders --4
+!import-table-item --Encounter-Grasslands --[[2d6]] Hyenas feeding on the carcass of a dead Dinosaur --5
+!import-table-item --Encounter-Grasslands --[[2d6]] Triceratops --10
+!import-table-item --Encounter-Grasslands --[[3d6]] Bulettes --10
+!import-table-item --Encounter-Grasslands --[[3d6]] Wereboars --5
+!import-table-item --Encounter-Grasslands --[[3d6]] Wolves --4
+!import-table-item --Encounter-Grasslands --5 Triceratops --5

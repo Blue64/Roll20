@@ -1,0 +1,98 @@
+Swamp Encounters
+!import-table --Encounter-Swamp --hide
+!import-table-item --Encounter-Swamp --A Bloated Humanoid Corpse floating face-down in the Water --4
+!import-table-item --Encounter-Swamp --A Large, Spreading Tree from which [[2d6]] Armored Knights Hang by the Neck --10
+!import-table-item --Encounter-Swamp --A Torrential Rain that lasts [[1d6]] Minutes & puts out all unprotected Flames within 1 Mile --6
+!import-table-item --Encounter-Swamp --A foul stench bubbling up from brackish Waters --4
+!import-table-item --Encounter-Swamp --A high-pitched shriek that lasts for [[1d4]] Minutes --4
+!import-table-item --Encounter-Swamp --An Altar partially sunk into the Mud, devoted to a God that is part Human & part Frog --6
+!import-table-item --Encounter-Swamp --An Eerie, Bat-Headed Idol almost completely covered by Vines --10
+!import-table-item --Encounter-Swamp --Fog that Rolls across the Terrain, making the Area within [[1d3]] Miles Heavily Obscured for [[1d4]] Hours --10
+!import-table-item --Encounter-Swamp --Tainted Water that exposes Creatures that move through it to Sight Rot (see “Diseases” in chapter 8 of the Dungeon Master’s Guide) --4
+!import-table-item --Encounter-Swamp --The Corpse of an Adventurer tangled in the Weeds. Looting the body turns up an Explorer’S Pack & [[1d2 -1]] Random Common Magic Item. --4
+!import-table-item --Encounter-Swamp --The sound of drums beating several Miles away --10
+!import-table-item --Encounter-Swamp --[[1]] Adult Black Dragon --12
+!import-table-item --Encounter-Swamp --[[1]] Ancient Black Dragon --8
+!import-table-item --Encounter-Swamp --[[1]] Crocodile --4
+!import-table-item --Encounter-Swamp --[[1]] Druid --6
+!import-table-item --Encounter-Swamp --[[1]] Ghast --2
+!import-table-item --Encounter-Swamp --[[1]] Giant Constrictor Snake --6
+!import-table-item --Encounter-Swamp --[[1]] Giant Crocodile --12
+!import-table-item --Encounter-Swamp --[[1]] Giant Spider --2
+!import-table-item --Encounter-Swamp --[[1]] Giant Toad --8
+!import-table-item --Encounter-Swamp --[[1]] Green Hag --4
+!import-table-item --Encounter-Swamp --[[1]] Hydra --2
+!import-table-item --Encounter-Swamp --[[1]] Lizardfolk Shaman with [[1d3]] Swarms of Poisonous Snakes & [[1d8 +2]] Lizardfolk --8
+!import-table-item --Encounter-Swamp --[[1]] Lizardfolk Shaman with [[1d6]] Giant Lizards & [[2d10]] Lizardfolk --6
+!import-table-item --Encounter-Swamp --[[1]] Orc Eye of Gruumsh with [[1d3]] Ogres & [[2d10 +5]] Orcs --8
+!import-table-item --Encounter-Swamp --[[1]] Orc Eye of Gruumsh with [[1d3]] Orogs & [[2d6 +3]] Orcs --4
+!import-table-item --Encounter-Swamp --[[1]] Revenant --4
+!import-table-item --Encounter-Swamp --[[1]] Scout --4
+!import-table-item --Encounter-Swamp --[[1]] Shambling Mound --20
+!import-table-item --Encounter-Swamp --[[1]] Swarm of Insects --4
+!import-table-item --Encounter-Swamp --[[1]] Swarm of Poisonous Snakes --4
+!import-table-item --Encounter-Swamp --[[1]] Troll --2
+!import-table-item --Encounter-Swamp --[[1]] Wight --2
+!import-table-item --Encounter-Swamp --[[1]] Will-O'-Wisp --4
+!import-table-item --Encounter-Swamp --[[1]] Young Black Dragon --8
+!import-table-item --Encounter-Swamp --[[1]] Yuan-Ti Abomination --6
+!import-table-item --Encounter-Swamp --[[1]] Yuan-Ti Malison --4
+!import-table-item --Encounter-Swamp --[[1d10 +1]] Bullywugs with [[1d8 +1]] Giant Frogs --4
+!import-table-item --Encounter-Swamp --[[1d10 +5]] Tribal Warriors --2
+!import-table-item --Encounter-Swamp --[[1d10]] Revenants --6
+!import-table-item --Encounter-Swamp --[[1d10]] Water Elementals --10
+!import-table-item --Encounter-Swamp --[[1d12]] Ghouls --6
+!import-table-item --Encounter-Swamp --[[1d3]] Hydras --12
+!import-table-item --Encounter-Swamp --[[1d3]] Yuan-Ti Abominations --10
+!import-table-item --Encounter-Swamp --[[1d4 +1]] Giant Constrictor Snakes --6
+!import-table-item --Encounter-Swamp --[[1d4 +1]] Mud huts partially sunken in Murky Water --4
+!import-table-item --Encounter-Swamp --[[1d4 +1]] Swarms of Poisonous Snakes --6
+!import-table-item --Encounter-Swamp --[[1d4 +1]] Trolls --6
+!import-table-item --Encounter-Swamp --[[1d4 +1]] Wights --4
+!import-table-item --Encounter-Swamp --[[1d4 +1]] Will-O'-Wisps --6
+!import-table-item --Encounter-Swamp --[[1d4 +2]] Ogres --6
+!import-table-item --Encounter-Swamp --[[1d4]] Ghouls --4
+!import-table-item --Encounter-Swamp --[[1d4]] Giant Crocodiles --20
+!import-table-item --Encounter-Swamp --[[1d4]] Green Hags --4
+!import-table-item --Encounter-Swamp --[[1d4]] Green Hags with [[1d6 +1]] Ogres --4
+!import-table-item --Encounter-Swamp --[[1d4]] Poisonous Snakes --2
+!import-table-item --Encounter-Swamp --[[1d4]] Revenants --10
+!import-table-item --Encounter-Swamp --[[1d4]] Water Elementals --2
+!import-table-item --Encounter-Swamp --[[1d4]] Young Black Dragons --10
+!import-table-item --Encounter-Swamp --[[1d4]] Yuan-Ti Purebloods --4
+!import-table-item --Encounter-Swamp --[[1d6 +1]] Green Hags --10
+!import-table-item --Encounter-Swamp --[[1d6 +1]] Yuan-Ti Malisons --4
+!import-table-item --Encounter-Swamp --[[1d6 +2]] Constrictor Snakes --6
+!import-table-item --Encounter-Swamp --[[1d6 +2]] Giant Poisonous Snakes --6
+!import-table-item --Encounter-Swamp --[[1d6 +2]] Giant Toads --6
+!import-table-item --Encounter-Swamp --[[1d6 +2]] Swarms of Ravens --1
+!import-table-item --Encounter-Swamp --[[1d6]] Shambling Mounds --10
+!import-table-item --Encounter-Swamp --[[1d8 +1]] Giant Lizards --4
+!import-table-item --Encounter-Swamp --[[1d8 +1]] Ogres --8
+!import-table-item --Encounter-Swamp --[[1d8 +1]] Orcs --4
+!import-table-item --Encounter-Swamp --[[1d8 +1]] Swarms of Insects --2
+!import-table-item --Encounter-Swamp --[[1d8 +1]] Swarms of Rats --1
+!import-table-item --Encounter-Swamp --[[1d8 +1]] Water Elementals --5
+!import-table-item --Encounter-Swamp --[[1d8 +1]] Yuan-Ti Malisons --10
+!import-table-item --Encounter-Swamp --[[1d8 +1]] Yuan-Ti Purebloods --6
+!import-table-item --Encounter-Swamp --[[1d8 +2]] Trolls --10
+!import-table-item --Encounter-Swamp --[[2d10]] Orcs --6
+!import-table-item --Encounter-Swamp --[[2d10]] Stirges --6
+!import-table-item --Encounter-Swamp --[[2d4]] Ghasts --8
+!import-table-item --Encounter-Swamp --[[2d4]] Giant Frogs --6
+!import-table-item --Encounter-Swamp --[[2d4]] Giant Lizards --4
+!import-table-item --Encounter-Swamp --[[2d4]] Giant Poisonous Snakes --4
+!import-table-item --Encounter-Swamp --[[2d4]] Giant Spiders --6
+!import-table-item --Encounter-Swamp --[[2d4]] Lizardfolk --6
+!import-table-item --Encounter-Swamp --[[2d4]] Mud Mephits --2
+!import-table-item --Encounter-Swamp --[[2d4]] Wights --10
+!import-table-item --Encounter-Swamp --[[2d4]] Winged Kobolds --2
+!import-table-item --Encounter-Swamp --[[2d6 +3]] Bullywugs --8
+!import-table-item --Encounter-Swamp --[[2d6]] Crocodiles --6
+!import-table-item --Encounter-Swamp --[[2d8 +1]] Kobolds --6
+!import-table-item --Encounter-Swamp --[[2d8]] Ravens --10
+!import-table-item --Encounter-Swamp --[[2d8]] Scouts --6
+!import-table-item --Encounter-Swamp --[[2d8]] Winged Kobolds --4
+!import-table-item --Encounter-Swamp --[[3d6]] Giant Rats --4
+!import-table-item --Encounter-Swamp --[[3d6]] Lizardfolk --6
+!import-table-item --Encounter-Swamp --[[3d6]] Rats --8

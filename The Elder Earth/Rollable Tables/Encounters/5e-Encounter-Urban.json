@@ -1,0 +1,178 @@
+!import-table --Urban Encounters --hide
+!import-table-item --Urban Encounters --2 Farmers trading blows over the Price of Potatoes (50% chance for 1 Farmer to be a Retired Assassin) --5
+!import-table-item --Urban Encounters --A Doomsayer who Preaches the End of the World from a Street Corner --6
+!import-table-item --Urban Encounters --A Fortune-Teller reads Cards for those who Pay a price of 1 Silver --8
+!import-table-item --Urban Encounters --A Noble shouts "Stop! Thief!" at a fleeing Scoundrel (Bandit) --6
+!import-table-item --Urban Encounters --A Peddler weighed down with a load of Pots, Pans, & other Basic Supplies --10
+!import-table-item --Urban Encounters --A Witch (Archmage) who zooms overhead on a Broom of Flying --6
+!import-table-item --Urban Encounters --A distant Boom followed by a plume of Smoke rising from the other side of the Community --6
+!import-table-item --Urban Encounters --A distraught Parent who rushes up to People, begging for help for a Child who fell into the Sewer --10
+!import-table-item --Urban Encounters --A patrol of [[2d10]] Guards marching up the Street, searching for someone or something --10
+!import-table-item --Urban Encounters --A scruffy Commoner that ducks into an Alley to make a purchase from a suspicious-looking figure --8
+!import-table-item --Urban Encounters --A talkative Urchin, badgering passersby to serve as their Guide through the Community for a price of 1 Silver --6
+!import-table-item --Urban Encounters --A wagon loaded with Apples that has a Broken Wheel & holds up Traffic --10
+!import-table-item --Urban Encounters --An Actor leans out from a Second-Story Window to Call to passersby, announcing a Show --8
+!import-table-item --Urban Encounters --An aggressive Merchant who Hawks Wares to Passersby, claiming to be the purveyor of the Finest Silks in all the land --10
+!import-table-item --Urban Encounters --Someone empties a Chamber Pot onto the Street from a Second-Floor Window --6
+!import-table-item --Urban Encounters --Street Performers putting on a Puppet Show, involving 2 Puppets beating each other with Sticks to the amusement of the gathered Crowd --6
+!import-table-item --Urban Encounters --[[1]] Adult Silver Dragon --14
+!import-table-item --Urban Encounters --[[1]] Ancient Silver Dragon --12
+!import-table-item --Urban Encounters --[[1]] Archmage --2
+!import-table-item --Urban Encounters --[[1]] Archmage speeding down the Street on a Riding Horse, blasting [[1d4]] Guards with Spells --2
+!import-table-item --Urban Encounters --[[1]] Assassin --4
+!import-table-item --Urban Encounters --[[1]] Bandit Captain with [[3d6]] Bandits --2
+!import-table-item --Urban Encounters --[[1]] Bandit Captain with [[3d8]] Bandits --4
+!import-table-item --Urban Encounters --[[1]] Bandit Captain with [[5d10]] Bandits, all on Riding Horses --8
+!import-table-item --Urban Encounters --[[1]] Cambion --2
+!import-table-item --Urban Encounters --[[1]] Commoner on a Draft Horse --2
+!import-table-item --Urban Encounters --[[1]] Commoner with [[1d6]] Goats --4
+!import-table-item --Urban Encounters --[[1]] Couatl --2
+!import-table-item --Urban Encounters --[[1]] Crocodile --2
+!import-table-item --Urban Encounters --[[1]] Ghast --4
+!import-table-item --Urban Encounters --[[1]] Ghost --2
+!import-table-item --Urban Encounters --[[1]] Giant Wasp --2
+!import-table-item --Urban Encounters --[[1]] Gladiator --2
+!import-table-item --Urban Encounters --[[1]] Gray Slaad --2
+!import-table-item --Urban Encounters --[[1]] Incubus --4
+!import-table-item --Urban Encounters --[[1]] Invisible Stalker --2
+!import-table-item --Urban Encounters --[[1]] Knight --1
+!import-table-item --Urban Encounters --[[1]] Mage --2
+!import-table-item --Urban Encounters --[[1]] Mage with [[1]] Shield Guardian --2
+!import-table-item --Urban Encounters --[[1]] Mimic --6
+!import-table-item --Urban Encounters --[[1]] Oni --2
+!import-table-item --Urban Encounters --[[1]] Priest --4
+!import-table-item --Urban Encounters --[[1]] Pseudodragon --2
+!import-table-item --Urban Encounters --[[1]] Rakshasa --1
+!import-table-item --Urban Encounters --[[1]] Rakshasa --2
+!import-table-item --Urban Encounters --[[1]] Raven perched on a Signpost --2
+!import-table-item --Urban Encounters --[[1]] Revenant --2
+!import-table-item --Urban Encounters --[[1]] Shield Guardian --2
+!import-table-item --Urban Encounters --[[1]] Spellcaster Vampire --5
+!import-table-item --Urban Encounters --[[1]] Spy --2
+!import-table-item --Urban Encounters --[[1]] Succubus --4
+!import-table-item --Urban Encounters --[[1]] Swarm of Insects --4
+!import-table-item --Urban Encounters --[[1]] Tarrasque --2
+!import-table-item --Urban Encounters --[[1]] Vampire --1
+!import-table-item --Urban Encounters --[[1]] Vampire --2
+!import-table-item --Urban Encounters --[[1]] Vampire Spawn --2
+!import-table-item --Urban Encounters --[[1]] Veteran --1
+!import-table-item --Urban Encounters --[[1]] Warhorse --4
+!import-table-item --Urban Encounters --[[1]] Warrior Vampire --5
+!import-table-item --Urban Encounters --[[1]] Water Weird --2
+!import-table-item --Urban Encounters --[[1]] Wererat --4
+!import-table-item --Urban Encounters --[[1]] Wight --2
+!import-table-item --Urban Encounters --[[1]] Will-O'-Wisp --4
+!import-table-item --Urban Encounters --[[1]] Young Silver Dragon --2
+!import-table-item --Urban Encounters --[[1d10]] Assassins --10
+!import-table-item --Urban Encounters --[[1d10]] Half-Ogres --6
+!import-table-item --Urban Encounters --[[1d10]] Invisible Stalkers --10
+!import-table-item --Urban Encounters --[[1d10]] Kenku --4
+!import-table-item --Urban Encounters --[[1d10]] Knights on Warhorses (1 Knight is a Doppelganger) --10
+!import-table-item --Urban Encounters --[[1d10]] Oni --6
+!import-table-item --Urban Encounters --[[1d10]] Revenants --16
+!import-table-item --Urban Encounters --[[1d10]] Shadows --4
+!import-table-item --Urban Encounters --[[1d10]] Spies --6
+!import-table-item --Urban Encounters --[[1d10]] Vampire Spawn --4
+!import-table-item --Urban Encounters --[[1d10]] Will-O'-Wisps --4
+!import-table-item --Urban Encounters --[[1d10]] wights --6
+!import-table-item --Urban Encounters --[[1d12]] Zombies --2
+!import-table-item --Urban Encounters --[[1d2]] Commoners leading [[1d4]] Mules --1
+!import-table-item --Urban Encounters --[[1d2]] Commoners leading [[1d4]] Ponies --1
+!import-table-item --Urban Encounters --[[1d3 +2]] Giant Poisonous Snakes --2
+!import-table-item --Urban Encounters --[[1d3 +2]] Nobles on Riding Horses with an escort of [[1d10]] Guards --4
+!import-table-item --Urban Encounters --[[1d3]] Giant Spiders --4
+!import-table-item --Urban Encounters --[[1d3]] Gladiators --2
+!import-table-item --Urban Encounters --[[1d3]] Half-Ogres --4
+!import-table-item --Urban Encounters --[[1d3]] Invisible Stalkers --2
+!import-table-item --Urban Encounters --[[1d3]] Rakshasas --2
+!import-table-item --Urban Encounters --[[1d3]] Young Silver Dragons --10
+!import-table-item --Urban Encounters --[[1d4 +1]] Couatls --2
+!import-table-item --Urban Encounters --[[1d4 +1]] Cult Fanatics --2
+!import-table-item --Urban Encounters --[[1d4 +1]] Gray Slaadi --10
+!import-table-item --Urban Encounters --[[1d4 +1]] Water Weirds --4
+!import-table-item --Urban Encounters --[[1d4 +2]] Swarms of Bats --2
+!import-table-item --Urban Encounters --[[1d4 +4]] Will-O'-Wisps --6
+!import-table-item --Urban Encounters --[[1d4]] Archmages --2
+!import-table-item --Urban Encounters --[[1d4]] Assassins --4
+!import-table-item --Urban Encounters --[[1d4]] Cambions --1
+!import-table-item --Urban Encounters --[[1d4]] Doppelgangers --2
+!import-table-item --Urban Encounters --[[1d4]] Ghouls --4
+!import-table-item --Urban Encounters --[[1d4]] Gray Slaadi --14
+!import-table-item --Urban Encounters --[[1d4]] Knights on Warhorses --4
+!import-table-item --Urban Encounters --[[1d4]] Mages with [[1d4]] Shield Guardians --14
+!import-table-item --Urban Encounters --[[1d4]] Oni --1
+!import-table-item --Urban Encounters --[[1d4]] Revenants --1
+!import-table-item --Urban Encounters --[[1d4]] Specters --4
+!import-table-item --Urban Encounters --[[1d4]] Vampires --2
+!import-table-item --Urban Encounters --[[1d4]] Wights --6
+!import-table-item --Urban Encounters --[[1d4]] Young Silver Dragons --4
+!import-table-item --Urban Encounters --[[1d4]] Yuan-Ti Purebloods --4
+!import-table-item --Urban Encounters --[[1d6 +2]] Gladiators --8
+!import-table-item --Urban Encounters --[[1d6 +2]] Phase Spiders --2
+!import-table-item --Urban Encounters --[[1d6 +2]] Smoke Mephits --2
+!import-table-item --Urban Encounters --[[1d6 +2]] Swarms of Insects --6
+!import-table-item --Urban Encounters --[[1d6 +2]] Swarms of Rats --4
+!import-table-item --Urban Encounters --[[1d6 +2]] Water Weirds --6
+!import-table-item --Urban Encounters --[[1d6 +6]] Flying Snakes --2
+!import-table-item --Urban Encounters --[[1d6]] Cats --2
+!import-table-item --Urban Encounters --[[1d6]] Swarms of Bats & [[1d6]] Swarms of Rats --4
+!import-table-item --Urban Encounters --[[1d8 +1]] Acolytes --4
+!import-table-item --Urban Encounters --[[1d8 +1]] Ghosts --6
+!import-table-item --Urban Encounters --[[1d8 +1]] Gladiators --6
+!import-table-item --Urban Encounters --[[1d8 +1]] Mimics --4
+!import-table-item --Urban Encounters --[[1d8 +1]] Phase Spiders --2
+!import-table-item --Urban Encounters --[[1d8 +1]] Skeletons --2
+!import-table-item --Urban Encounters --[[1d8 +1]] Swarms of Ravens --2
+!import-table-item --Urban Encounters --[[1d8 +1]] Veterans --10
+!import-table-item --Urban Encounters --[[1d8]] Ghasts with [[2d6]] Ghouls --2
+!import-table-item --Urban Encounters --[[1d8]] Ghosts --2
+!import-table-item --Urban Encounters --[[1d8]] Incubi --3
+!import-table-item --Urban Encounters --[[1d8]] Invisible Stalkers --6
+!import-table-item --Urban Encounters --[[1d8]] Oni --4
+!import-table-item --Urban Encounters --[[1d8]] Succubi  --3
+!import-table-item --Urban Encounters --[[2d10]] Cult Fanatics --2
+!import-table-item --Urban Encounters --[[2d10]] Gargoyles --6
+!import-table-item --Urban Encounters --[[2d10]] Giant Wasps --6
+!import-table-item --Urban Encounters --[[2d10]] Rats --4
+!import-table-item --Urban Encounters --[[2d10]] Thugs --4
+!import-table-item --Urban Encounters --[[2d4]] Cambions --14
+!import-table-item --Urban Encounters --[[2d4]] Couatls --6
+!import-table-item --Urban Encounters --[[2d4]] Doppelgangers --2
+!import-table-item --Urban Encounters --[[2d4]] Gargoyles --2
+!import-table-item --Urban Encounters --[[2d4]] Giant Centipedes --2
+!import-table-item --Urban Encounters --[[2d4]] Kenku --2
+!import-table-item --Urban Encounters --[[2d4]] Mastiffs --2
+!import-table-item --Urban Encounters --[[2d4]] Phase Spiders --8
+!import-table-item --Urban Encounters --[[2d4]] Priests --4
+!import-table-item --Urban Encounters --[[2d4]] Smoke Mephits --6
+!import-table-item --Urban Encounters --[[2d4]] Specters --6
+!import-table-item --Urban Encounters --[[2d4]] Thugs --4
+!import-table-item --Urban Encounters --[[2d4]] Vampire Spawn  --1
+!import-table-item --Urban Encounters --[[2d4]] Veterans --2
+!import-table-item --Urban Encounters --[[2d4]] Winged Kobolds --2
+!import-table-item --Urban Encounters --[[2d6]] Giant Centipedes --4
+!import-table-item --Urban Encounters --[[2d6]] Incubi --4
+!import-table-item --Urban Encounters --[[2d6]] Succubi --4
+!import-table-item --Urban Encounters --[[2d8]] Couatls --10
+!import-table-item --Urban Encounters --[[2d8]] Cultists --2
+!import-table-item --Urban Encounters --[[2d8]] Ghasts --6
+!import-table-item --Urban Encounters --[[2d8]] Giant Spiders --4
+!import-table-item --Urban Encounters --[[2d8]] Skeletons --4
+!import-table-item --Urban Encounters --[[2d8]] Stirges --2
+!import-table-item --Urban Encounters --[[3d4]] Giant Rats --4
+!import-table-item --Urban Encounters --[[3d4]] Priests --8
+!import-table-item --Urban Encounters --[[3d6]] Bandits --4
+!import-table-item --Urban Encounters --[[3d6]] Crocodiles --6
+!import-table-item --Urban Encounters --[[3d6]] Cult Fanatics --6
+!import-table-item --Urban Encounters --[[3d6]] Gargoyles --2
+!import-table-item --Urban Encounters --[[3d6]] Ghosts --10
+!import-table-item --Urban Encounters --[[3d6]] Giant Centipedes --6
+!import-table-item --Urban Encounters --[[3d6]] Kobolds --2
+!import-table-item --Urban Encounters --[[3d6]] Shadows --4
+!import-table-item --Urban Encounters --[[3d6]] Vampire Spawn --10
+!import-table-item --Urban Encounters --[[3d6]] Wererats --8
+!import-table-item --Urban Encounters --[[3d6]] Wights --2
+!import-table-item --Urban Encounters --[[3d6]] Winged Kobolds --4
+!import-table-item --Urban Encounters --[[3d6]] Yuan-Ti Purebloods --6
+!import-table-item --Urban Encounters --[[4d10]] Zombies --4
+!import-table-item --Urban Encounters --[[4d4]] Acolytes on Draft Horses --6

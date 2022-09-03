@@ -1,0 +1,201 @@
+!import-table --Encounter-Forest --hide
+!import-table-item --Encounter-Forest --A 50 Foot Tall Stone Statue of an Elf Warrior with Hand Raised, Palm Out, as if to Forbid Travelers from coming this way. --6
+!import-table-item --Encounter-Forest --A Cairn set atop a Low Hill. --10
+!import-table-item --Encounter-Forest --A Pool of Clear, Still Water. Gold Coins litter the bottom, but they disappear if removed from the Pool. --10
+!import-table-item --Encounter-Forest --A Small Shack almost hidden by the Deep Forest. The interior is empty aside from a Large Cast-Iron Oven. --10
+!import-table-item --Encounter-Forest --A Small Woodland Shrine dedicated to a Mysterious Cult named The Siswa. --10
+!import-table-item --Encounter-Forest --A Stream of Cool, Clean Water flowing between the Trees --10
+!import-table-item --Encounter-Forest --A clear Pool of Water with [[1d6]] sleeping Animals lying around its edge. --10
+!import-table-item --Encounter-Forest --A group of (7) People (Commoners) wearing Animal Masks & ambling through the Woods. --10
+!import-table-item --Encounter-Forest --A lost, weeping Child. If the Characters take the Child Home, the Parents reward them with [[1d3]] Potions of Healing. --10
+!import-table-item --Encounter-Forest --A young Woodcutter (Scout) racing through the Forest to Rescue a Lost Friend --10
+!import-table-item --Encounter-Forest --An old Stone Archway of obvious Elven Design. Any Character who passes under it makes Perception (Wisdom) checks with Advantage for 1 Hour. --10
+!import-table-item --Encounter-Forest --An old Tree with a wizened face carved into the Trunk. --10
+!import-table-item --Encounter-Forest --For a few hundred feet, wherever the characters step, Flowers Bloom & emit soft Light. --6
+!import-table-item --Encounter-Forest --Peals of Silvery Laughter that Echo from a distance. --10
+!import-table-item --Encounter-Forest --[[1]] Adult Gold Dragon --22
+!import-table-item --Encounter-Forest --[[1]] Adult Green Dragon --4
+!import-table-item --Encounter-Forest --[[1]] Ancient Gold Dragon --4
+!import-table-item --Encounter-Forest --[[1]] Ancient Green Dragon --14
+!import-table-item --Encounter-Forest --[[1]] Ankheg --2
+!import-table-item --Encounter-Forest --[[1]] Ape --1
+!import-table-item --Encounter-Forest --[[1]] Awakened Tree --2
+!import-table-item --Encounter-Forest --[[1]] Badger --1
+!import-table-item --Encounter-Forest --[[1]] Bandit Captain with [[1]] Druid & [[1d6+5]] Bandits --4
+!import-table-item --Encounter-Forest --[[1]] Bandit Captain with [[2d6+3]] Bandits --2
+!import-table-item --Encounter-Forest --[[1]] Banshee --2
+!import-table-item --Encounter-Forest --[[1]] Brown Bear --3
+!import-table-item --Encounter-Forest --[[1]] Couatl --3
+!import-table-item --Encounter-Forest --[[1]] Druid harvesting Mistletoe --2
+!import-table-item --Encounter-Forest --[[1]] Ettercap --1
+!import-table-item --Encounter-Forest --[[1]] Faerie Dragon (Any Age) --2
+!import-table-item --Encounter-Forest --[[1]] Faerie Dragon (Green or Older) --2
+!import-table-item --Encounter-Forest --[[1]] Faerie Dragon (Yellow or Younger) --2
+!import-table-item --Encounter-Forest --[[1]] Giant Boar --1
+!import-table-item --Encounter-Forest --[[1]] Giant Constrictor Snake --2
+!import-table-item --Encounter-Forest --[[1]] Giant Elk --1
+!import-table-item --Encounter-Forest --[[1]] Giant Owl --2
+!import-table-item --Encounter-Forest --[[1]] Giant Poisonous Snake --2
+!import-table-item --Encounter-Forest --[[1]] Gnoll Fang of Yeenoghu --2
+!import-table-item --Encounter-Forest --[[1]] Gnoll Pack Lord with [[1d4+1]] Giant Hyenas --4
+!import-table-item --Encounter-Forest --[[1]] Gnoll Pack Lord with [[1d4]] Giant Hyenas --2
+!import-table-item --Encounter-Forest --[[1]] Goblin Boss with [[2d6+1]] Goblins --2
+!import-table-item --Encounter-Forest --[[1]] Goblin Boss with [[3d6]] Goblins --2
+!import-table-item --Encounter-Forest --[[1]] Gorgon --1
+!import-table-item --Encounter-Forest --[[1]] Grick Alpha With [[2d4]] Gricks --4
+!import-table-item --Encounter-Forest --[[1]] Grick Alpha with [[1d6+1]] Gricks --2
+!import-table-item --Encounter-Forest --[[1]] Guardian Naga --12
+!import-table-item --Encounter-Forest --[[1]] Hobgoblin Captain with [[2d6]] Hobgoblins & [[1d4]] Giant Boars --2
+!import-table-item --Encounter-Forest --[[1]] Hobgoblin Captain with [[3d10]] Hobgoblins & [[4d12]] Goblins --2
+!import-table-item --Encounter-Forest --[[1]] Lizardfolk Shaman with [[1d3]] Swarms of Poisonous Snakes & [[1d10+2]] Lizardfolk --2
+!import-table-item --Encounter-Forest --[[1]] Lizardfolk Shaman with [[2d4]] Lizardfolk --4
+!import-table-item --Encounter-Forest --[[1]] Ogre --1
+!import-table-item --Encounter-Forest --[[1]] Oni --2
+!import-table-item --Encounter-Forest --[[1]] Orc Eye of Gruumsh with [[1d3]] Orogs & [[1d8+2]] Orcs --2
+!import-table-item --Encounter-Forest --[[1]] Orc Eye of Gruumsh with [[2d4+2]] Orcs --2
+!import-table-item --Encounter-Forest --[[1]] Owl --2
+!import-table-item --Encounter-Forest --[[1]] Owlbear --1
+!import-table-item --Encounter-Forest --[[1]] Panther --2
+!import-table-item --Encounter-Forest --[[1]] Pegasus --2
+!import-table-item --Encounter-Forest --[[1]] Phase Spider --2
+!import-table-item --Encounter-Forest --[[1]] Pseudodragon --2
+!import-table-item --Encounter-Forest --[[1]] Satyr --2
+!import-table-item --Encounter-Forest --[[1]] Scout --1
+!import-table-item --Encounter-Forest --[[1]] Shambling Mound --2
+!import-table-item --Encounter-Forest --[[1]] Swarm of Insects --1
+!import-table-item --Encounter-Forest --[[1]] Tiger --1
+!import-table-item --Encounter-Forest --[[1]] Treant --16
+!import-table-item --Encounter-Forest --[[1]] Unicorn --1
+!import-table-item --Encounter-Forest --[[1]] Werebear --10
+!import-table-item --Encounter-Forest --[[1]] Wereboar --1
+!import-table-item --Encounter-Forest --[[1]] Werewolf --1
+!import-table-item --Encounter-Forest --[[1]] Will-o'-Wisp --2
+!import-table-item --Encounter-Forest --[[1]] Young Gold Dragon --10
+!import-table-item --Encounter-Forest --[[1]] Young Green Dragon --16
+!import-table-item --Encounter-Forest --[[1]] Yuan-Ti Abomination --4
+!import-table-item --Encounter-Forest --[[1]] Yuan-Ti Malison with [[1d6+1]] Yuan-Ti Purebloods --2
+!import-table-item --Encounter-Forest --[[1d10+5]] Giant Rats --1
+!import-table-item --Encounter-Forest --[[1d10]] Giant Toads --2
+!import-table-item --Encounter-Forest --[[1d10]] Giant Wasps --2
+!import-table-item --Encounter-Forest --[[1d10]] Revenants --6
+!import-table-item --Encounter-Forest --[[1d3]] Awakened Trees --1
+!import-table-item --Encounter-Forest --[[1d3]] Black Bears --2
+!import-table-item --Encounter-Forest --[[1d3]] Constrictor Snakes --3
+!import-table-item --Encounter-Forest --[[1d3]] Couatls --4
+!import-table-item --Encounter-Forest --[[1d3]] Dryads --2
+!import-table-item --Encounter-Forest --[[1d3]] Gnoll Fangs of Yeenoghu with [[2d6+3]] Gnolls --6
+!import-table-item --Encounter-Forest --[[1d3]] Green Hags --6
+!import-table-item --Encounter-Forest --[[1d3]] Grick Alphas --6
+!import-table-item --Encounter-Forest --[[1d3]] Shambling Mounds --4
+!import-table-item --Encounter-Forest --[[1d3]] Treants --6
+!import-table-item --Encounter-Forest --[[1d3]] Vine Blights with [[1d12]] Awakened Shrubs --2
+!import-table-item --Encounter-Forest --[[1d3]] Werebears --4
+!import-table-item --Encounter-Forest --[[1d3]] Weretigers --2
+!import-table-item --Encounter-Forest --[[1d3]] Will-o'-Wisps --2
+!import-table-item --Encounter-Forest --[[1d3]] Young Green Dragons --20
+!import-table-item --Encounter-Forest --[[1d3]] Yuan-Ti Abominations --10
+!import-table-item --Encounter-Forest --[[1d4+1]] Giant Lizards --2
+!import-table-item --Encounter-Forest --[[1d4+1]] Green Hags with [[1d3]] Owlbears --10
+!import-table-item --Encounter-Forest --[[1d4+1]] Needle Blights with [[1d6+3]] Twig Blights --2
+!import-table-item --Encounter-Forest --[[1d4+2]] Giant Badgers --2
+!import-table-item --Encounter-Forest --[[1d4+3]] Goblins --2
+!import-table-item --Encounter-Forest --[[1d4+4]] Wolves --2
+!import-table-item --Encounter-Forest --[[1d4]] Ankhegs --2
+!import-table-item --Encounter-Forest --[[1d4]] Banshees --2
+!import-table-item --Encounter-Forest --[[1d4]] Bugbears --1
+!import-table-item --Encounter-Forest --[[1d4]] Cats --2
+!import-table-item --Encounter-Forest --[[1d4]] Centaurs --1
+!import-table-item --Encounter-Forest --[[1d4]] Dire Wolves --1
+!import-table-item --Encounter-Forest --[[1d4]] Displacer Beasts --2
+!import-table-item --Encounter-Forest --[[1d4]] Druids performing a Ritual for the Dead. --2
+!import-table-item --Encounter-Forest --[[1d4]] Giant Apes --8
+!import-table-item --Encounter-Forest --[[1d4]] Giant Boars --7
+!import-table-item --Encounter-Forest --[[1d4]] Giant Elk --3
+!import-table-item --Encounter-Forest --[[1d4]] Gorgons --6
+!import-table-item --Encounter-Forest --[[1d4]] Gricks --4
+!import-table-item --Encounter-Forest --[[1d4]] Half-Ogres --1
+!import-table-item --Encounter-Forest --[[1d4]] Lizardfolk --1
+!import-table-item --Encounter-Forest --[[1d4]] Ogres --2
+!import-table-item --Encounter-Forest --[[1d4]] Oni --6
+!import-table-item --Encounter-Forest --[[1d4]] Owlbears --4
+!import-table-item --Encounter-Forest --[[1d4]] Poisonous Snakes --1
+!import-table-item --Encounter-Forest --[[1d4]] Revenants --6
+!import-table-item --Encounter-Forest --[[1d4]] Shambling Mounds --2
+!import-table-item --Encounter-Forest --[[1d4]] Swarms of Poisonous Snakes --2
+!import-table-item --Encounter-Forest --[[1d4]] Swarms of Ravens --2
+!import-table-item --Encounter-Forest --[[1d4]] Tigers --1
+!import-table-item --Encounter-Forest --[[1d4]] Treants --20
+!import-table-item --Encounter-Forest --[[1d4]] Trolls --6
+!import-table-item --Encounter-Forest --[[1d4]] Unicorns --6
+!import-table-item --Encounter-Forest --[[1d4]] Veterans --5
+!import-table-item --Encounter-Forest --[[1d4]] Wereboars --2
+!import-table-item --Encounter-Forest --[[1d4]] Wererats --2
+!import-table-item --Encounter-Forest --[[1d4]] Werewolves --4
+!import-table-item --Encounter-Forest --[[1d6+2]] Black Bears --1
+!import-table-item --Encounter-Forest --[[1d6+2]] Boars --2
+!import-table-item --Encounter-Forest --[[1d6+2]] Dryads --4
+!import-table-item --Encounter-Forest --[[1d6+2]] Elk --2
+!import-table-item --Encounter-Forest --[[1d6+2]] Giant Bats --1
+!import-table-item --Encounter-Forest --[[1d6+2]] Giant Spiders --2
+!import-table-item --Encounter-Forest --[[1d6+2]] Gnoll Fangs of Yeenoghu --2
+!import-table-item --Encounter-Forest --[[1d6+2]] Gorgons --6
+!import-table-item --Encounter-Forest --[[1d6+2]] Half-Ogres --2
+!import-table-item --Encounter-Forest --[[1d6+2]] Phase Spiders --10
+!import-table-item --Encounter-Forest --[[1d6+2]] Pixies --2
+!import-table-item --Encounter-Forest --[[1d6+2]] Shambling Mounds --6
+!import-table-item --Encounter-Forest --[[1d6+2]] Veterans --10
+!import-table-item --Encounter-Forest --[[1d6+2]] Wereboars --4
+!import-table-item --Encounter-Forest --[[1d6+2]] Weretigers --6
+!import-table-item --Encounter-Forest --[[1d6+2]] Werewolves --10
+!import-table-item --Encounter-Forest --[[1d6+3]] Hyenas --2
+!import-table-item --Encounter-Forest --[[1d6]] Giant Toads --2
+!import-table-item --Encounter-Forest --[[1d6]] Harpies --2
+!import-table-item --Encounter-Forest --[[1d6]] Pegasi --2
+!import-table-item --Encounter-Forest --[[1d6]] Web Cocoons hanging from the Branches, holding Withered Carcasses. --10
+!import-table-item --Encounter-Forest --[[1d6]] Wererats --4
+!import-table-item --Encounter-Forest --[[1d8+1]] Berserkers --4
+!import-table-item --Encounter-Forest --[[1d8+1]] Ettercaps --4
+!import-table-item --Encounter-Forest --[[1d8+1]] Giant Apes --6
+!import-table-item --Encounter-Forest --[[1d8+1]] Giant Frogs --2
+!import-table-item --Encounter-Forest --[[1d8+1]] Giant Spiders --4
+!import-table-item --Encounter-Forest --[[1d8+1]] Harpies --2
+!import-table-item --Encounter-Forest --[[1d8+1]] Orcs --1
+!import-table-item --Encounter-Forest --[[1d8+1]] Phase Spiders --2
+!import-table-item --Encounter-Forest --[[1d8+1]] Sprites --2
+!import-table-item --Encounter-Forest --[[1d8+1]] Unicorns --6
+!import-table-item --Encounter-Forest --[[1d8+1]] Winged Kobolds --2
+!import-table-item --Encounter-Forest --[[1d8+1]] Worgs --1
+!import-table-item --Encounter-Forest --[[1d8+1]] Yuan-Ti Purebloods --2
+!import-table-item --Encounter-Forest --[[2d10]] Elk --4
+!import-table-item --Encounter-Forest --[[2d4+1]] Treants --6
+!import-table-item --Encounter-Forest --[[2d4]] Apes --1
+!import-table-item --Encounter-Forest --[[2d4]] Berserkers --1
+!import-table-item --Encounter-Forest --[[2d4]] Blink Dogs --2
+!import-table-item --Encounter-Forest --[[2d4]] Bugbears --4
+!import-table-item --Encounter-Forest --[[2d4]] Centaurs --4
+!import-table-item --Encounter-Forest --[[2d4]] Dire Wolves --4
+!import-table-item --Encounter-Forest --[[2d4]] Displacer Beasts --12
+!import-table-item --Encounter-Forest --[[2d4]] Giant Wolf Spiders --2
+!import-table-item --Encounter-Forest --[[2d4]] Guards with [[1d8]] Mastiffs --1
+!import-table-item --Encounter-Forest --[[2d4]] Hobgoblins --1
+!import-table-item --Encounter-Forest --[[2d4]] Kenku --2
+!import-table-item --Encounter-Forest --[[2d4]] Oni --6
+!import-table-item --Encounter-Forest --[[2d4]] Satyrs --1
+!import-table-item --Encounter-Forest --[[2d4]] Trolls --6
+!import-table-item --Encounter-Forest --[[2d4]] Vine Blights --2
+!import-table-item --Encounter-Forest --[[2d4]] Werebears --6
+!import-table-item --Encounter-Forest --[[2d4]] Woodcutters (Commoners) --2
+!import-table-item --Encounter-Forest --[[2d4]] Yuan-Ti Malisons --12
+!import-table-item --Encounter-Forest --[[2d6+3]] Giant Weasels --1
+!import-table-item --Encounter-Forest --[[2d6]] Gnolls --2
+!import-table-item --Encounter-Forest --[[2d6]] Hobgoblins --1
+!import-table-item --Encounter-Forest --[[2d6]] Orcs --1
+!import-table-item --Encounter-Forest --[[2d6]] Tribal Warriors with [[1d6]] Mastiffs --2
+!import-table-item --Encounter-Forest --[[2d8]] Baboons --2
+!import-table-item --Encounter-Forest --[[2d8]] Blood Hawks --1
+!import-table-item --Encounter-Forest --[[3d10]] Blink Dogs --4
+!import-table-item --Encounter-Forest --[[3d6]] Bandits --1
+!import-table-item --Encounter-Forest --[[3d6]] Flying Snakes --1
+!import-table-item --Encounter-Forest --[[3d6]] Stirges --2
+!import-table-item --Encounter-Forest --[[4d4]] Kobolds --2
+!import-table-item --Encounter-Forest --[[4d6+10]] Elves living in a Small Community in the Treetops. --6
