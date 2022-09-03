@@ -1,0 +1,40 @@
+**— Arcane:**
+*This Item was created for an Ancient Order of Spell Casters & bears the Order's Symbol.*
+
+**— Guardian:**
+*The Item whispers Warnings to its Bearer, granting a +2 Bonus to Initiative if the Bearer isn't Incapacitated.*
+
+**— Slothful:**
+*The Bearer of this Item feels slothful & lethargic. Whilst Attuned to the Item, the Bearer requires 10 Hours to finish a Long Rest.*
+
+**— This Magical Weapon deals double damage to all Undead.**
+
+**— The innate properties suffusing this weapon reduces damage dealt with each strike to living targets by 2.**
+
+**Slumbering; 9 Days after use:**
+*— This weapon regains the ability to cast Revivify*
+*— Melee Attack: +1*
+*— Melee Damage: -2 to living*
+*— Guardian; Initiative: +2*
+
+**Stirring; 15 Days after use:**
+*— This weapon regains the ability to cast Raise Dead*
+*— Melee Attack: +1*
+*— Melee Damage: -2 to living*
+*— Guardian; Initiative: +2*
+
+**Awakened; 21 Days after use:**
+*— This weapon regains the ability to cast Resurrection*
+*— Melee Attack: +2*
+*— Melee Damage: -2 to living*
+*— Enhanced Guardian; Initiative: +3*
+
+***Excited; 28 Days after use:***
+*— This weapon regains the ability to cast True Resurrection*
+*— Melee Attack: +2*
+*— Melee Damage: -2 to living*
+*— Enhanced Guardian; Initiative: +3*
+
+These are not cumulative effects, each tier lists their respective strengths.
+
+This weapon remains Magical during the recovery time; Though Anti-Magic Zones, Dead-Magic Zones, or Dispel will pause this recharge: this recharge timer resumes when removed from their respective no-magic areas, or after a number of Hours equal to what level Dispel was cast at.
