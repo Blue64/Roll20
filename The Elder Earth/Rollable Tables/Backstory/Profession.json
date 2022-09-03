@@ -1,0 +1,208 @@
+!import-table --Profession --hide
+!import-table-item --Profession --Acrobat --1
+!import-table-item --Profession --Actor --1
+!import-table-item --Profession --Administrator --5
+!import-table-item --Profession --Alchemist --5
+!import-table-item --Profession --Antiquarian --1
+!import-table-item --Profession --Apothecary Specialist --1
+!import-table-item --Profession --Appraiser --1
+!import-table-item --Profession --Architect --1
+!import-table-item --Profession --Archivist --1
+!import-table-item --Profession --Armorer --5
+!import-table-item --Profession --Arsonist --1
+!import-table-item --Profession --Art Restorer --1
+!import-table-item --Profession --Artillerist --2
+!import-table-item --Profession --Astrologer --1
+!import-table-item --Profession --Auctioneer --1
+!import-table-item --Profession --Baker --50
+!import-table-item --Profession --Balloonist --1
+!import-table-item --Profession --Barber --10
+!import-table-item --Profession --Bartender --10
+!import-table-item --Profession --Beachcomber --1
+!import-table-item --Profession --Beautician --1
+!import-table-item --Profession --Beekeeper --1
+!import-table-item --Profession --Beggar --15
+!import-table-item --Profession --Blacksmith --40
+!import-table-item --Profession --Bodyguard --1
+!import-table-item --Profession --Bookbinder --1
+!import-table-item --Profession --Bookkeeper --1
+!import-table-item --Profession --Bootblack --1
+!import-table-item --Profession --Bowyer/Fletcher --5
+!import-table-item --Profession --Boxer --1
+!import-table-item --Profession --Brewer --10
+!import-table-item --Profession --Brick Maker --5
+!import-table-item --Profession --Bricklayer --10
+!import-table-item --Profession --Bullfighter --1
+!import-table-item --Profession --Butcher --30
+!import-table-item --Profession --Cabinet Maker --10
+!import-table-item --Profession --Calligrapher --1
+!import-table-item --Profession --Carpenter --10
+!import-table-item --Profession --Cartographer --2
+!import-table-item --Profession --Chandler --5
+!import-table-item --Profession --Charioteer --1
+!import-table-item --Profession --Chef --5
+!import-table-item --Profession --Child Care --1
+!import-table-item --Profession --Chimney Sweep --2
+!import-table-item --Profession --Civil Engineer --1
+!import-table-item --Profession --Clerk --5
+!import-table-item --Profession --Clock Maker --1
+!import-table-item --Profession --Composer --1
+!import-table-item --Profession --Confectioner --1
+!import-table-item --Profession --Contortionist --1
+!import-table-item --Profession --Cook --10
+!import-table-item --Profession --Cooper --1
+!import-table-item --Profession --Counterfeiter --1
+!import-table-item --Profession --Crematorium Specialist --1
+!import-table-item --Profession --Curator --1
+!import-table-item --Profession --Customs Inspector --1
+!import-table-item --Profession --Dancer --1
+!import-table-item --Profession --Dentist --1
+!import-table-item --Profession --Diplomat --1
+!import-table-item --Profession --Distiller --1
+!import-table-item --Profession --Diver --1
+!import-table-item --Profession --Dowser --1
+!import-table-item --Profession --Dream Interpreter --1
+!import-table-item --Profession --Duelist --1
+!import-table-item --Profession --Embalmer --1
+!import-table-item --Profession --Engraver --1
+!import-table-item --Profession --Escape Artist --1
+!import-table-item --Profession --Executioner --2
+!import-table-item --Profession --Falconer --1
+!import-table-item --Profession --Firefighter --1
+!import-table-item --Profession --Fisher --5
+!import-table-item --Profession --Food Taster --1
+!import-table-item --Profession --Forager --1
+!import-table-item --Profession --Forester --1
+!import-table-item --Profession --Forger --1
+!import-table-item --Profession --Fortuneteller --1
+!import-table-item --Profession --Fur Trapper --1
+!import-table-item --Profession --Game Cutter --1
+!import-table-item --Profession --Genealogist --1
+!import-table-item --Profession --Gilder --1
+!import-table-item --Profession --Gladiator --1
+!import-table-item --Profession --Glassblower --1
+!import-table-item --Profession --Glazier --1
+!import-table-item --Profession --Gravedigger --1
+!import-table-item --Profession --Gunsmith --1
+!import-table-item --Profession --Hat Maker --1
+!import-table-item --Profession --Healer --6
+!import-table-item --Profession --Herald --1
+!import-table-item --Profession --Herbalist --1
+!import-table-item --Profession --Herder --1
+!import-table-item --Profession --Highwayman --1
+!import-table-item --Profession --Historian --1
+!import-table-item --Profession --Horticulturist --1
+!import-table-item --Profession --House Cleaner --1
+!import-table-item --Profession --Hunter --1
+!import-table-item --Profession --Hypnotist --1
+!import-table-item --Profession --Immigration --1
+!import-table-item --Profession --Interrogator --1
+!import-table-item --Profession --Irrigation Specialist --1
+!import-table-item --Profession --Jailer --1
+!import-table-item --Profession --Jester --1
+!import-table-item --Profession --Jeweler --1
+!import-table-item --Profession --Juggler --1
+!import-table-item --Profession --Lamp Maker --1
+!import-table-item --Profession --Lamplighter --1
+!import-table-item --Profession --Launderer --5
+!import-table-item --Profession --Lawyer --1
+!import-table-item --Profession --Leather Worker --20
+!import-table-item --Profession --Librarian --1
+!import-table-item --Profession --Light Keeper --1
+!import-table-item --Profession --Linguist --1
+!import-table-item --Profession --Locksmith --1
+!import-table-item --Profession --Lumberjack --1
+!import-table-item --Profession --Maid --1
+!import-table-item --Profession --Mapmaker --1
+!import-table-item --Profession --Mariner --1
+!import-table-item --Profession --Mason --5
+!import-table-item --Profession --Masseur --1
+!import-table-item --Profession --Matchmaker --1
+!import-table-item --Profession --Mathematician --1
+!import-table-item --Profession --Merchant --20
+!import-table-item --Profession --Metallurgist --1
+!import-table-item --Profession --Midwife --1
+!import-table-item --Profession --Military Scientist --1
+!import-table-item --Profession --Miller --10
+!import-table-item --Profession --Mime --1
+!import-table-item --Profession --Mimic --1
+!import-table-item --Profession --Miner --5
+!import-table-item --Profession --Minter --1
+!import-table-item --Profession --Moneylender --5
+!import-table-item --Profession --Monster Trapper --1
+!import-table-item --Profession --Mountaineer --1
+!import-table-item --Profession --Mummification Specialist --1
+!import-table-item --Profession --Musical Instrument Maker --2
+!import-table-item --Profession --Musician --10
+!import-table-item --Profession --Navigator --1
+!import-table-item --Profession --Net Maker --1
+!import-table-item --Profession --Notary --1
+!import-table-item --Profession --Nutritionist --1
+!import-table-item --Profession --Oil Producer --1
+!import-table-item --Profession --Painter --1
+!import-table-item --Profession --Pawnbroker --1
+!import-table-item --Profession --Perfumer --1
+!import-table-item --Profession --Philosopher --1
+!import-table-item --Profession --Pirate --1
+!import-table-item --Profession --Plumber --1
+!import-table-item --Profession --Poet --1
+!import-table-item --Profession --Poison Maker --1
+!import-table-item --Profession --Politician --1
+!import-table-item --Profession --Porter --1
+!import-table-item --Profession --Potter --1
+!import-table-item --Profession --Printer --1
+!import-table-item --Profession --Prostitute --1
+!import-table-item --Profession --Puppeteer --1
+!import-table-item --Profession --Pyrotechnician --1
+!import-table-item --Profession --Rope Maker --5
+!import-table-item --Profession --Rower --1
+!import-table-item --Profession --Saboteur --1
+!import-table-item --Profession --Saddle Maker --2
+!import-table-item --Profession --Sail Maker --1
+!import-table-item --Profession --Sailor --1
+!import-table-item --Profession --Salesman --1
+!import-table-item --Profession --Scientist --1
+!import-table-item --Profession --Scout --1
+!import-table-item --Profession --Scribe --1
+!import-table-item --Profession --Sculptor --1
+!import-table-item --Profession --Sentry --1
+!import-table-item --Profession --Shipwright --1
+!import-table-item --Profession --Siege Engineer --1
+!import-table-item --Profession --Signaler --1
+!import-table-item --Profession --Singer --1
+!import-table-item --Profession --Slaver --1
+!import-table-item --Profession --Smelter --3
+!import-table-item --Profession --Smuggler --1
+!import-table-item --Profession --Snake Charmer --1
+!import-table-item --Profession --Spiritualist --1
+!import-table-item --Profession --Stonemason --1
+!import-table-item --Profession --Storyteller --1
+!import-table-item --Profession --Street Cleaner --5
+!import-table-item --Profession --Stripper --1
+!import-table-item --Profession --Surgeon --1
+!import-table-item --Profession --Surveyor --1
+!import-table-item --Profession --Sword Smith --1
+!import-table-item --Profession --Tailor --5
+!import-table-item --Profession --Tanner --5
+!import-table-item --Profession --Tattooer --1
+!import-table-item --Profession --Tax Collector --1
+!import-table-item --Profession --Taxidermy --1
+!import-table-item --Profession --Teacher --1
+!import-table-item --Profession --Teamster --1
+!import-table-item --Profession --Tent maker --1
+!import-table-item --Profession --Timekeeper --1
+!import-table-item --Profession --Tinker --1
+!import-table-item --Profession --Torturer --1
+!import-table-item --Profession --Town Crier --1
+!import-table-item --Profession --Toymaker --1
+!import-table-item --Profession --Upholsterer --1
+!import-table-item --Profession --Valet --1
+!import-table-item --Profession --Vintner --1
+!import-table-item --Profession --Wainwright --1
+!import-table-item --Profession --Warden --1
+!import-table-item --Profession --Weaver --1
+!import-table-item --Profession --Whaler --1
+!import-table-item --Profession --Wigmaker --1
+!import-table-item --Profession --Witch Finder --1
+!import-table-item --Profession --Woodcarver --1
+!import-table-item --Profession --Wrestler --1

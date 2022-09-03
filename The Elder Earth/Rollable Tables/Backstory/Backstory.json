@@ -1,0 +1,813 @@
+!import-table --Alignment --hide
+!import-table-item --Alignment --Chaotic Evil --1
+!import-table-item --Alignment --Chaotic Neutral --1
+!import-table-item --Alignment --Lawful Evil --4
+!import-table-item --Alignment --Neutral Evil --6
+!import-table-item --Alignment --True Neutral --8
+!import-table-item --Alignment --Neutral Good --6
+!import-table-item --Alignment --Lawful Good --2
+!import-table-item --Alignment --Lawful Neutral --2
+!import-table-item --Alignment --Chaotic Good --1
+!import-table-item --Alignment --Chaotic Neutral --1
+!import-table --Blame --hide
+!import-table-item --Blame --You are to Blame. --3
+!import-table-item --Blame --You are Blameless. --3
+!import-table --Supernatural Omen --hide
+!import-table-item --Supernatural Omen --A Falling Red Star was Seen in the Sky. --1
+!import-table-item --Supernatural Omen --A Strange event Coincided with your Birth: All Flames in the Area instantly Extinguished. --1
+!import-table-item --Supernatural Omen --A terrible Blight occured, causing Local Crops to fail & need to be Re-Planted. --1
+!import-table-item --Supernatural Omen --All Flames in the Area instantly Extinguished. --1
+!import-table-item --Supernatural Omen --All Water within a Mile instantly Froze Solid. --1
+!import-table-item --Supernatural Omen --All of the Iron in the Area instantly Rusted. --1
+!import-table-item --Supernatural Omen --All of the Milk within a Mile instantly spoiled. --1
+!import-table-item --Supernatural Omen --All of the Stars briefly faded from the Sky as far as the Eye could See. --1
+!import-table-item --Supernatural Omen --All the Iron in the Area Turned to Copper. --1
+!import-table-item --Supernatural Omen --The Air grew unseasonably Colder than Normal for an Hour. --1
+!import-table-item --Supernatural Omen --The Moon briefly turned Red. --1
+!import-table-item --Supernatural Omen --The Stars led some strange Old Guys to you, which left some Incense, Ointment, & Gold. --1
+!import-table --Backstory Parents --hide
+!import-table-item --Backstory Parents --They know who their Parents are or were. --95
+!import-table-item --Backstory Parents --They don't know who their Parents were. --5
+!import-table --Backstory Half-Elf --hide
+!import-table-item --Backstory Half-Elf --1 Parent was an Elf & the other was a Human. --5
+!import-table-item --Backstory Half-Elf --1 Parent was an Elf & the other was a Half-Elf. --1
+!import-table-item --Backstory Half-Elf --1 Parent was a Human & the other was a Half-Elf. --1
+!import-table-item --Backstory Half-Elf --Both Parents were Half-Elves. --1
+!import-table --Backstory Half-Orc --hide
+!import-table-item --Backstory Half-Orc --1 Parent was an Orc & the other was a Human. --3
+!import-table-item --Backstory Half-Orc --1 Parent was an Orc & the other was a Half-Orc. --2
+!import-table-item --Backstory Half-Orc --1 Parent was a Human & the other was a Half-Orc. --2
+!import-table-item --Backstory Half-Orc --Both Parents were Half-Orcs. --1
+!import-table --Backstory Tiefling --hide
+!import-table-item --Backstory Tiefling --Both Parents were Humans, their Infernal Heritage dormant until you came along. --4
+!import-table-item --Backstory Tiefling --1 Parent was a Tiefling & the other was a Human. --2
+!import-table-item --Backstory Tiefling --1 Parent was a Tiefling & the other was a Devil. --1
+!import-table-item --Backstory Tiefling --1 Parent was a Human & the other was a Devil. --1
+!import-table --Backstory Birth Event --hide
+!import-table-item --Backstory Birth Event --When Born, there was no Supernatural Omen --99
+!import-table-item --Backstory Birth Event --When Born, [[1t[Supernatural Omen]]] --1
+!import-table --Backstory Birthplace --hide
+!import-table-item --Backstory Birthplace --Born at Home --50
+!import-table-item --Backstory Birthplace --Born at the Home of a Family Friend --5
+!import-table-item --Backstory Birthplace --Born at the Home of a Healer or Midwife --8
+!import-table-item --Backstory Birthplace --Born in a Carriage, Cart, or Wagon --2
+!import-table-item --Backstory Birthplace --Born in a Barn, Shed, or other Outbuilding --3
+!import-table-item --Backstory Birthplace --Born in a Cave --2
+!import-table-item --Backstory Birthplace --Born in a Field --2
+!import-table-item --Backstory Birthplace --Born in a Forest --2
+!import-table-item --Backstory Birthplace --Born in a Temple --3
+!import-table-item --Backstory Birthplace --Born on a Battlefield --1
+!import-table-item --Backstory Birthplace --Born in a Alley or Street --2
+!import-table-item --Backstory Birthplace --Born in a Brothel, Tavern, or Inn --2
+!import-table-item --Backstory Birthplace --Born in a Castle, Keep, Tower, or Palace --2
+!import-table-item --Backstory Birthplace --Born in a Sewer or Rubbish Heap --1
+!import-table-item --Backstory Birthplace --Born among People of a different Race --3
+!import-table-item --Backstory Birthplace --Born on board a Boat or a Ship --3
+!import-table-item --Backstory Birthplace --Born in a Prison or in the Headquarters of a Secret Organization --2
+!import-table-item --Backstory Birthplace --Born in a Sage's Laboratory --2
+!import-table-item --Backstory Birthplace --Born in the Feywild --1
+!import-table-item --Backstory Birthplace --Born in the Shadowfell --1
+!import-table-item --Backstory Birthplace --Born on the Astral Plane or the Ethereal Plane --1
+!import-table-item --Backstory Birthplace --Born on an Inner Plane of your choice --1
+!import-table-item --Backstory Birthplace --Born on an Outer Plane of your choice --1
+!import-table --Backstory Siblings --hide
+!import-table-item --Backstory Siblings --[[0]] Siblings --2
+!import-table-item --Backstory Siblings --[[1d3]] Siblings --2
+!import-table-item --Backstory Siblings --[[1d4 +1]] Siblings --2
+!import-table-item --Backstory Siblings --[[1d6 +2]] Siblings --2
+!import-table-item --Backstory Siblings --[[1d8 +3]] Siblings --2
+!import-table-item --Backstory Siblings --[[1d10 +4]] Siblings --1
+!import-table-item --Backstory Siblings --[[1d12 +5]] Siblings --1
+!import-table --Backstory Birth Order --hide
+!import-table-item --Backstory Birth Order --Twin --2
+!import-table-item --Backstory Birth Order --Triplet --2
+!import-table-item --Backstory Birth Order --Quadruplet --2
+!import-table-item --Backstory Birth Order --Older --15
+!import-table-item --Backstory Birth Order --Younger --15
+!import-table --Backstory Family --hide
+!import-table-item --Backstory Family --None --1
+!import-table-item --Backstory Family --Institution, such as an Asylum --1
+!import-table-item --Backstory Family --Temple --1
+!import-table-item --Backstory Family --Orphanage --2
+!import-table-item --Backstory Family --Guardian --2
+!import-table-item --Backstory Family --Paternal or Maternal Aunt, Uncle, or both; or Extended Family such as a Tribe or Clan --8
+!import-table-item --Backstory Family --Paternal or Maternal Grandparent(s) --10
+!import-table-item --Backstory Family --Adoptive Family (same or different Race) --10
+!import-table-item --Backstory Family --Single Father or Stepfather --20
+!import-table-item --Backstory Family --Single Mother or Stepmother --20
+!import-table-item --Backstory Family --Mother & Father --25
+!import-table --Backstory Absent Parent --hide
+!import-table-item --Backstory Absent Parent --Parent Died. Cause of Death: [[1t[Backstory Cause of Death]]]. --1
+!import-table-item --Backstory Absent Parent --Parent was Imprisoned, Enslaved, or otherwise taken away. --1
+!import-table-item --Backstory Absent Parent --Parent abandoned them. --1
+!import-table-item --Backstory Absent Parent --Parent disappeared to an unknown fate. --1
+!import-table --Backstory Family Lifestyle --hide
+!import-table-item --Backstory Family Lifestyle --*Use the Number in this result as a Modifier to your roll on the Childhood Home Table. --0
+!import-table-item --Backstory Family Lifestyle --Wretched Home --1
+!import-table-item --Backstory Family Lifestyle --Squalid Home --2
+!import-table-item --Backstory Family Lifestyle --Poor Home --3
+!import-table-item --Backstory Family Lifestyle --Modest Home --4
+!import-table-item --Backstory Family Lifestyle --Comfortable Home --3
+!import-table-item --Backstory Family Lifestyle --Wealthy Home --2
+!import-table-item --Backstory Family Lifestyle --Aristocratic Home --1
+!import-table --Backstory Wretched Home --hide
+!import-table-item --Backstory Wretched Home --Grew up on the Streets. --40
+!import-table-item --Backstory Wretched Home --Grew up in a Rundown Shack. --20
+!import-table-item --Backstory Wretched Home --Grew up in no permanent Residence; Moved around a lot. --10
+!import-table-item --Backstory Wretched Home --Grew up in an Encampment or Village in the Wilderness. --10
+!import-table-item --Backstory Wretched Home --Grew up in an Apartment in a rundown Neighborhood. --10
+!import-table-item --Backstory Wretched Home --Grew up in a Small House. --10
+!import-table-item --Backstory Wretched Home --Grew up in a Large House. --0
+!import-table-item --Backstory Wretched Home --Grew up in a Mansion. --0
+!import-table-item --Backstory Wretched Home --Grew up in a Palace or Castle. --0
+!import-table --Backstory Squalid Home --hide
+!import-table-item --Backstory Squalid Home --Grew up on the Streets. --20
+!import-table-item --Backstory Squalid Home --Grew up in a Rundown Shack. --20
+!import-table-item --Backstory Squalid Home --Grew up in no permanent Residence; Moved around a lot. --10
+!import-table-item --Backstory Squalid Home --Grew up in an Encampment or Village in the Wilderness. --10
+!import-table-item --Backstory Squalid Home --Grew up in an Apartment in a rundown Neighborhood. --10
+!import-table-item --Backstory Squalid Home --Grew up in a Small House. --20
+!import-table-item --Backstory Squalid Home --Grew up in a Large House. --10
+!import-table-item --Backstory Squalid Home --Grew up in a Mansion. --0
+!import-table-item --Backstory Squalid Home --Grew up in a Palace or Castle. --0
+!import-table --Backstory Poor Home --hide
+!import-table-item --Backstory Poor Home --Grew up on the Streets. --10
+!import-table-item --Backstory Poor Home --Grew up in a Rundown Shack. --20
+!import-table-item --Backstory Poor Home --Grew up in no permanent Residence; Moved around a lot. --10
+!import-table-item --Backstory Poor Home --Grew up in an Encampment or Village in the Wilderness. --10
+!import-table-item --Backstory Poor Home --Grew up in an Apartment in a rundown Neighborhood. --10
+!import-table-item --Backstory Poor Home --Grew up in a Small House. --20
+!import-table-item --Backstory Poor Home --Grew up in a Large House. --20
+!import-table-item --Backstory Poor Home --Grew up in a Mansion. --0
+!import-table-item --Backstory Poor Home --Grew up in a Palace or Castle. --0
+!import-table --Backstory Modest Home --hide
+!import-table-item --Backstory Modest Home --Grew up on the Streets. --0
+!import-table-item --Backstory Modest Home --Grew up in a Rundown Shack. --20
+!import-table-item --Backstory Modest Home --Grew up in no permanent Residence; Moved around a lot. --10
+!import-table-item --Backstory Modest Home --Grew up in an Encampment or Village in the Wilderness. --10
+!import-table-item --Backstory Modest Home --Grew up in an Apartment in a rundown Neighborhood. --10
+!import-table-item --Backstory Modest Home --Grew up in a Small House. --20
+!import-table-item --Backstory Modest Home --Grew up in a Large House. --20
+!import-table-item --Backstory Modest Home --Grew up in a Mansion. --10
+!import-table-item --Backstory Modest Home --Grew up in a Palace or Castle. --0
+!import-table --Backstory Comfortable Home --hide
+!import-table-item --Backstory Comfortable Home --Grew up on the Streets. --0
+!import-table-item --Backstory Comfortable Home --Grew up in a Rundown Shack. --10
+!import-table-item --Backstory Comfortable Home --Grew up in no permanent Residence; Moved around a lot. --10
+!import-table-item --Backstory Comfortable Home --Grew up in an Encampment or Village in the Wilderness. --10
+!import-table-item --Backstory Comfortable Home --Grew up in an Apartment in a rundown Neighborhood. --10
+!import-table-item --Backstory Comfortable Home --Grew up in a Small House. --20
+!import-table-item --Backstory Comfortable Home --Grew up in a Large House. --20
+!import-table-item --Backstory Comfortable Home --Grew up in a Mansion. --20
+!import-table-item --Backstory Comfortable Home --Grew up in a Palace or Castle. --0
+!import-table --Backstory Wealthy Home --hide
+!import-table-item --Backstory Wealthy Home --Grew up on the Streets. --0
+!import-table-item --Backstory Wealthy Home --Grew up in a Rundown Shack. --0
+!import-table-item --Backstory Wealthy Home --Grew up in no permanent Residence; Moved around a lot. --10
+!import-table-item --Backstory Wealthy Home --Grew up in an Encampment or Village in the Wilderness. --10
+!import-table-item --Backstory Wealthy Home --Grew up in an Apartment in a rundown Neighborhood. --10
+!import-table-item --Backstory Wealthy Home --Grew up in a Small House. --20
+!import-table-item --Backstory Wealthy Home --Grew up in a Large House. --20
+!import-table-item --Backstory Wealthy Home --Grew up in a Mansion. --20
+!import-table-item --Backstory Wealthy Home --Grew up in a Palace or Castle. --10
+!import-table --Backstory Aristocratic Home --hide
+!import-table-item --Backstory Aristocratic Home --Grew up on the Streets. --0
+!import-table-item --Backstory Aristocratic Home --Grew up in a Rundown Shack. --0
+!import-table-item --Backstory Aristocratic Home --Grew up in no permanent Residence; Moved around a lot. --0
+!import-table-item --Backstory Aristocratic Home --Grew up in an Encampment or Village in the Wilderness. --0
+!import-table-item --Backstory Aristocratic Home --Grew up in an Apartment in a rundown Neighborhood. --10
+!import-table-item --Backstory Aristocratic Home --Grew up in a Small House. --20
+!import-table-item --Backstory Aristocratic Home --Grew up in a Large House. --20
+!import-table-item --Backstory Aristocratic Home --Grew up in a Mansion. --20
+!import-table-item --Backstory Aristocratic Home --Grew up in a Palace or Castle. --30
+!import-table --Backstory Childhood Memories -5 --hide
+!import-table-item --Backstory Childhood Memories -5 --I am still Haunted by my childhood, when I was treated badly by my peers. --6
+!import-table-item --Backstory Childhood Memories -5 --I spent most of my childhood alone, with no close friends. --2
+!import-table-item --Backstory Childhood Memories -5 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories -5 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories -5 --I had several friends, & my childhood was generally a happy one. --1
+!import-table-item --Backstory Childhood Memories -5 --I always found it easy to make friends, & I loved being around people. --0
+!import-table-item --Backstory Childhood Memories -5 --Everyone knew who I was, & I had friends everywhere I went. --0
+!import-table --Backstory Childhood Memories -4 --hide
+!import-table-item --Backstory Childhood Memories -4 --I am still Haunted by my childhood, when I was treated badly by my peers. --5
+!import-table-item --Backstory Childhood Memories -4 --I spent most of my childhood alone, with no close friends. --2
+!import-table-item --Backstory Childhood Memories -4 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories -4 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories -4 --I had several friends, & my childhood was generally a happy one. --2
+!import-table-item --Backstory Childhood Memories -4 --I always found it easy to make friends, & I loved being around people. --0
+!import-table-item --Backstory Childhood Memories -4 --Everyone knew who I was, & I had friends everywhere I went. --0
+!import-table --Backstory Childhood Memories -3 --hide
+!import-table-item --Backstory Childhood Memories -3 --I am still Haunted by my childhood, when I was treated badly by my peers. --4
+!import-table-item --Backstory Childhood Memories -3 --I spent most of my childhood alone, with no close friends. --2
+!import-table-item --Backstory Childhood Memories -3 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories -3 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories -3 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories -3 --I always found it easy to make friends, & I loved being around people. --0
+!import-table-item --Backstory Childhood Memories -3 --Everyone knew who I was, & I had friends everywhere I went. --0
+!import-table --Backstory Childhood Memories -2 --hide
+!import-table-item --Backstory Childhood Memories -2 --I am still Haunted by my childhood, when I was treated badly by my peers. --3
+!import-table-item --Backstory Childhood Memories -2 --I spent most of my childhood alone, with no close friends. --2
+!import-table-item --Backstory Childhood Memories -2 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories -2 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories -2 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories -2 --I always found it easy to make friends, & I loved being around people. --1
+!import-table-item --Backstory Childhood Memories -2 --Everyone knew who I was, & I had friends everywhere I went. --0
+!import-table --Backstory Childhood Memories -1 --hide
+!import-table-item --Backstory Childhood Memories -1 --I am still Haunted by my childhood, when I was treated badly by my peers. --2
+!import-table-item --Backstory Childhood Memories -1 --I spent most of my childhood alone, with no close friends. --2
+!import-table-item --Backstory Childhood Memories -1 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories -1 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories -1 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories -1 --I always found it easy to make friends, & I loved being around people. --2
+!import-table-item --Backstory Childhood Memories -1 --Everyone knew who I was, & I had friends everywhere I went. --0
+!import-table --Backstory Childhood Memories +0 --hide
+!import-table-item --Backstory Childhood Memories +0 --I am still Haunted by my childhood, when I was treated badly by my peers. --1
+!import-table-item --Backstory Childhood Memories +0 --I spent most of my childhood alone, with no close friends. --2
+!import-table-item --Backstory Childhood Memories +0 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories +0 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories +0 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories +0 --I always found it easy to make friends, & I loved being around people. --2
+!import-table-item --Backstory Childhood Memories +0 --Everyone knew who I was, & I had friends everywhere I went. --1
+!import-table --Backstory Childhood Memories +1 --hide
+!import-table-item --Backstory Childhood Memories +1 --I am still Haunted by my childhood, when I was treated badly by my peers. --0
+!import-table-item --Backstory Childhood Memories +1 --I spent most of my childhood alone, with no close friends. --2
+!import-table-item --Backstory Childhood Memories +1 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories +1 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories +1 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories +1 --I always found it easy to make friends, & I loved being around people. --2
+!import-table-item --Backstory Childhood Memories +1 --Everyone knew who I was, & I had friends everywhere I went. --2
+!import-table --Backstory Childhood Memories +2 --hide
+!import-table-item --Backstory Childhood Memories +2 --I am still Haunted by my childhood, when I was treated badly by my peers. --0
+!import-table-item --Backstory Childhood Memories +2 --I spent most of my childhood alone, with no close friends. --1
+!import-table-item --Backstory Childhood Memories +2 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories +2 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories +2 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories +2 --I always found it easy to make friends, & I loved being around people. --2
+!import-table-item --Backstory Childhood Memories +2 --Everyone knew who I was, & I had friends everywhere I went. --3
+!import-table --Backstory Childhood Memories +3 --hide
+!import-table-item --Backstory Childhood Memories +3 --I am still Haunted by my childhood, when I was treated badly by my peers. --0
+!import-table-item --Backstory Childhood Memories +3 --I spent most of my childhood alone, with no close friends. --0
+!import-table-item --Backstory Childhood Memories +3 --Others saw me as being different or strange, & so I had few companions. --3
+!import-table-item --Backstory Childhood Memories +3 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories +3 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories +3 --I always found it easy to make friends, & I loved being around people. --2
+!import-table-item --Backstory Childhood Memories +3 --Everyone knew who I was, & I had friends everywhere I went. --4
+!import-table --Backstory Childhood Memories +4 --hide
+!import-table-item --Backstory Childhood Memories +4 --I am still Haunted by my childhood, when I was treated badly by my peers. --0
+!import-table-item --Backstory Childhood Memories +4 --I spent most of my childhood alone, with no close friends. --0
+!import-table-item --Backstory Childhood Memories +4 --Others saw me as being different or strange, & so I had few companions. --2
+!import-table-item --Backstory Childhood Memories +4 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories +4 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories +4 --I always found it easy to make friends, & I loved being around people. --2
+!import-table-item --Backstory Childhood Memories +4 --Everyone knew who I was, & I had friends everywhere I went. --5
+!import-table --Backstory Childhood Memories +5 --hide
+!import-table-item --Backstory Childhood Memories +5 --I am still Haunted by my childhood, when I was treated badly by my peers. --0
+!import-table-item --Backstory Childhood Memories +5 --I spent most of my childhood alone, with no close friends. --0
+!import-table-item --Backstory Childhood Memories +5 --Others saw me as being different or strange, & so I had few companions. --1
+!import-table-item --Backstory Childhood Memories +5 --I had a few close friends & lived an ordinary childhood. --4
+!import-table-item --Backstory Childhood Memories +5 --I had several friends, & my childhood was generally a happy one. --3
+!import-table-item --Backstory Childhood Memories +5 --I always found it easy to make friends, & I loved being around people. --2
+!import-table-item --Backstory Childhood Memories +5 --Everyone knew who I was, & I had friends everywhere I went. --6
+!import-table --Backstory Acolyte --hide
+!import-table-item --Backstory Acolyte --I became an Acolyte because I ran away from Home at an early Age & found refuge in a Temple. --1
+!import-table-item --Backstory Acolyte --I became an Acolyte because my Family gave me to a Temple, since they were unable or unwilling to care for me. --1
+!import-table-item --Backstory Acolyte --I became an Acolyte because I grew up in a Household with strong Religious convictions. Entering the service of 1 or more Gods Seemed Natural. --1
+!import-table-item --Backstory Acolyte --I became an Acolyte because an impassioned Sermon struck a Chord deep in my Soul & Moved me to serve the Faith. --1
+!import-table-item --Backstory Acolyte --I became an Acolyte because I followed a Childhood Friend, a respected Acquaintance, or someone I loved into Religious service. --1
+!import-table-item --Backstory Acolyte --I became an Acolyte because after encountering a true Servant of the Gods, I was so inspired that I immediately entered the service of a Religious Group. --1
+!import-table --Backstory Charlatan --hide
+!import-table-item --Backstory Charlatan --I became a Charlatan because I was left to my own devices, & my knack for manipulating others helped me Survive. --1
+!import-table-item --Backstory Charlatan --I became a Charlatan because I Learned early on that People are gullible & easy to exploit. --1
+!import-table-item --Backstory Charlatan --I became a Charlatan because I often got in trouble, but I managed to Talk my way out of it every time. --1
+!import-table-item --Backstory Charlatan --I became a Charlatan because I took up with a Con Artist, from whom I Learned my Craft. --1
+!import-table-item --Backstory Charlatan --I became a Charlatan because after a Charlatan fleeced my Family, I decided to Learn the Trade so I would never be fooled by such Deception again. --1
+!import-table-item --Backstory Charlatan --I became a Charlatan because I was Poor or I Feared becoming Poor, so I Learned the tricks I needed to Keep myself out of poverty. --1
+!import-table --Backstory Criminal --hide
+!import-table-item --Backstory Criminal --I became a Criminal because I resented Authority in my Younger Days & saw a Life of Crime as the best way to Fight against Tyranny & Oppression. --1
+!import-table-item --Backstory Criminal --I became a Criminal because necessity Forced me to take up the Life, since it was the only way I could Survive. --1
+!import-table-item --Backstory Criminal --I became a Criminal because I fell in with a Gang of Reprobates & Ne'er-Do-Wells, & I Learned my Specialty from them. --1
+!import-table-item --Backstory Criminal --I became a Criminal because a Parent or Relative taught me my Criminal Specialty to Prepare me for the Family Business. --1
+!import-table-item --Backstory Criminal --I became a Criminal because I left Home & found a Place in a Thieves' Guild or some other Criminal Organization. --1
+!import-table-item --Backstory Criminal --I became a Criminal because I was always bored, so I Turned to Crime to pass the time & discovered I was quite Good at it. --1
+!import-table --Backstory Entertainer --hide
+!import-table-item --Backstory Entertainer --I became an Entertainer because Members of my Family made Ends meet by Performing, so it was fitting for me to follow their example. --1
+!import-table-item --Backstory Entertainer --I became an Entertainer because I always had a keen Insight into other People, enough so that I could make them laugh or cry with my stories or songs. --1
+!import-table-item --Backstory Entertainer --I became an Entertainer because I ran away from Home to follow a Minstrel Troupe. --1
+!import-table-item --Backstory Entertainer --I became an Entertainer because I saw a Bard Perform once, & I knew from that moment on what I was Born to do. --1
+!import-table-item --Backstory Entertainer --I became an Entertainer because I earned Coin by Performing on Street Corners & Eventually made a Name for myself. --1
+!import-table-item --Backstory Entertainer --I became an Entertainer because a Traveling Entertainer took me in & taught me the Trade. --1
+!import-table --Backstory Folk Hero --hide
+!import-table-item --Backstory Folk Hero --I became a Folk Hero because I Learned what was Right & Wrong from my Family. --1
+!import-table-item --Backstory Folk Hero --I became a Folk Hero because I was always enamored by Tales of Heroes & wished I could be something more than ordinary. --1
+!import-table-item --Backstory Folk Hero --I became a Folk Hero because I hated my Mundane Life, so when it was time for someone to step up & do the Right thing, I took my chance. --1
+!import-table-item --Backstory Folk Hero --I became a Folk Hero because a Parent or 1 of my Relatives was an Adventurer, & I was inspired by that Person's courage. --1
+!import-table-item --Backstory Folk Hero --I became a Folk Hero because a mad old Hermit Spoke a Prophecy when I was Born, saying that I would accomplish Great things. --1
+!import-table-item --Backstory Folk Hero --I became a Folk Hero because I have always stood up for those who are weaker than I am. --1
+!import-table --Backstory Guild Artisan --hide
+!import-table-item --Backstory Guild Artisan --I became a Guild Artisan because I was Apprenticed to a Master who taught me the Guild's Business. --1
+!import-table-item --Backstory Guild Artisan --I became a Guild Artisan because I helped a Guild Artisan Keep a Secret or complete a Task, & in return I was taken on as an Apprentice. --1
+!import-table-item --Backstory Guild Artisan --I became a Guild Artisan because 1 of my Family Members who belonged to the Guild made a Place for me. --1
+!import-table-item --Backstory Guild Artisan --I became a Guild Artisan because I was always Good with my Hands, so I took the Opportunity to Learn a Trade. --1
+!import-table-item --Backstory Guild Artisan --I became a Guild Artisan because I wanted to get away from my Home situation & Start a new Life. --1
+!import-table-item --Backstory Guild Artisan --I became a Guild Artisan because I Learned the essentials of my Craft from a Mentor but had to join the Guild to finish my Training. --1
+!import-table --Backstory Hermit --hide
+!import-table-item --Backstory Hermit --I became a Hermit because my Enemies ruined my Reputation, & I fled to the Wilds to avoid further disparagement. --1
+!import-table-item --Backstory Hermit --I became a Hermit because I am Comfortable with being isolated, as I Seek Inner Peace. --1
+!import-table-item --Backstory Hermit --I became a Hermit because I never liked the People I called my Friends, so it was easy for me to Strike out on my own. --1
+!import-table-item --Backstory Hermit --I became a Hermit because I felt compelled to forsake my Past, but did so with Great reluctance, & sometimes I regret making that decision. --1
+!import-table-item --Backstory Hermit --I became a Hermit because I lost everything - my Home, my Family, my Friends. Going it alone was all I could do. --1
+!import-table-item --Backstory Hermit --I became a Hermit because Society's decadence disgusted me, so I decided to leave it behind. --1
+!import-table --Backstory Noble --hide
+!import-table-item --Backstory Noble --I became a Noble because I come from an old & storied Family, & it fell to me to preserve the Family Name. --1
+!import-table-item --Backstory Noble --I became a Noble because my Family has been disgraced, & I intend to clear our Name. --1
+!import-table-item --Backstory Noble --I became a Noble because my Family recently came by its Title, & that elevation thrust us into a new & Strange World. --1
+!import-table-item --Backstory Noble --I became a Noble because my Family has a Title, but none of my Ancestors have distinguished themselves since we gained it. --1
+!import-table-item --Backstory Noble --I became a Noble because my Family is filled with remarkable People. I Hope to Live up to their example. --1
+!import-table-item --Backstory Noble --I became a Noble because I Hope to increase my Family's Power & Influence. --1
+!import-table --Backstory Outlander --hide
+!import-table-item --Backstory Outlander --I became an Outlander because I Spent a lot of time in the Wilderness as a Youngster, & I came to Love that way of Life. --1
+!import-table-item --Backstory Outlander --I became an Outlander because from a Young Age, I couldn't abide the stink of the Cities & preferred to Spend my time in Nature. --1
+!import-table-item --Backstory Outlander --I became an Outlander because I came to understand the Darkness that lurks in the Wilds, & I vowed to Combat it. --1
+!import-table-item --Backstory Outlander --I became an Outlander because my People Lived on the edges of Civilization, & I Learned the methods of Survival from my Family. --1
+!import-table-item --Backstory Outlander --I became an Outlander because after a Tragedy I retreated to the Wilderness, leaving my old Life behind. --1
+!import-table-item --Backstory Outlander --I became an Outlander because my Family Moved away from Civilization, & I Learned to adapt to my new Environment. --1
+!import-table --Backstory Sage --hide
+!import-table-item --Backstory Sage --I became a Sage because I was Naturally curious, so I Packed up & went to a University to Learn more about the World. --1
+!import-table-item --Backstory Sage --I became a Sage because my Mentor's Teachings Opened my Mind to new possibilities in that Field of Study. --1
+!import-table-item --Backstory Sage --I became a Sage because I was always an avid Reader, & I Learned much about my Favorite topic on my own. --1
+!import-table-item --Backstory Sage --I became a Sage because I discovered an old Library & pored over the Texts I found there. That Experience awakened a Hunger for more Knowledge. --1
+!import-table-item --Backstory Sage --I became a Sage because I impressed a Wizard who told me I was squandering my Talents & should Seek out an Education to take Advantage of my Gifts. --1
+!import-table-item --Backstory Sage --I became a Sage because 1 of my Parents or a Relative gave me a basic Education that whetted my Appetite, & I left Home to Build on what I had Learned. --1
+!import-table --Backstory Sailor --hide
+!import-table-item --Backstory Sailor --I became a Sailor because I was Press-Ganged by Pirates & Forced to serve on their Ship until I finally escaped. --1
+!import-table-item --Backstory Sailor --I became a Sailor because I wanted to See the World, so I Signed on as a Deckhand for a Merchant Ship. --1
+!import-table-item --Backstory Sailor --I became a Sailor because 1 of my Relatives was a Sailor who took me to Sea. --1
+!import-table-item --Backstory Sailor --I became a Sailor because I needed to escape my Community quickly, so I stowed away on a Ship. When the Crew found me, I was Forced to Work for my Passage. --1
+!import-table-item --Backstory Sailor --I became a Sailor because Reavers Attacked my Community, so I found refuge on a Ship until I could Seek Vengeance. --1
+!import-table-item --Backstory Sailor --I became a Sailor because I had few prospects where I was Living, so I left to find my Fortune elsewhere. --1
+!import-table --Backstory Soldier --hide
+!import-table-item --Backstory Soldier --I became a Soldier because I joined the Militia to help Protect my Community from Monsters. --1
+!import-table-item --Backstory Soldier --I became a Soldier because a Relative of mine was a Soldier, & I wanted to carry on the Family Tradition. --1
+!import-table-item --Backstory Soldier --I became a Soldier because the Local Lord Forced me to enlist in the Army. --1
+!import-table-item --Backstory Soldier --I became a Soldier because War ravaged my Homeland Whilst I was growing up. Fighting was the only Life I ever knew. --1
+!import-table-item --Backstory Soldier --I became a Soldier because I wanted Fame & Fortune, so I joined a Mercenary Company, Selling my Sword to the Highest Bidder. --1
+!import-table-item --Backstory Soldier --I became a Soldier because invaders Attacked my Homeland. It was my duty to take up arms in Defense of my People. --1
+!import-table --Backstory Urchin --hide
+!import-table-item --Backstory Urchin --I became an Urchin because Wanderlust caused me to leave my Family to See the World. I Look after myself. --1
+!import-table-item --Backstory Urchin --I became an Urchin because I ran away from a bad situation at Home & made my own way in the World. --1
+!import-table-item --Backstory Urchin --I became an Urchin because Monsters wiped out my Village, & I was the sole survivor. I had to find a way to Survive. --1
+!import-table-item --Backstory Urchin --I became an Urchin because a notorious Thief Looked after me & other Orphans, & we Spied & Stole to earn our Keep. --1
+!import-table-item --Backstory Urchin --I became an Urchin because 1 Day I woke up on the Streets, Alone & Hungry, with no Memory of my early Childhood. --1
+!import-table-item --Backstory Urchin --I became an Urchin because my Parents Died, leaving nobody to Look after me. I raised myself. --1
+!import-table --Backstory Barbarian --hide
+!import-table-item --Backstory Barbarian --I became a Barbarian because my Devotion to my People lifted me in Battle, making me Powerful & Dangerous. --1
+!import-table-item --Backstory Barbarian --I became a Barbarian because the Spirits of my Ancestors called on me to carry out a Great Task. --1
+!import-table-item --Backstory Barbarian --I became a Barbarian because I lost control in Battle 1 Day, & it was as if something else was manipulating my Body, forcing it to Kill every foe I could Reach. --1
+!import-table-item --Backstory Barbarian --I became a Barbarian because I went on a Spiritual Journey to find myself & instead found a Spirit Animal to Guide, Protect, & Inspire me. --1
+!import-table-item --Backstory Barbarian --I became a Barbarian because I was struck by Lightning & Lived. Afterward, I found a new Strength within me that let me push beyond my limitations. --1
+!import-table-item --Backstory Barbarian --I became a Barbarian because my Anger needed to be channeled into Battle, or I risked becoming an indiscriminate Killer. --1
+!import-table --Backstory Bard --hide
+!import-table-item --Backstory Bard --I became a Bard because I awakened my latent Bardic abilities through Trial & Error. --1
+!import-table-item --Backstory Bard --I became a Bard because I was a Gifted Performer & attracted the attention of a Master Bard who schooled me in the old Techniques. --1
+!import-table-item --Backstory Bard --I became a Bard because I joined a loose Society of Scholars & Orators to Learn new Techniques of Performance & Magic. --1
+!import-table-item --Backstory Bard --I became a Bard because I felt a calling to recount the Deeds of Champions & Heroes, to bring them Alive in Song & Story. --1
+!import-table-item --Backstory Bard --I became a Bard because I joined 1 of the Great Colleges to Learn old Lore, the Secrets of Magic, & the Art of Performance. --1
+!import-table-item --Backstory Bard --I became a Bard because I Picked up a Musical Instrument 1 Day & Instantly discovered that I could play it. --1
+!import-table --Backstory Cleric --hide
+!import-table-item --Backstory Cleric --I became a Cleric because a Supernatural being in service to the Gods called me to become a Divine Agent in the World. --1
+!import-table-item --Backstory Cleric --I became a Cleric because I saw the Injustice & Horror in the World & felt Moved to take a stand against them. --1
+!import-table-item --Backstory Cleric --I became a Cleric because my God gave me an unmistakable Sign. I Dropped everything to serve the Divine. --1
+!import-table-item --Backstory Cleric --I became a Cleric because although I was always Devout, it wasn't until I completed a Pilgrimage that I knew my true calling. --1
+!import-table-item --Backstory Cleric --I became a Cleric because I used to serve in my Religion's Bureaucracy but found I needed to Work in the World, to bring the Message of my Faith to the Darkest Corners of the Land. --1
+!import-table-item --Backstory Cleric --I became a Cleric because I realize that my God Works through me, & I do as Commanded, even though I don't know why I was chosen to serve. --1
+!import-table --Backstory Druid --hide
+!import-table-item --Backstory Druid --I became a Druid because I saw too much Devastation in the Wild Places, too much of Nature's Splendor ruined by the Despoilers. I joined a Circle of Druids to Fight back against the Enemies of Nature. --1
+!import-table-item --Backstory Druid --I became a Druid because I found a Place among a Group of Druids after I fled a Catastrophe. --1
+!import-table-item --Backstory Druid --I became a Druid because I have always had an affinity for Animals, so I Explored my Talent to See how I could best use it. --1
+!import-table-item --Backstory Druid --I became a Druid because I befriended a Druid & was Moved by Druidic Teachings. I decided to follow my Friend's Guidance & give something back to the World. --1
+!import-table-item --Backstory Druid --I became a Druid because Whilst I was growing up, I saw Spirits all around me - Entities nobody else could Perceive. I sought out the Druids to help me understand the Visions & Communicate with these Beings. --1
+!import-table-item --Backstory Druid --I became a Druid because I have always felt disgust for Creatures of Unnatural Origin. For this reason, I immersed myself in the Study of the Druidic mysteries & became a Champion of the Natural Order. --1
+!import-table --Backstory Fighter --hide
+!import-table-item --Backstory Fighter --I became a Fighter because I wanted to hone my Combat Skills, & so I joined a War College. --1
+!import-table-item --Backstory Fighter --I became a Fighter because I Squired for a Knight who taught me how to Fight, care for a Steed, & conduct myself with Honor. I decided to take up that path for myself. --1
+!import-table-item --Backstory Fighter --I became a Fighter because horrible Monsters descended on my Community, Killing someone I Loved. I took up Arms to destroy those Creatures & others of a similar Nature. --1
+!import-table-item --Backstory Fighter --I became a Fighter because I joined the Army & Learned how to Fight as part of a Group. --1
+!import-table-item --Backstory Fighter --I became a Fighter because I grew up Fighting, & I refined my Talents by defending myself against People who crossed me. --1
+!import-table-item --Backstory Fighter --I became a Fighter because I could always Pick up just about any Weapon & know how to use it Effectively. --1
+!import-table --Backstory Monk --hide
+!import-table-item --Backstory Monk --I became a Monk because I was chosen to Study at a secluded Monastery. There, I was taught the fundamental Techniques required to Eventually Master a Tradition. --1
+!import-table-item --Backstory Monk --I became a Monk because I sought instruction to gain a deeper understanding of Existence & my Place in the World. --1
+!import-table-item --Backstory Monk --I became a Monk because I stumbled into a Portal to the Shadowfell & took refuge in a Strange Monastery, where I Learned how to defend myself against the Forces of Darkness. --1
+!import-table-item --Backstory Monk --I became a Monk because I was overwhelmed with grief after losing someone close to me, & I sought the advice of Philosophers to help me cope with my loss. --1
+!import-table-item --Backstory Monk --I became a Monk because I could feel that a Special sort of Power lay within me, so I sought out those who could help me call it forth & Master it. --1
+!import-table-item --Backstory Monk --I became a Monk because I was Wild & Undisciplined as a Youngster, but then I realized the Error of my ways. I applied to a Monastery & became a Monk as a way to Live a Life of Discipline. --1
+!import-table --Backstory Paladin --hide
+!import-table-item --Backstory Paladin --I became a Paladin because a Fantastical Being Appeared before me & called on me to undertake a Holy Quest. --1
+!import-table-item --Backstory Paladin --I became a Paladin because 1 of my Ancestors left a Holy Quest unfulfilled, so I intend to finish that Work. --1
+!import-table-item --Backstory Paladin --I became a Paladin because the World is a Dark & terrible Place. I decided to serve as a Beacon of Light shining out against the gathering Shadows. --1
+!import-table-item --Backstory Paladin --I became a Paladin because I served as a Paladin's Squire, Learning all I needed to swear my own Sacred Oath. --1
+!import-table-item --Backstory Paladin --I became a Paladin because Evil must be opposed on all fronts. I feel compelled to Seek out Wickedness & Purge it from the World. --1
+!import-table-item --Backstory Paladin --I became a Paladin because becoming a Paladin was a Natural Consequence of my unwavering Faith. In taking my Vows, I became the Holy Sword of my Religion. --1
+!import-table --Backstory Ranger --hide
+!import-table-item --Backstory Ranger --I became a Ranger because I found purpose Whilst I honed my Hunting Skills by bringing down Dangerous Animals at the edge of Civilization. --1
+!import-table-item --Backstory Ranger --I became a Ranger because I always had a way with Animals, able to Calm them with a Soothing Word & a Touch. --1
+!import-table-item --Backstory Ranger --I became a Ranger because I suffer from terrible Wanderlust, so Being a Ranger gave me a reason not to remain in 1 Place for too Long. --1
+!import-table-item --Backstory Ranger --I became a Ranger because I have Seen what happens when the Monsters come out from the Dark. I took it upon myself to become the 1st Line of Defense against the Evils that lie beyond Civilization's Borders. --1
+!import-table-item --Backstory Ranger --I became a Ranger because I met a grizzled Ranger who taught me Woodcraft & the Secrets of the Wild Lands. --1
+!import-table-item --Backstory Ranger --I became a Ranger because I served in an Army, Learning the precepts of my Profession Whilst blazing trails & scouting Enemy Encampments. --1
+!import-table --Backstory Rogue --hide
+!import-table-item --Backstory Rogue --I became a Rogue because i've always been nimble & quick of wit, so I decided to use those Talents to help me make my way in the World. --1
+!import-table-item --Backstory Rogue --I became a Rogue because an Assassin or a Thief Wronged me, so I Focused my Training on Mastering the Skills of my Enemy to better Combat foes of that sort. --1
+!import-table-item --Backstory Rogue --I became a Rogue because an Experienced Rogue saw something in me & taught me several useful tricks. --1
+!import-table-item --Backstory Rogue --I became a Rogue because I decided to Turn my Natural lucky streak into the basis of a Career, though I still realize that improving my Skills is essential. --1
+!import-table-item --Backstory Rogue --I became a Rogue because I took up with a Group of Ruffians who showed me how to get what I want through Sneakiness Rather than direct confrontation. --1
+!import-table-item --Backstory Rogue --I became a Rogue because i'm a sucker for a Shiny Bauble or a sack of Coins, as Long as I can get my Hands on it without risking Life & Limb. --1
+!import-table --Backstory Sorcerer --hide
+!import-table-item --Backstory Sorcerer --I became a Sorcerer because when I was Born, [[1t[Backstory Birth Event]]], & My Family is convinced that this Event was a Harbinger of Stranger things to come for me. --1
+!import-table-item --Backstory Sorcerer --I became a Sorcerer because I suffered a terrible Emotional or Physical Strain, which brought forth my latent Magical Power. I have fought to Control it ever since. --1
+!import-table-item --Backstory Sorcerer --I became a Sorcerer because my immediate Family never Spoke of my Ancestors, & when I asked, they would change the subject. It wasn't until I Started displaying Strange Talents that the full truth of my Heritage came out. --1
+!import-table-item --Backstory Sorcerer --I became a Sorcerer because when a Monster threatened 1 of my Friends, I became filled with Anxiety. I lashed out instinctively & blasted the Wretched thing with a Force that came from within me. --1
+!import-table-item --Backstory Sorcerer --I became a Sorcerer because sensing something Special in me, a Stranger taught me how to Control my Gift. --1
+!import-table-item --Backstory Sorcerer --I became a Sorcerer because after I escaped from a Magical Conflagration, I realized that though I was Unharmed, I was not Unchanged. I began to exhibit unusual Abilities that I am just beginning to understand. --1
+!import-table --Backstory Warlock --hide
+!import-table-item --Backstory Warlock --I became a Warlock because Whilst wandering around in a Forbidden Place, I Encountered an Otherworldly Being that offered to enter into a Pact with me. --1
+!import-table-item --Backstory Warlock --I became a Warlock because I was examining a Strange Tome I found in an Abandoned Library when the Entity that would become my Patron suddenly Appeared before me. --1
+!import-table-item --Backstory Warlock --I became a Warlock because I stumbled into the clutches of my Patron after I accidentally stepped through a Magical Doorway. --1
+!import-table-item --Backstory Warlock --I became a Warlock because when I was Faced with a terrible Crisis, I prayed to any Being who would Listen, & the Creature that answered became my Patron. --1
+!import-table-item --Backstory Warlock --I became a Warlock because my future Patron visited me in my Dreams & offered Great Power in exchange for my Service. --1
+!import-table-item --Backstory Warlock --I became a Warlock because 1 of my Ancestors had a Pact with my Patron, so that Entity was determined to Bind me to the same agreement. --1
+!import-table --Backstory Wizard --hide
+!import-table-item --Backstory Wizard --I became a Wizard because an old Wizard chose me from among several candidates to serve an Apprenticeship. --1
+!import-table-item --Backstory Wizard --I became a Wizard because when I became lost in a Forest, a Hedge Wizard found me, took me in, & taught me the rudiments of Magic. --1
+!import-table-item --Backstory Wizard --I became a Wizard because I grew up Listening to Tales of Great Wizards & knew I wanted to follow their path. I strove to be accepted at an Academy of Magic & succeeded. --1
+!import-table-item --Backstory Wizard --I became a Wizard because 1 of my Relatives was an accomplished Wizard who decided I was Smart enough to Learn the Craft. --1
+!import-table-item --Backstory Wizard --I became a Wizard because Whilst exploring an old Tomb, Library, or Temple, I found a Spell Book. I was immediately driven to Learn all I could about becoming a Wizard. --1
+!import-table-item --Backstory Wizard --I became a Wizard because I was a Prodigy who Demonstrated Mastery of the Arcane Arts at an early Age. When I became old enough to Set out on my own, I did so to Learn more Magic & expand my Power. --1
+!import-table --Backstory Life Events by Age --hide
+!import-table-item --Backstory Life Events by Age --[[10+1d10]] Years Old - [[1]] Life Events --20
+!import-table-item --Backstory Life Events by Age --[[20+1d10]] Years Old - [[1d4]] Life Events --39
+!import-table-item --Backstory Life Events by Age --[[30+1d10]] Years Old - [[1d6]] Life Events --10
+!import-table-item --Backstory Life Events by Age --[[40+1d10]] Years Old - [[1d8]] Life Events --10
+!import-table-item --Backstory Life Events by Age --[[50+1d10]] Years Old - [[1d10]] Life Events --10
+!import-table-item --Backstory Life Events by Age --[[60+1d10]] Years Old - [[1d12]] Life Events --1
+!import-table --Backstory Life Events --hide
+!import-table-item --Backstory Life Events --You suffered a Tragedy. [[1t[Backstory Tragedies]]]. --10
+!import-table-item --Backstory Life Events --You gained a bit of Good Fortune. [[1t[Backstory Boons]]]. --10
+!import-table-item --Backstory Life Events --You fell in Love or got Married. If you get this result more than once, you can choose to have a Child instead. Work with your GM to determine the Identity of your Love interest. --10
+!import-table-item --Backstory Life Events --You made an Enemy of an Adventurer. [[1t[Blame]]]. Use the Supplemental Tables & Work with your GM to determine this hostile Character's Identity & the Danger this Enemy poses to you. --10
+!import-table-item --Backstory Life Events --You made a Friend of an Adventurer. Use the Supplemental Tables & Work with your GM to add more detail to this Friendly Character & establish how your Friendship began. --10
+!import-table-item --Backstory Life Events --You Spent time Working in a job related to your Background. Start the game with an Extra [[2d6]] Gold. --20
+!import-table-item --Backstory Life Events --You met someone important. Use the Supplemental Tables to determine this Character's Identity & how this individual feels about you. Work out additional details with your GM as needed to fit this Character into your Backstory. --5
+!import-table-item --Backstory Life Events --You went on an Adventure. Work with your GM to determine the Nature of the Adventure & the Creatures you Encountered. --5
+!import-table-item --Backstory Life Events --You had a Supernatural Experience; [[1t[Backstory Supernatural Events]]]. --5
+!import-table-item --Backstory Life Events --You fought in a Battle. [[1t[Backstory War]]]. Work with your GM to come up with the reason for the Battle & the factions involved. It might have been a Small conflict between your Community & a band of Orcs, or it could have been a major Battle in a Larger War. --5
+!import-table-item --Backstory Life Events --You committed a Crime or were Wrongly Accused of doing so. Crime: [[1t[Backstory Crime]]]. Outcome: [[1t[Backstory Punishment]]]. --5
+!import-table-item --Backstory Life Events --You Encountered something Magical; [[1t[Backstory Arcane Matters]]]. --4
+!import-table-item --Backstory Life Events --Something truly Strange happened to you; [[1t[Backstory Weird Stuff]]]. --1
+!import-table --Backstory Adventures --hide
+!import-table-item --Backstory Adventures --You nearly Died. You have nasty Scars on your Body, & you are Missing an Ear. --10
+!import-table-item --Backstory Adventures --You nearly Died. You have nasty Scars on your Body, & you are Missing [[1d3]] Fingers. --10
+!import-table-item --Backstory Adventures --You nearly Died. You have nasty Scars on your Body, & you are Missing [[1d4]] Toes. --10
+!import-table-item --Backstory Adventures --You suffered a grievous injury. Although the Wound Healed, it still pains you from time to time. --30
+!import-table-item --Backstory Adventures --You were Wounded, but in time you fully Recovered. --30
+!import-table-item --Backstory Adventures --You contracted a Disease Whilst exploring a filthy Warren. You Recovered from the Disease, but you have a persistent Cough. --10
+!import-table-item --Backstory Adventures --You contracted a Disease Whilst exploring a filthy Warren. You Recovered from the Disease, but you have Pockmarks on your Skin. --10
+!import-table-item --Backstory Adventures --You contracted a Disease Whilst exploring a filthy Warren. You Recovered from the Disease, but you have prematurely Gray Hair. --10
+!import-table-item --Backstory Adventures --You were Poisoned by a Trap. You Recovered, but the next time you must make a Saving Throw against Poison, you make the Saving Throw with Disadvantage. --15
+!import-table-item --Backstory Adventures --You were Poisoned by a Monster. You Recovered, but the next time you must make a Saving Throw against Poison, you make the Saving Throw with Disadvantage. --15
+!import-table-item --Backstory Adventures --You lost something of Sentimental Value to you during your Adventure. Remove 1 Trinket from your Possessions. --30
+!import-table-item --Backstory Adventures --You were terribly Frightened by something you Encountered & ran away, abandoning your Companions to their fate. --30
+!import-table-item --Backstory Adventures --You Learned a Great deal during your Adventure. The next time you make an Ability Check or a Saving Throw, you have Advantage on the Roll. --30
+!import-table-item --Backstory Adventures --You found some Treasure on your Adventure. You have [[2d6]] Gold left from your share of it. --30
+!import-table-item --Backstory Adventures --You found a considerable amount of Treasure on your Adventure. You have [[1d20 + 50]] Gold left from your share of it. --27
+!import-table-item --Backstory Adventures --You came across a Common Magic item (of the GM's choice). --3
+!import-table --Backstory Arcane Matters --hide
+!import-table-item --Backstory Arcane Matters --You were Charmed by a Spell. --5
+!import-table-item --Backstory Arcane Matters --You were Frightened by a Spell. --5
+!import-table-item --Backstory Arcane Matters --You were injured by the Effect of a Spell. --10
+!import-table-item --Backstory Arcane Matters --You witnessed a Powerful Spell Being Cast by a Cleric. --2
+!import-table-item --Backstory Arcane Matters --You witnessed a Powerful Spell Being Cast by a Druid. --2
+!import-table-item --Backstory Arcane Matters --You witnessed a Powerful Spell Being Cast by a Sorcerer. --2
+!import-table-item --Backstory Arcane Matters --You witnessed a Powerful Spell Being Cast by a Warlock. --2
+!import-table-item --Backstory Arcane Matters --You witnessed a Powerful Spell Being Cast by a Wizard. --2
+!import-table-item --Backstory Arcane Matters --You Drank a Potion (of the GM's choice). --10
+!import-table-item --Backstory Arcane Matters --You found a Spell Scroll (of the GM's choice) & succeeded in Casting the Spell it contained. --10
+!import-table-item --Backstory Arcane Matters --You were affected by Teleportation Magic. --10
+!import-table-item --Backstory Arcane Matters --You Turned Invisible for a time. --10
+!import-table-item --Backstory Arcane Matters --You identified an Illusion for what it was. --10
+!import-table-item --Backstory Arcane Matters --You saw a Creature Being conjured by Magic. --10
+!import-table-item --Backstory Arcane Matters --Your Fortune was Read by a Diviner. ([[1t[Backstory Life Events]]]) | ([[1t[Backstory Life Events]]]), the GM Picks 1 Event as a portent of your future (which might or might not come true). --10
+!import-table --Backstory Boons --hide
+!import-table-item --Backstory Boons --A Friendly Wizard gave you a Spell Scroll containing 1 Cantrip (of the GM's choice). --1
+!import-table-item --Backstory Boons --You Saved the Life of a Commoner, who now owes you a Life debt. This individual accompanies you on your Travels & Performs Mundane Tasks for you, but will leave if neglected, abused, or imperiled. Determine details about this Character by using the Supplemental Tables & Working with your dm. --1
+!import-table-item --Backstory Boons --You found a Riding Horse. --1
+!import-table-item --Backstory Boons --You found some money. You have [[1d20]] Gold in addition to your regular Starting funds. --1
+!import-table-item --Backstory Boons --A Relative bequeathed you a Simple Weapon of your choice. --1
+!import-table-item --Backstory Boons --You found something interesting. You gain 1 additional Trinket. --1
+!import-table-item --Backstory Boons --You once Performed a Service for a Local Temple. The next time you visit the Temple, you can receive Healing up to your Hit Point Maximum. --1
+!import-table-item --Backstory Boons --A Friendly Alchemist Gifted you with a Potion of Healing or a Flask of Acid, as you choose. --1
+!import-table-item --Backstory Boons --You found a Treasure Map. --1
+!import-table-item --Backstory Boons --A distant Relative left you a stipend that enables you to Live at the Comfortable Lifestyle for 1d20 Years. If you choose to Live at a Higher Lifestyle, you Reduce the price of the Lifestyle by 2 Gold during that time period. --1
+!import-table --Backstory Crime --hide
+!import-table-item --Backstory Crime --Assault --1
+!import-table-item --Backstory Crime --Blackmail --1
+!import-table-item --Backstory Crime --Burglary --1
+!import-table-item --Backstory Crime --Counterfeiting --1
+!import-table-item --Backstory Crime --Enforcer --1
+!import-table-item --Backstory Crime --Extortion --1
+!import-table-item --Backstory Crime --Fence --1
+!import-table-item --Backstory Crime --Highway Robber --1
+!import-table-item --Backstory Crime --Hired Killer --1
+!import-table-item --Backstory Crime --Kidnapping --1
+!import-table-item --Backstory Crime --Murder --1
+!import-table-item --Backstory Crime --Pickpocket --1
+!import-table-item --Backstory Crime --Smuggling --1
+!import-table-item --Backstory Crime --Theft --1
+!import-table --Backstory Punishment --hide
+!import-table-item --Backstory Punishment --You did not commit the Crime & were exonerated after Being accused. --18
+!import-table-item --Backstory Punishment --You committed the Crime, but nonetheless the authorities found you not guilty. --9
+!import-table-item --Backstory Punishment --You helped commit the Crime, but nonetheless the authorities found you not guilty. --9
+!import-table-item --Backstory Punishment --You were nearly caught in the act. You had to flee & are wanted in the Community where the Crime occurred. --12
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Chained to an Oar. You served a sentence of 1 Year. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Chained to an Oar. You served a sentence of 2 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Chained to an Oar. You served a sentence of 3 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Chained to an Oar. You served a sentence of 4 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Chained to an Oar. You succeeded in escaping after 1 Year. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Chained to an Oar. You succeeded in escaping after 2 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Chained to an Oar. You succeeded in escaping after 3 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Chained to an Oar. You succeeded in escaping after 4 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Performing Hard Labor. You served a sentence of 1 Year. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Performing Hard Labor. You served a sentence of 2 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Performing Hard Labor. You served a sentence of 3 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Performing Hard Labor. You served a sentence of 4 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Performing Hard Labor. You succeeded in escaping after 1 Year. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Performing Hard Labor. You succeeded in escaping after 2 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Performing Hard Labor. You succeeded in escaping after 3 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time Performing Hard Labor. You succeeded in escaping after 4 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time in Jail. You served a sentence of 1 Year. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time in Jail. You served a sentence of 2 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time in Jail. You served a sentence of 3 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time in Jail. You served a sentence of 4 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time in Jail. You succeeded in escaping after 1 Year. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time in Jail. You succeeded in escaping after 2 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time in Jail. You succeeded in escaping after 3 Years. --1
+!import-table-item --Backstory Punishment --You were caught & convicted. You Spent time in Jail. You succeeded in escaping after 4 Years. --1
+!import-table --Backstory Supernatural Events --hide
+!import-table-item --Backstory Supernatural Events --You were ensorcelled by a Fey & Enslaved for 1 Year before you escaped. --5
+!import-table-item --Backstory Supernatural Events --You were ensorcelled by a Fey & Enslaved for 2 Years before you escaped. --5
+!import-table-item --Backstory Supernatural Events --You were ensorcelled by a Fey & Enslaved for 3 Years before you escaped. --5
+!import-table-item --Backstory Supernatural Events --You were ensorcelled by a Fey & Enslaved for 4 Years before you escaped. --5
+!import-table-item --Backstory Supernatural Events --You were ensorcelled by a Fey & Enslaved for 5 Years before you escaped. --5
+!import-table-item --Backstory Supernatural Events --You were ensorcelled by a Fey & Enslaved for 6 Years before you escaped. --5
+!import-table-item --Backstory Supernatural Events --You saw a Demon & ran away before it could do anything to you. --30
+!import-table-item --Backstory Supernatural Events --A Devil tempted you. Make a DC 10 Wisdom Saving Throw. On a failed Save, your Alignment shifts 1 step toward Evil (if it's not Evil already), & you Start the game with an additional [[1d20 + 50]] Gold. --30
+!import-table-item --Backstory Supernatural Events --You woke up 1 morning Miles from your Home, with no idea how you got there. --30
+!import-table-item --Backstory Supernatural Events --You visited a Holy Site & felt the presence of the Divine there. --60
+!import-table-item --Backstory Supernatural Events --You witnessed a [[1t[Supernatural Omen]]]. You are certain that it was an omen of some sort. --30
+!import-table-item --Backstory Supernatural Events --You escaped certain Death & believe it was the intervention of a God that Saved you. --60
+!import-table-item --Backstory Supernatural Events --You witnessed a Minor Miracle. --60
+!import-table-item --Backstory Supernatural Events --You Explored an empty House & found it to be Haunted. --60
+!import-table-item --Backstory Supernatural Events --You were briefly Possessed by a Celestial. --5
+!import-table-item --Backstory Supernatural Events --You were briefly Possessed by a Devil. --5
+!import-table-item --Backstory Supernatural Events --You were briefly Possessed by a Demon. --5
+!import-table-item --Backstory Supernatural Events --You were briefly Possessed by a Fey. --5
+!import-table-item --Backstory Supernatural Events --You were briefly Possessed by a Elemental. --5
+!import-table-item --Backstory Supernatural Events --You were briefly Possessed by an Undead. --5
+!import-table-item --Backstory Supernatural Events --You saw a Ghost. --30
+!import-table-item --Backstory Supernatural Events --You saw a Ghoul feeding on a Corpse. --30
+!import-table-item --Backstory Supernatural Events --A Celestial visited you in your Dreams to give a Warning of Dangers to come. --15
+!import-table-item --Backstory Supernatural Events --A Fiend visited you in your Dreams to give a Warning of Dangers to come. --15
+!import-table-item --Backstory Supernatural Events --You briefly visited the Feywild. --15
+!import-table-item --Backstory Supernatural Events --You briefly visited the Shadowfell. --15
+!import-table-item --Backstory Supernatural Events --You saw a Portal that you believe Leads to another Plane of Existence. --30
+!import-table --Backstory Tragedies --hide
+!import-table-item --Backstory Tragedies --A Family Member or a close Friend Died. Cause of Death: [[1t[Backstory Cause of Death]]]. --144
+!import-table-item --Backstory Tragedies --A Friendship Ended bitterly, & the other Person is now Hostile to you. The cause might have been a misunderstanding or something you or the Former Friend did. --72
+!import-table-item --Backstory Tragedies --You lost all your Possessions in a disaster, & you had to rebuild your Life. --72
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 1 Year Shackled to an Oar in a Slave galley. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 1 Year doing Hard Labor. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 1 Year in Jail. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 2 Years Shackled to an Oar in a Slave galley. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 2 Years doing Hard Labor. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 2 Years in Jail. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 3 Years Shackled to an Oar in a Slave galley. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 3 Years doing Hard Labor. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 3 Years in Jail. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 4 Years Shackled to an Oar in a Slave galley. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 4 Years doing Hard Labor. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 4 Years in Jail. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 5 Years Shackled to an Oar in a Slave galley. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 5 Years doing Hard Labor. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 5 Years in Jail. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 6 Years Shackled to an Oar in a Slave galley. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 6 Years doing Hard Labor. --4
+!import-table-item --Backstory Tragedies --You were Imprisoned for a Crime you didn't commit & Spent 6 Years in Jail. --4
+!import-table-item --Backstory Tragedies --War ravaged your Home Community, Reducing everything to Rubble & Ruin. In the aftermath, you Moved somewhere else. --36
+!import-table-item --Backstory Tragedies --War ravaged your Home Community, Reducing everything to Rubble & Ruin. In the aftermath, you helped your Town rebuild. --36
+!import-table-item --Backstory Tragedies --A Lover disappeared without a trace. You have been Looking for that Person ever since. --72
+!import-table-item --Backstory Tragedies --A terrible Blight in your Home Community caused crops to fail, & many Starved. You lost a Sibling or some other Family Member. --72
+!import-table-item --Backstory Tragedies --You did something that brought terrible shame to you in the Eyes of your Family. You were involved in a scandal. The attitude of your Family Members toward you becomes indifferent at best, though they might Eventually forgive you. --24
+!import-table-item --Backstory Tragedies --You did something that brought terrible shame to you in the Eyes of your Family. You dabbled in Dark Magic. The attitude of your Family Members toward you becomes indifferent at best, though they might Eventually forgive you. --24
+!import-table-item --Backstory Tragedies --You did something that brought terrible shame to you in the Eyes of your Family. You offended someone important. The attitude of your Family Members toward you becomes indifferent at best, though they might Eventually forgive you. --24
+!import-table-item --Backstory Tragedies --For a reason you were never told, you were exiled from your Community. You then wandered in the Wilderness for a time. --36
+!import-table-item --Backstory Tragedies --For a reason you were never told, you were exiled from your Community. You then promptly found a new Place to Live. --36
+!import-table-item --Backstory Tragedies --A romantic relationship Ended. It Ended with bad feelings. --36
+!import-table-item --Backstory Tragedies --A romantic relationship Ended. It Ended amicably. --36
+!import-table-item --Backstory Tragedies --A current or prospective romantic partner of yours Died. Cause of Death: [[1t[Backstory Cause of Death]]]. If the result is Murder, you were indirectly responsible. --3
+!import-table-item --Backstory Tragedies --A current or prospective romantic partner of yours Died. Cause of Death: [[1t[Backstory Cause of Death]]]. If the result is Murder, you were directly responsible. --3
+!import-table-item --Backstory Tragedies --A current or prospective romantic partner of yours Died. Cause of Death: [[1t[Backstory Cause of Death]]]. If the result is Murder, you were not responsible. --66
+!import-table --Backstory War --hide
+!import-table-item --Backstory War --You were knocked out & left for dead. You woke up Hours later with no recollection of the Battle. --1
+!import-table-item --Backstory War --You were badly injured in the Fight, & you still bear the awful Scars of those Wounds. --2
+!import-table-item --Backstory War --You ran away from the Battle to Save your Life, but you still feel shame for your cowardice. --1
+!import-table-item --Backstory War --You suffered only Minor injuries, & the Wounds all Healed without leaving Scars. --3
+!import-table-item --Backstory War --You Survived the Battle, but you suffer from terrible nightmares in which you relive the Experience. --2
+!import-table-item --Backstory War --You escaped the Battle unscathed, though many of your Friends were injured or lost. --2
+!import-table-item --Backstory War --You acquitted yourself well in Battle & are remembered as a Hero. You might have received a medal for your bravery. --1
+!import-table --Backstory Weird Stuff --hide
+!import-table-item --Backstory Weird Stuff --You were Turned into a Toad & remained in that Form for 1 Week. --30
+!import-table-item --Backstory Weird Stuff --You were Turned into a Toad & remained in that Form for 2 Weeks. --30
+!import-table-item --Backstory Weird Stuff --You were Turned into a Toad & remained in that Form for 3 Weeks. --30
+!import-table-item --Backstory Weird Stuff --You were Turned into a Toad & remained in that Form for 4 Weeks. --30
+!import-table-item --Backstory Weird Stuff --You were Petrified & remained a Stone statue for a time until someone freed you. --120
+!import-table-item --Backstory Weird Stuff --You were Enslaved by a Chaotic Fey & Lived in that Creature's thrall for 1 Year. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by a Chaotic Fey & Lived in that Creature's thrall for 2 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by a Chaotic Fey & Lived in that Creature's thrall for 3 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by a Chaotic Fey & Lived in that Creature's thrall for 4 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by a Chaotic Fey & Lived in that Creature's thrall for 5 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by a Chaotic Fey & Lived in that Creature's thrall for 6 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by an Evil Fey & Lived in that Creature's thrall for 1 Year. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by an Evil Fey & Lived in that Creature's thrall for 2 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by an Evil Fey & Lived in that Creature's thrall for 3 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by an Evil Fey & Lived in that Creature's thrall for 4 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by an Evil Fey & Lived in that Creature's thrall for 5 Years. --10
+!import-table-item --Backstory Weird Stuff --You were Enslaved by an Evil Fey & Lived in that Creature's thrall for 6 Years. --10
+!import-table-item --Backstory Weird Stuff --A Dragon held you as a Prisoner for 1 Months until Adventurers Killed it. --30
+!import-table-item --Backstory Weird Stuff --A Dragon held you as a Prisoner for 2 Months until Adventurers Killed it. --30
+!import-table-item --Backstory Weird Stuff --A Dragon held you as a Prisoner for 3 Months until Adventurers Killed it. --30
+!import-table-item --Backstory Weird Stuff --A Dragon held you as a Prisoner for 4 Months until Adventurers Killed it. --30
+!import-table-item --Backstory Weird Stuff --You were taken captive by a Race of Evil Humanoids such as Drow, kuo-toa, or quaggoths. You Lived as a Slave in the Underdark until you escaped. --120
+!import-table-item --Backstory Weird Stuff --You served a Powerful Adventurer as a hireling. You have only recently left that Service. Use the Supplemental Tables & Work with your GM to determine the basic details about your Former employer. --120
+!import-table-item --Backstory Weird Stuff --You went insane for 1 Year & recently regained your sanity. A tic or some other bit of odd Behavior might linger. --20
+!import-table-item --Backstory Weird Stuff --You went insane for 2 Years & recently regained your sanity. A tic or some other bit of odd Behavior might linger. --20
+!import-table-item --Backstory Weird Stuff --You went insane for 3 Years & recently regained your sanity. A tic or some other bit of odd Behavior might linger. --20
+!import-table-item --Backstory Weird Stuff --You went insane for 4 Years & recently regained your sanity. A tic or some other bit of odd Behavior might linger. --20
+!import-table-item --Backstory Weird Stuff --You went insane for 5 Years & recently regained your sanity. A tic or some other bit of odd Behavior might linger. --20
+!import-table-item --Backstory Weird Stuff --You went insane for 6 Years & recently regained your sanity. A tic or some other bit of odd Behavior might linger. --20
+!import-table-item --Backstory Weird Stuff --A Lover of yours was Secretly a Silver Dragon. --120
+!import-table-item --Backstory Weird Stuff --You were captured by a cult & nearly sacrificed on an altar to the foul Being the Cultists served. You escaped, but you Fear they will find you. --120
+!import-table-item --Backstory Weird Stuff --You met a Demi-God & you Lived to tell the Tale. --24
+!import-table-item --Backstory Weird Stuff --You met an Arch-Devil & you Lived to tell the Tale. --24
+!import-table-item --Backstory Weird Stuff --You met an Arch-Fey & you Lived to tell the Tale. --24
+!import-table-item --Backstory Weird Stuff --You met a Demon Lord & you Lived to tell the Tale. --24
+!import-table-item --Backstory Weird Stuff --You met a Titan & you Lived to tell the Tale. --24
+!import-table-item --Backstory Weird Stuff --You were swallowed by a Giant Fish & Spent a Month in its gullet before you escaped. --120
+!import-table-item --Backstory Weird Stuff --A Powerful Being granted you a wish, but you squandered it on something frivolous. --120
+!import-table --Backstory Cause of Death --hide
+!import-table-item --Backstory Cause of Death --Unknown --6
+!import-table-item --Backstory Cause of Death --Murdered --6
+!import-table-item --Backstory Cause of Death --Killed in Battle --6
+!import-table-item --Backstory Cause of Death --Accident related to Class or Occupation --6
+!import-table-item --Backstory Cause of Death --Accident unrelated to Class or Occupation --6
+!import-table-item --Backstory Cause of Death --Natural Causes, such as Disease or old Age --12
+!import-table-item --Backstory Cause of Death --Apparent Suicide --6
+!import-table-item --Backstory Cause of Death --Torn apart by an Animal --3
+!import-table-item --Backstory Cause of Death --Torn apart by a Natural disaster --3
+!import-table-item --Backstory Cause of Death --Consumed by a Monster --6
+!import-table-item --Backstory Cause of Death --Executed for a Crime --3
+!import-table-item --Backstory Cause of Death --Tortured to Death --3
+!import-table-item --Backstory Cause of Death --Hit by a meteorite --2
+!import-table-item --Backstory Cause of Death --Struck down by an angry God --2
+!import-table-item --Backstory Cause of Death --Killed by a hatching Slaad Egg --2
+!import-table --Backstory Class --hide
+!import-table-item --Backstory Class --Barbarian --7
+!import-table-item --Backstory Class --Bard --7
+!import-table-item --Backstory Class --Cleric --15
+!import-table-item --Backstory Class --Druid --7
+!import-table-item --Backstory Class --Fighter --16
+!import-table-item --Backstory Class --Monk --6
+!import-table-item --Backstory Class --Paladin --6
+!import-table-item --Backstory Class --Ranger --6
+!import-table-item --Backstory Class --Rogue --14
+!import-table-item --Backstory Class --Sorcerer --5
+!import-table-item --Backstory Class --Warlock --5
+!import-table-item --Backstory Class --Wizard --6
+!import-table --Backstory Occupation --hide
+!import-table-item --Backstory Occupation --Academic --24
+!import-table-item --Backstory Occupation --Adventurer ([[1t[Backstory Class]]]) --30
+!import-table-item --Backstory Occupation --Aristocrat --6
+!import-table-item --Backstory Occupation --Artisan --15
+!import-table-item --Backstory Occupation --Bureaucrat --15
+!import-table-item --Backstory Occupation --Criminal --30
+!import-table-item --Backstory Occupation --Entertainer --30
+!import-table-item --Backstory Occupation --Exile --4
+!import-table-item --Backstory Occupation --Explorer --15
+!import-table-item --Backstory Occupation --Farmer --36
+!import-table-item --Backstory Occupation --Guild Member --15
+!import-table-item --Backstory Occupation --Herder --36
+!import-table-item --Backstory Occupation --Hermit --4
+!import-table-item --Backstory Occupation --Hunter --15
+!import-table-item --Backstory Occupation --Laborer --90
+!import-table-item --Backstory Occupation --Merchant --30
+!import-table-item --Backstory Occupation --Politician --15
+!import-table-item --Backstory Occupation --Priest --30
+!import-table-item --Backstory Occupation --Refugee --4
+!import-table-item --Backstory Occupation --Sailor --30
+!import-table-item --Backstory Occupation --Soldier --30
+!import-table-item --Backstory Occupation --Trapper --15
+!import-table-item --Backstory Occupation --Wanderer --15
+!import-table --Backstory Race --hide
+!import-table-item --Backstory Race --Aarakocra --132
+!import-table-item --Backstory Race --Fallen Aasimar --132
+!import-table-item --Backstory Race --Protector Aasimar --132
+!import-table-item --Backstory Race --Scourge Aasimar --132
+!import-table-item --Backstory Race --Variant Aasimar --132
+!import-table-item --Backstory Race --Bugbear --132
+!import-table-item --Backstory Race --Centaur --132
+!import-table-item --Backstory Race --Changeling --132
+!import-table-item --Backstory Race --Dragonborn --660
+!import-table-item --Backstory Race --Gray Dwarf --440
+!import-table-item --Backstory Race --Hill Dwarf --440
+!import-table-item --Backstory Race --Mountain Dwarf --440
+!import-table-item --Backstory Race --Aereni High Elf --120
+!import-table-item --Backstory Race --Aereni Wood Elf --120
+!import-table-item --Backstory Race --Dark Elf --120
+!import-table-item --Backstory Race --Eladrin Elf --120
+!import-table-item --Backstory Race --Eladrin Elf (Dmg) --120
+!import-table-item --Backstory Race --High Elf --120
+!import-table-item --Backstory Race --Sea Elf --120
+!import-table-item --Backstory Race --Shadar-Kai Elf --120
+!import-table-item --Backstory Race --Valenar High Elf --120
+!import-table-item --Backstory Race --Valenar Wood Elf --120
+!import-table-item --Backstory Race --Wood Elf --120
+!import-table-item --Backstory Race --Firbolg --132
+!import-table-item --Backstory Race --Air Genasi --132
+!import-table-item --Backstory Race --Earth Genasi --132
+!import-table-item --Backstory Race --Fire Genasi --132
+!import-table-item --Backstory Race --Water Genasi --132
+!import-table-item --Backstory Race --Githyanki Gith --132
+!import-table-item --Backstory Race --Githzerai Gith --132
+!import-table-item --Backstory Race --Deep Gnome --220
+!import-table-item --Backstory Race --Forest Gnome --220
+!import-table-item --Backstory Race --Rock Gnome --220
+!import-table-item --Backstory Race --Goblin --132
+!import-table-item --Backstory Race --Goliath --132
+!import-table-item --Backstory Race --Aquatic Half-Elf --132
+!import-table-item --Backstory Race --Drow Half-Elf --132
+!import-table-item --Backstory Race --Half-Elf --132
+!import-table-item --Backstory Race --High Half-Elf --132
+!import-table-item --Backstory Race --Wood Half-Elf --132
+!import-table-item --Backstory Race --Half-Orc --660
+!import-table-item --Backstory Race --Ghostwise Halfling --440
+!import-table-item --Backstory Race --Lightfoot Halfling --440
+!import-table-item --Backstory Race --Stout Halfling --440
+!import-table-item --Backstory Race --Hobgoblin --132
+!import-table-item --Backstory Race --Human --2640
+!import-table-item --Backstory Race --Variant Human --2640
+!import-table-item --Backstory Race --Kalashtar --132
+!import-table-item --Backstory Race --Kenku --132
+!import-table-item --Backstory Race --Kobold --132
+!import-table-item --Backstory Race --Lizardfolk --132
+!import-table-item --Backstory Race --Loxodon --132
+!import-table-item --Backstory Race --Minotaur --132
+!import-table-item --Backstory Race --Orc --132
+!import-table-item --Backstory Race --Beasthide Shifter --132
+!import-table-item --Backstory Race --Longtooth Shifter --132
+!import-table-item --Backstory Race --Swiftstride Shifter --132
+!import-table-item --Backstory Race --Wildhunt Shifter --132
+!import-table-item --Backstory Race --Simic Hybrid --132
+!import-table-item --Backstory Race --Tabaxi --132
+!import-table-item --Backstory Race --Baalzebul Tiefling --55
+!import-table-item --Backstory Race --Dispater Tiefling --55
+!import-table-item --Backstory Race --Feral Tiefling --55
+!import-table-item --Backstory Race --Fierna Tiefling --55
+!import-table-item --Backstory Race --Glasya Tiefling --55
+!import-table-item --Backstory Race --Levistus Tiefling --55
+!import-table-item --Backstory Race --Mammon Tiefling --55
+!import-table-item --Backstory Race --Mephistopheles Tiefling --55
+!import-table-item --Backstory Race --Tiefling --55
+!import-table-item --Backstory Race --Variant Feral Tiefling --55
+!import-table-item --Backstory Race --Variant Tiefling --55
+!import-table-item --Backstory Race --Zariel Tiefling --55
+!import-table-item --Backstory Race --Tortle --132
+!import-table-item --Backstory Race --Triton --132
+!import-table-item --Backstory Race --Vedalken --132
+!import-table-item --Backstory Race --Envoy Warforged --132
+!import-table-item --Backstory Race --Juggernaut Warforged --132
+!import-table-item --Backstory Race --Skirmisher Warforged --132
+!import-table-item --Backstory Race --Yuan-Ti Pureblood --132
+!import-table-item --Backstory Race --GM's choice --660
+!import-table --Backstory Relationship --hide
+!import-table-item --Backstory Relationship --Hostile --2
+!import-table-item --Backstory Relationship --Friendly --6
+!import-table-item --Backstory Relationship --Indifferent --2
+!import-table --Backstory Status --hide
+!import-table-item --Backstory Status --Dead (Cause of Death: [[1t[Backstory Cause of Death]]]) --3
+!import-table-item --Backstory Status --Missing or Unknown --6
+!import-table-item --Backstory Status --Alive, but doing Poorly due to Injury --3
+!import-table-item --Backstory Status --Alive, but doing Poorly due to Financial Trouble --3
+!import-table-item --Backstory Status --Alive, but doing Poorly due to Relationship Difficulties --3
+!import-table-item --Backstory Status --Alive & Well --12
+!import-table-item --Backstory Status --Alive & Quite Successful --9
+!import-table-item --Backstory Status --Alive & Infamous --6
+!import-table-item --Backstory Status --Alive & Famous --3
